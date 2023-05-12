@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tyty/Desktop/dsacpp/binTree/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+BinNode	./binNode.h	/^  BinNode( T e, BinNodePosi<T> p = nullptr, BinNodePosi<T> l = nullptr,$/;"	f	struct:BinNode
+BinNode	./binNode.h	/^  BinNode() :$/;"	f	struct:BinNode
+BinNode	./binNode.h	/^template <typename T> struct BinNode {$/;"	s
+BinNodePosi	./binNode.h	/^template <typename T> using BinNodePosi = BinNode<T>*;$/;"	t	typeref:typename:BinNode<T> *
+BinTree	./binTree.h	/^  BinTree() :_size (0), _root( nullptr ) { }$/;"	f	class:BinTree
+BinTree	./binTree.h	/^class BinTree {$/;"	c
+Double	./test.cpp	/^template <typename T> struct Double{$/;"	s	file:
+Hailstone	./test.cpp	/^template <typename T> struct Hailstone{$/;"	s	file:
+HasBChild	./binNode_imple.h	/^#define HasBChild(/;"	d
+HasChild	./binNode_imple.h	/^#define HasChild(/;"	d
+HasLChild	./binNode_imple.h	/^#define HasLChild(/;"	d
+HasRChild	./binNode_imple.h	/^#define HasRChild(/;"	d
+Increase	./test.cpp	/^template <typename T> struct Increase{$/;"	s	file:
+IsLChild	./binNode_imple.h	/^#define IsLChild(/;"	d
+IsLeaf	./binNode_imple.h	/^#define IsLeaf(/;"	d
+IsParent	./binNode_imple.h	/^#define IsParent(/;"	d
+IsRChild	./binNode_imple.h	/^#define IsRChild(/;"	d
+IsRoot	./binNode_imple.h	/^#define IsRoot(/;"	d
+Print	./binTree.h	/^template <typename T> struct Print{$/;"	s
+RBColor	./binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	t	typeref:enum:__anonf03037170103
+RB_BLACK	./binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	e	enum:__anonf03037170103
+RB_RED	./binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	e	enum:__anonf03037170103
+Rank	./binNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+__BINNODE_IMPLE__	./binNode_imple.h	/^#define __BINNODE_IMPLE__$/;"	d
+__BINNODE_LV__	./binNode_travLv.h	/^#define __BINNODE_LV__$/;"	d
+__BINNODE_POST__	./binNode_travPo.h	/^#define __BINNODE_POST__$/;"	d
+__BINNODE_SUCC__	./binNode_succ.h	/^#define __BINNODE_SUCC__$/;"	d
+__BINNODE_TRAVMI__	./binNode_travMi.h	/^#define __BINNODE_TRAVMI__$/;"	d
+__BINNODE_TRAVPRE__	./binNode_travPre.h	/^#define __BINNODE_TRAVPRE__$/;"	d
+__BINNODE_TRAV__	./binNode_trav.h	/^#define __BINNODE_TRAV__$/;"	d
+__BINNODE__	./binNode.h	/^#define __BINNODE__$/;"	d
+__BINTREE_IMPLE__	./binTree_imple.h	/^#define __BINTREE_IMPLE__$/;"	d
+__BINTREE__	./binTree.h	/^#define __BINTREE__$/;"	d
+__anonf03037170103	./binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	g
+_root	./binTree.h	/^    Rank _size;  BinNodePosi<T> _root;$/;"	m	class:BinTree	typeref:typename:BinNodePosi<T>
+_size	./binTree.h	/^    Rank _size;  BinNodePosi<T> _root;$/;"	m	class:BinTree	typeref:typename:Rank
+attachAsLC	./binTree_imple.h	/^BinNodePosi<T> BinTree<T>::attachAsLC( BinNodePosi<T> n, BinTree<T>* S )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+attachAsRC	./binTree_imple.h	/^BinNodePosi<T> BinTree<T>::attachAsRC( BinNodePosi<T> n, BinTree<T>* S )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+c	./test.cpp	/^  int c = 0;$/;"	v	typeref:typename:int
+color	./binNode.h	/^  RBColor color;$/;"	m	struct:BinNode	typeref:typename:RBColor
+data	./binNode.h	/^  T data;$/;"	m	struct:BinNode	typeref:typename:T
+dice	./test.cpp	/^#define dice(/;"	d	file:
+empty	./binTree.h	/^  bool empty() const { return !_root; }$/;"	f	class:BinTree	typeref:typename:bool
+goAlongLeftBreach	./binNode_travMi.h	/^static void goAlongLeftBreach( BinNodePosi<T> n, Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+gotoHLVFL	./binNode_travPo.h	/^void gotoHLVFL ( Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+height	./binNode.h	/^  Rank height;$/;"	m	struct:BinNode	typeref:typename:Rank
+insert	./binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert ( BinNodePosi<T> n, const T& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	./binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert ( const T& e , BinNodePosi<T> n)$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	./binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert( const T& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insertAsLC	./binNode_imple.h	/^  BinNodePosi<T> BinNode<T>::insertAsLC ( const T& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertAsRC	./binNode_imple.h	/^  BinNodePosi<T> BinNode<T>::insertAsRC ( const T& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+lc	./binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+main	./test.cpp	/^int main ( int argc, char* argv[] ) { \/\/²âÊÔ¶þ²æÊ÷$/;"	f	typeref:typename:int
+npl	./binNode.h	/^  Rank npl;$/;"	m	struct:BinNode	typeref:typename:Rank
+operator () 	./binTree.h	/^  virtual void operator () ( T& e )$/;"	f	struct:Print	typeref:typename:void
+operator () 	./test.cpp	/^  virtual void operator () ( T& e ) { e *= 2; }$/;"	f	struct:Double	typeref:typename:void	file:
+operator () 	./test.cpp	/^  virtual void operator () ( T& e ) { e++; }$/;"	f	struct:Increase	typeref:typename:void	file:
+operator () 	./test.cpp	/^  virtual void operator () ( T& e )$/;"	f	struct:Hailstone	typeref:typename:void	file:
+operator <	./binNode.h	/^  bool operator< ( const BinNode& n ) { return data < n.data; }$/;"	f	struct:BinNode	typeref:typename:bool
+operator <	./binTree.h	/^  bool operator< ( const BinTree<T>& t ) $/;"	f	class:BinTree	typeref:typename:bool
+operator <<	./binTree.h	/^std::ostream& operator<< ( std::ostream& os, BinTree<T>& bt )$/;"	f	typeref:typename:std::ostream &
+operator ==	./binNode.h	/^  bool operator== ( const BinNode& n ) { return data == n.data; }$/;"	f	struct:BinNode	typeref:typename:bool
+operator ==	./binTree.h	/^  bool operator== ( const BinTree<T>& t ) $/;"	f	class:BinTree	typeref:typename:bool
+parent	./binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+randomBinTree	./test.cpp	/^template <typename T> bool randomBinTree ( BinTree<T> & bt, BinNodePosi<T> x, int h ) {$/;"	f	typeref:typename:bool
+randomPosiInBinTree	./test.cpp	/^template <typename T> BinNodePosi<T> randomPosiInBinTree ( BinNodePosi<T> root ) {$/;"	f	typeref:typename:BinNodePosi<T>
+rc	./binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+remove	./binTree_imple.h	/^Rank BinTree<T>::remove( BinNodePosi<T> n )$/;"	f	class:BinTree	typeref:typename:Rank
+removeAt	./binTree_imple.h	/^static Rank removeAt( BinNodePosi<T> n )$/;"	f	typeref:typename:Rank
+root	./binTree.h	/^  BinNodePosi<T> root() const { return _root; }$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+secede	./binTree_imple.h	/^BinTree<T>* BinTree<T>::secede( BinNodePosi<T> n )$/;"	f	class:BinTree	typeref:typename:BinTree<T> *
+sibling	./binNode_imple.h	/^#define sibling(/;"	d
+size	./binNode_imple.h	/^  Rank BinNode<T>::size() $/;"	f	class:BinNode	typeref:typename:Rank
+size	./binTree.h	/^  Rank size() const { return _size; }$/;"	f	class:BinTree	typeref:typename:Rank
+stature	./binNode.h	/^#define stature(/;"	d
+succ	./binNode_succ.h	/^BinNodePosi<T> BinNode<T>:: succ()$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+testBinTree	./test.cpp	/^template <typename T> void   testBinTree ( int h ) { \/\/²âÊÔ¶þ²æÊ÷$/;"	f	typeref:typename:void
+testID	./test.cpp	/^int testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:int
+trace	./binNode_imple.h	/^#define trace(/;"	d
+travLv	./binNode_travLv.h	/^  void BinNode<T>::travLv ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travLv	./binTree.h	/^  template <typename VST> void travLv ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travMi	./binNode_trav.h	/^  void BinNode<T>::travMi ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travMi	./binTree.h	/^  template <typename VST> void travMi ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travMi_I1	./binNode_travMi.h	/^void travMi_I1 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I2	./binNode_travMi.h	/^void travMi_I2 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I3	./binNode_travMi.h	/^void travMi_I3 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I4	./binNode_travMi.h	/^void travMi_I4 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_R	./binNode_travMi.h	/^void travMi_R ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPo	./binNode_trav.h	/^  void BinNode<T>::travPo ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travPo	./binTree.h	/^  template <typename VST> void travPo ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travPo_I	./binNode_travPo.h	/^void travPo_I ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPo_R	./binNode_travPo.h	/^void travPo_R ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre	./binNode_trav.h	/^  void BinNode<T>::travPre ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travPre	./binTree.h	/^  template <typename VST> void travPre ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travPre_I1	./binNode_travPre.h	/^void travPre_I1( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_I2	./binNode_travPre.h	/^void travPre_I2( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_R	./binNode_travPre.h	/^void travPre_R( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+uncle	./binNode_imple.h	/^#define uncle(/;"	d
+updateHeight	./binTree_imple.h	/^Rank BinTree<T>::updateHeight( BinNodePosi<T> p )$/;"	f	class:BinTree	typeref:typename:Rank
+updateHeightAbove	./binTree_imple.h	/^void BinTree<T>::updateHeightAbove ( BinNodePosi<T> p )$/;"	f	class:BinTree	typeref:typename:void
+visitAlongLeftBranch	./binNode_travPre.h	/^static void visitAlongLeftBranch( BinNodePosi<T> n, VST& visit, Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+~BinTree	./binTree.h	/^  ~BinTree() { if ( _size > 0 ) remove ( _root ); }$/;"	f	class:BinTree

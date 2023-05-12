@@ -1,0 +1,1323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tyty/Desktop/dsacpp/BST/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ABS	../dsacpp-src/src/gcd/main.cpp	/^#define ABS(/;"	d	file:
+ADD	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+AVAILABLE	../dsacpp-src/src/laby/Cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status; \/\/ÃÔ¹¬µ¥Ôª×´Ì¬$/;"	e	enum:__anone5fdab530103
+AVAILABLE	../stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon618909220203
+AVL	../AVL/AVL.h	/^class AVL : public BST<T>{$/;"	c
+AVL	../dsacpp-src/src/AVL/AVL.h	/^template <typename T> class AVL : public BST<T> { \/\/ÓÉBSTÅÉÉúAVLÊ÷Ä£°åÀà$/;"	c
+AvlBalanced	../dsacpp-src/src/binTree/BinNode_macro_AVL.h	/^#define AvlBalanced(/;"	d
+BACKTRACKED	../dsacpp-src/src/laby/Cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status; \/\/ÃÔ¹¬µ¥Ôª×´Ì¬$/;"	e	enum:__anone5fdab530103
+BACKTRACKED	../stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon618909220203
+BALANCED	../AVL/AVL_imple.h	/^#define BALANCED(/;"	d
+BALDIFF	../AVL/AVL_imple.h	/^#define BALDIFF(/;"	d
+BCC	../dsacpp-src/src/graph/Graph_bcc.h	/^void Graph<Tv, Te>::BCC( Rank v, Rank& clock, Stack<Rank>& S ) { \/\/ assert: 0 <= v < n$/;"	f	class:Graph	typeref:typename:void
+BFS	../dsacpp-src/src/graph/Graph_bfs.h	/^void Graph<Tv, Te>::BFS( Rank v, Rank& dClock ) { \/\/ v < n$/;"	f	class:Graph	typeref:typename:void
+BST	../BST/BST.h	/^class BST : public BinTree<T> {$/;"	c
+BST	../dsacpp-src/src/BST/BST.h	/^template <typename T> class BST : public BinTree<T> { \/\/ÓÉBinTreeÅÉÉúBSTÄ£°åÀà$/;"	c
+BTNode	../dsacpp-src/src/BTree/BTNode.h	/^   BTNode( T e, BTNodePosi<T> lc = NULL, BTNodePosi<T> rc = NULL ) {$/;"	f	struct:BTNode
+BTNode	../dsacpp-src/src/BTree/BTNode.h	/^   BTNode() { parent = NULL; child.insert( NULL ); } \/\/ÎŞ¹Ø¼üÂë½Úµã$/;"	f	struct:BTNode
+BTNode	../dsacpp-src/src/BTree/BTNode.h	/^template <typename T> struct BTNode { \/\/B-Ê÷½ÚµãÄ£°åÀà$/;"	s
+BTNodePosi	../dsacpp-src/src/BTree/BTNode.h	/^template <typename T> using BTNodePosi = BTNode<T>*; \/\/B-Ê÷½ÚµãÎ»ÖÃ$/;"	t	typeref:typename:BTNode<T> *
+BTree	../dsacpp-src/src/BTree/BTree.h	/^   BTree( int m = 3 ) : _m( m ), _size( 0 ) \/\/¹¹Ôìº¯Êı£ºÄ¬ÈÏÎª×îµÍµÄ3½×$/;"	f	class:BTree
+BTree	../dsacpp-src/src/BTree/BTree.h	/^template <typename T> class BTree { \/\/B-Ê÷Ä£°åÀà$/;"	c
+BalFac	../dsacpp-src/src/binTree/BinNode_macro_AVL.h	/^#define BalFac(/;"	d
+Balanced	../dsacpp-src/src/binTree/BinNode_macro_AVL.h	/^#define Balanced(/;"	d
+BfsPU	../dsacpp-src/src/graph/Graph_bfs_PU.h	/^template <typename Tv, typename Te> struct BfsPU { \/\/Õë¶ÔBFSËã·¨µÄ¶¥µãÓÅÏÈ¼¶¸üĞÂÆ÷$/;"	s
+Bigger	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  Bigger(/;"	d
+BinNode	../binTree/binNode.h	/^  BinNode( T e, BinNodePosi<T> p = nullptr, BinNodePosi<T> l = nullptr,$/;"	f	struct:BinNode
+BinNode	../binTree/binNode.h	/^  BinNode() :$/;"	f	struct:BinNode
+BinNode	../binTree/binNode.h	/^template <typename T> struct BinNode {$/;"	s
+BinNode	../dsacpp-src/src/binTree/BinNode.h	/^   BinNode( T e, BinNodePosi<T> p = NULL, BinNodePosi<T> lc = NULL,$/;"	f	struct:BinNode
+BinNode	../dsacpp-src/src/binTree/BinNode.h	/^   BinNode() : parent( NULL ), lc( NULL ), rc( NULL ), height( 0 ), npl( 1 ), color( RB_RED ) {}$/;"	f	struct:BinNode
+BinNode	../dsacpp-src/src/binTree/BinNode.h	/^template <typename T> struct BinNode { \/\/¶ş²æÊ÷½ÚµãÄ£°åÀà$/;"	s
+BinNodePosi	../binTree/binNode.h	/^template <typename T> using BinNodePosi = BinNode<T>*;$/;"	t	typeref:typename:BinNode<T> *
+BinNodePosi	../dsacpp-src/src/binTree/BinNode.h	/^template <typename T> using BinNodePosi = BinNode<T>*; \/\/½ÚµãÎ»ÖÃ$/;"	t	typeref:typename:BinNode<T> *
+BinTree	../binTree/binTree.h	/^  BinTree() :_size (0), _root( nullptr ) { }$/;"	f	class:BinTree
+BinTree	../binTree/binTree.h	/^class BinTree {$/;"	c
+BinTree	../dsacpp-src/src/binTree/BinTree.h	/^   BinTree() : _size( 0 ), _root( NULL ) {} \/\/¹¹Ôìº¯Êı$/;"	f	class:BinTree
+BinTree	../dsacpp-src/src/binTree/BinTree.h	/^template <typename T> class BinTree { \/\/¶ş²æÊ÷Ä£°åÀà$/;"	c
+Bitmap	../dsacpp-src/src/BitMap/Bitmap.h	/^   Bitmap( Rank n = 8 ) { init( n ); } \/\/æŒ‰æŒ‡å®šå®¹é‡åˆ›å»ºä½å›¾ï¼ˆä¸ºæµ‹è¯•æš‚æ—¶é€‰ç”¨è¾ƒ/;"	f	class:Bitmap
+Bitmap	../dsacpp-src/src/BitMap/Bitmap.h	/^   Bitmap( char* file, Rank n = 8 ) { \/\/æŒ‰æŒ‡å®šæˆ–é»˜è®¤è§„æ¨¡ï¼Œä»æŒ‡å®šæ–‡ä»¶ä¸­è¯»å–ä½/;"	f	class:Bitmap
+Bitmap	../dsacpp-src/src/BitMap/Bitmap.h	/^class Bitmap { \/\/ä½å›¾Bitmapç±»$/;"	c
+Bitmap	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   Bitmap( Rank n = 8 ) \/\/æŒ‰æŒ‡å®šï¼ˆæˆ–é»˜è®¤ï¼‰è§„æ¨¡åˆ›å»ºæ¯”ç‰¹å›¾ï¼ˆä¸ºæµ‹è¯•æš‚æ—¶é€‰ç”¨/;"	f	class:Bitmap
+Bitmap	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^class Bitmap { \/\/ä½å›¾Bitmapç±»ï¼šä»¥ç©ºé—´ä½œä¸ºè¡¥å¿ï¼ŒèŠ‚çœåˆå§‹åŒ–æ—¶é—´ï¼ˆæ—¢å…è®¸æ’/;"	c
+Bitmap	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   Bitmap( Rank n = 8 ) \/\/°´Ö¸¶¨£¨»òÄ¬ÈÏ£©¹æÄ£´´½¨±ÈÌØÍ¼£¨Îª²âÊÔÔİÊ±Ñ¡ÓÃ½ÏĞ¡µÄÄ¬ÈÏÖµ£©$/;"	f	class:Bitmap
+Bitmap	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^class Bitmap { \/\/Î»Í¼BitmapÀà£ºÒÔ¿Õ¼ä×÷Îª²¹³¥£¬½ÚÊ¡³õÊ¼»¯Ê±¼ä£¨½öÔÊĞí²åÈë£¬²»Ö§³ÖÉ¾³ı£©$/;"	c
+BlackHeightUpdated	../dsacpp-src/src/binTree/BinNode_macro_RedBlack.h	/^#define BlackHeightUpdated(/;"	d
+CARD_CHAR_SET	../dsacpp-src/src/string_pm_bm_bc/pm_bm.h	/^#define  CARD_CHAR_SET /;"	d
+CC	../list/Makefile	/^CC = g++$/;"	m
+CC	../stack/Makefile	/^CC = g++$/;"	m
+Cell	../dsacpp-src/src/laby/Cell.h	/^struct Cell { \/\/ÃÔ¹¬¸ñµã$/;"	s
+Cell	../stack/laby/cell.h	/^struct Cell$/;"	s
+CheckOrder	../dsacpp-src/src/_share/checkOrder_Elem.h	/^   CheckOrder( int& unsorted, T& first ) : pred( first ), u( unsorted ) {}$/;"	f	struct:CheckOrder
+CheckOrder	../dsacpp-src/src/_share/checkOrder_Elem.h	/^template <typename T> struct CheckOrder { \/\/º¯Êı¶ÔÏó£ºÅĞ¶ÏÒ»¸öTÀà¶ÔÏóÊÇ·ñ¾Ö²¿ÓĞĞò$/;"	s
+Cleaner	../dsacpp-src/src/_share/release.h	/^template <typename T> struct Cleaner {$/;"	s
+Cleaner	../dsacpp-src/src/_share/release.h	/^template <typename T> struct Cleaner<T*> {$/;"	s
+Continuous	../dsacpp-src/src/queen_brute_force_1/queen.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anonf94e39860103
+Continuous	../dsacpp-src/src/queen_stack/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anon145f16910103
+Continuous	../stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anon6621600b0103
+Crc	../dsacpp-src/src/_share/crc_Elem.h	/^   Crc ( T& crc ) : c ( crc ) {}$/;"	f	struct:Crc
+Crc	../dsacpp-src/src/_share/crc_Elem.h	/^template <typename T> struct Crc { \/\/º¯Êı¶ÔÏó£ºÀÛ¼ÆTÀà¶ÔÏóµÄÌØÕ÷£¨±ÈÈç×ÜºÍ£©£¬ÒÔ±ãĞ£Ñé¶ÔÏó¼¯ºÏ$/;"	s
+CursorList	../dsacpp-src/src/cursor_list/cursor_list.h	/^   CursorList ( Rank c = DEFAULT_CAPACITY ) { \/\/ÈİÁ¿Îªc$/;"	f	class:CursorList
+CursorList	../dsacpp-src/src/cursor_list/cursor_list.h	/^template <typename T> class CursorList { \/\/ÓÎ±êÊ½ÁĞ±í$/;"	c
+Customer	../dsacpp-src/src/simu/Customer.h	/^struct Customer { int window; unsigned int time; }; \/\/¹Ë¿ÍÀà£ºËùÊô´°¿Ú£¨¶ÓÁĞ£©¡¢·şÎñÊ±³¤$/;"	s
+Customer	../queue/customer.h	/^struct Customer $/;"	s
+DEFAULT_CAPACITY	../dsacpp-src/src/cursor_list/cursor_list.h	/^#define DEFAULT_CAPACITY /;"	d
+DEFAULT_CAPACITY	../dsacpp-src/src/vector/vector.h	/^#define DEFAULT_CAPACITY /;"	d
+DEPQ	../dsacpp-src/src/DEPQ/DEPQ.h	/^template <typename T> struct DEPQ : public PQ<T> { \/\/Double-Ended Priority Queue$/;"	s
+DEPS	../list/Makefile	/^DEPS = listNode.h list.h$/;"	m
+DEPS	../stack/Makefile	/^DEPS = ..\/list\/listNode.h ..\/list\/list.h stack.h$/;"	m
+DFS	../dsacpp-src/src/graph/Graph_dfs.h	/^void Graph<Tv, Te>::DFS( Rank v, Rank& clock ) { \/\/ v < n$/;"	f	class:Graph	typeref:typename:void
+DIGIT	../dsacpp-src/src/string_pm_kr/pm_kr.h	/^#define DIGIT(/;"	d
+DIV	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+DSA	../dsacpp-src/src/_share/util.h	/^#define DSA(/;"	d
+Decrease	../dsacpp-src/src/_share/decrease_Elem.h	/^template <typename T> struct Decrease \/\/º¯Êı¶ÔÏó£ºµİ¼õÒ»¸öTÀà¶ÔÏó$/;"	s
+DfsPU	../dsacpp-src/src/graph/Graph_dfs_PU.h	/^template <typename Tv, typename Te> struct DfsPU { \/\/Õë¶ÔDFSËã·¨µÄ¶¥µãÓÅÏÈ¼¶¸üĞÂÆ÷$/;"	s
+Dictionary	../dsacpp-src/src/Dictionary/Dictionary.h	/^template <typename K, typename V> struct Dictionary { \/\/´ÊµäDictionaryÄ£°åÀà$/;"	s
+DijkPU	../dsacpp-src/src/graph/Graph_dijkstra_PU.h	/^template <typename Tv, typename Te> struct DijkPU { \/\/Õë¶ÔDijkstraËã·¨µÄ¶¥µãÓÅÏÈ¼¶¸üĞÂÆ÷$/;"	s
+Direc	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	t	typeref:enum:__anon618909220103
+Disk	../dsacpp-src/src/hanoi/hanoi.h	/^using Disk = int;$/;"	t	typeref:typename:int
+Double	../binTree/test.cpp	/^template <typename T> struct Double{$/;"	s	file:
+Double	../dsacpp-src/src/_share/double_Elem.h	/^template <typename T> struct Double \/\/º¯Êı¶ÔÏó£º±¶ÔöÒ»¸öTÀà¶ÔÏó$/;"	s
+E	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Vector<Vector<Edge<Te>*>> E; \/\/±ß¼¯£¨ÁÚ½Ó¾ØÕó£©$/;"	m	class:GraphMatrix	typeref:typename:Vector<Vector<Edge<Te> * >>
+EAST	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	e	enum:__anone5fdab530203
+EAST	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon618909220103
+EOE	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+ESWN	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	t	typeref:enum:__anone5fdab530203
+EType	../dsacpp-src/src/graph/Graph.h	/^using EType = enum { UNDETERMINED, TREE, CROSS, FORWARD, BACKWARD }; \/\/±ßÔÚ±éÀúÊ÷ÖĞËùÊôµÄÀàĞÍ$/;"	t
+EType	../graph/graph.h	/^using EType = enum { UNDETERMINED, TREE, CROSS, FORWARD, BACKWARD };$/;"	t
+Edge	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Edge( Te const& d, int w ) : data( d ), weight( w ), type( UNDETERMINED ) {} \/\/¹¹Ôì$/;"	f	struct:Edge
+Edge	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^template <typename Te> struct Edge { \/\/±ß¶ÔÏó£¨Îª¼ò»¯Æğ¼û£¬²¢Î´ÑÏ¸ñ·â×°£©$/;"	s
+Entry	../dsacpp-src/src/Entry/Entry.h	/^   Entry( Entry<K, V> const& e ) : key( e.key ), value( e.value ){}; \/\/»ùÓÚ¿ËÂ¡µÄ¹¹Ôìº¯Êı$/;"	f	struct:Entry
+Entry	../dsacpp-src/src/Entry/Entry.h	/^   Entry( K k = K(), V v = V() ) : key( k ), value( v ){}; \/\/Ä¬ÈÏ¹¹Ôìº¯Êı$/;"	f	struct:Entry
+Entry	../dsacpp-src/src/Entry/Entry.h	/^template <typename K, typename V> struct Entry { \/\/´ÊÌõÄ£°åÀà$/;"	s
+Eratosthenes	../dsacpp-src/src/prime/Eratosthenes.cpp	/^void Eratosthenes( Rank n, char* file ) {$/;"	f	typeref:typename:void
+F	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   Rank* F; Rank N; \/\/è§„æ¨¡ä¸ºNçš„å‘é‡Fï¼Œè®°å½•[k]è¢«æ ‡è®°çš„æ¬¡åºï¼ˆå³å…¶åœ¨æ ˆT[]ä¸­çš„/;"	m	class:Bitmap	typeref:typename:Rank *
+F	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   Rank* F; Rank N; \/\/¹æÄ£ÎªNµÄÏòÁ¿F£¬¼ÇÂ¼[k]±»±ê¼ÇµÄ´ÎĞò£¨¼´ÆäÔÚÕ»T[]ÖĞµÄÖÈ£©$/;"	m	class:Bitmap	typeref:typename:Rank *
+FAC	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+Fib	../dsacpp-src/src/fibonacci/Fib.h	/^   Fib ( Rank n ) \/\/³õÊ¼»¯Îª²»Ğ¡ÓÚnµÄ×îĞ¡FibonacciÏî$/;"	f	class:Fib
+Fib	../dsacpp-src/src/fibonacci/Fib.h	/^class Fib { \/\/FibonacciÊıÁĞÀà$/;"	c
+FromParentTo	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define FromParentTo(/;"	d
+Get	../dsacpp-src/src/vector/vector_quickSort_iterative.h	/^#define Get(/;"	d
+Graph	../dsacpp-src/src/graph/Graph.h	/^class Graph { \/\/Í¼GraphÄ£°åÀà$/;"	c
+Graph	../graph/graph.h	/^class Graph {$/;"	c
+GraphMatrix	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   GraphMatrix() { n = e = 0; } \/\/¹¹Ôì$/;"	f	class:GraphMatrix
+GraphMatrix	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^class GraphMatrix : public Graph<Tv, Te> { \/\/»ùÓÚÏòÁ¿£¬ÒÔÁÚ½Ó¾ØÕóĞÎÊ½ÊµÏÖµÄÍ¼$/;"	c
+Hailstone	../binTree/test.cpp	/^template <typename T> struct Hailstone{$/;"	s	file:
+Hailstone	../dsacpp-src/src/_share/Hailstone_Elem.h	/^template <typename T> struct Hailstone { \/\/º¯Êı¶ÔÏó£º°´ÕÕHailstone¹æÔò×ª»¯Ò»¸öTÀà¶ÔÏó$/;"	s
+Half	../dsacpp-src/src/_share/half_Elem.h	/^template <typename T> struct Half \/\/º¯Êı¶ÔÏó£º¼õ°ëÒ»¸öTÀà¶ÔÏó$/;"	s
+Half	../list/list_testhelper.h	/^struct Half$/;"	s
+HasBChild	../binTree/binNode_imple.h	/^#define HasBChild(/;"	d
+HasBothChild	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define HasBothChild(/;"	d
+HasChild	../binTree/binNode_imple.h	/^#define HasChild(/;"	d
+HasChild	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define HasChild(/;"	d
+HasLChild	../binTree/binNode_imple.h	/^#define HasLChild(/;"	d
+HasLChild	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define HasLChild(/;"	d
+HasParent	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define HasParent(/;"	d
+HasRChild	../binTree/binNode_imple.h	/^#define HasRChild(/;"	d
+HasRChild	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define HasRChild(/;"	d
+HashCode	../dsacpp-src/src/string_pm_kr/pm_kr.h	/^using HashCode = __int64; \/\/ÓÃ64Î»ÕûÊıÊµÏÖÉ¢ÁĞÂë$/;"	t	typeref:typename:__int64
+Hashtable	../dsacpp-src/src/hashtable/HashTable.h	/^class Hashtable : public Dictionary<K, V> { \/\/·ûºÏDictionary½Ó¿ÚµÄHashtableÄ£°åÀà$/;"	c
+Hashtable	../dsacpp-src/src/hashtable/HashTable_constructor.h	/^template <typename K, typename V> Hashtable <K, V>::Hashtable( Rank c ) { \/\/´´½¨É¢ÁĞ±í£¬ÈİÁ¿Îª$/;"	f	class:Hashtable
+HeightUpdated	../dsacpp-src/src/binTree/BinNode_macro_AVL.h	/^\/*DSA*\/#define HeightUpdated(/;"	d
+HuffChar	../dsacpp-src/src/huffman/huffChar.h	/^   HuffChar ( char c = '^', unsigned int w = 0 ) : ch ( c ), weight ( w ) {};$/;"	f	struct:HuffChar
+HuffChar	../dsacpp-src/src/huffman/huffChar.h	/^struct HuffChar { \/\/Huffman£¨³¬£©×Ö·û$/;"	s
+HuffCode	../dsacpp-src/src/huffman/HuffCode.h	/^using HuffCode = Bitmap; \/\/Huffman¶ş½øÖÆ±àÂë/;"	t	typeref:typename:Bitmap
+HuffForest	../dsacpp-src/src/Huffman_PQ_ComplHeap/Huffman_Forest_PQ_ComplHeap.h	/^using HuffForest = PQ_ComplHeap<HuffTree*>; \/\/HuffmanÉ­ÁÖ/;"	t	typeref:typename:PQ_ComplHeap<HuffTree * >
+HuffForest	../dsacpp-src/src/Huffman_PQ_LeftHeap/Huffman_Forest_PQ_LeftHeap.h	/^using HuffForest = PQ_LeftHeap<HuffTree*>; \/\/HuffmanÉ­ÁÖ/;"	t	typeref:typename:PQ_LeftHeap<HuffTree * >
+HuffForest	../dsacpp-src/src/Huffman_PQ_List/Huffman_Forest_PQ_List.h	/^using HuffForest = PQ_List<HuffTree*>; \/\/HuffmanÉ­ÁÖ/;"	t	typeref:typename:PQ_List<HuffTree * >
+HuffForest	../dsacpp-src/src/huffman/Huffman_Forest_List.h	/^using HuffForest = List<HuffTree*>; \/\/HuffmanÉ­ÁÖ$/;"	t	typeref:typename:List<HuffTree * >
+HuffTable	../dsacpp-src/src/huffman/HuffTable.h	/^using HuffTable = Hashtable<char, char*>; \/\/Huffman±àÂë±í$/;"	t	typeref:typename:Hashtable<char,char * >
+HuffTree	../dsacpp-src/src/huffman/HuffTree.h	/^using HuffTree = BinTree<HuffChar>; \/\/HuffmanÊ÷£¬ÓÉBinTreeÅÉÉú£¬½ÚµãÀàĞÍÎªHuffChar/;"	t	typeref:typename:BinTree<HuffChar>
+ISBALANCE	../AVL/AVL_imple.h	/^#define ISBALANCE(/;"	d
+InHeap	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  InHeap(/;"	d
+Increase	../binTree/test.cpp	/^template <typename T> struct Increase{$/;"	s	file:
+Increase	../dsacpp-src/src/_share/increase_Elem.h	/^template <typename T> struct Increase \/\/º¯Êı¶ÔÏó£ºµİÔöÒ»¸öTÀà¶ÔÏó$/;"	s
+Increase	../list/list_testhelper.h	/^  Increase(unsigned int n) : num(n) {} $/;"	f	struct:Increase
+Increase	../list/list_testhelper.h	/^struct Increase$/;"	s
+IsBlack	../dsacpp-src/src/binTree/BinNode_macro_RedBlack.h	/^#define IsBlack(/;"	d
+IsLChild	../binTree/binNode_imple.h	/^#define IsLChild(/;"	d
+IsLChild	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define IsLChild(/;"	d
+IsLeaf	../binTree/binNode_imple.h	/^#define IsLeaf(/;"	d
+IsLeaf	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define IsLeaf(/;"	d
+IsParent	../binTree/binNode_imple.h	/^#define IsParent(/;"	d
+IsRChild	../binTree/binNode_imple.h	/^#define IsRChild(/;"	d
+IsRChild	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define IsRChild(/;"	d
+IsRed	../dsacpp-src/src/binTree/BinNode_macro_RedBlack.h	/^#define IsRed(/;"	d
+IsRoot	../binTree/binNode_imple.h	/^#define IsRoot(/;"	d
+IsRoot	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define IsRoot(/;"	d
+L	../dsacpp-src/src/_py/reverse.py	/^   L = [ randrange(n) for i in range(n) ]; show(L) # create a random list of size n$/;"	v
+L	../dsacpp-src/src/_py/reverse.py	/^   L = reverse_1(L); show(L) # reverse it using algorithm #1$/;"	v
+L	../dsacpp-src/src/_py/reverse.py	/^   L = reverse_2(L); show(L) # reverse it using algorithm #2$/;"	v
+LABY_MAX	../dsacpp-src/src/laby/Cell.h	/^#define LABY_MAX /;"	d
+LABY_MAX	../stack/laby/cell.h	/^#define LABY_MAX /;"	d
+LChild	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  LChild(/;"	d
+LChildValid	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  LChildValid(/;"	d
+L_CHILD	../dsacpp-src/src/UniPrint/print_PQ_ComplHeap.h	/^#define L_CHILD /;"	d
+L_CHILD	../dsacpp-src/src/UniPrint/print_bintree.h	/^#define L_CHILD /;"	d
+L_P	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+List	../dsacpp-src/src/list/list.h	/^   List() { init(); } \/\/Ä¬ÈÏ$/;"	f	class:List
+List	../dsacpp-src/src/list/list.h	/^template <typename T> class List { \/\/ÁĞ±íÄ£°åÀà$/;"	c
+List	../dsacpp-src/src/list/list_constructor_by_copying.h	/^List<T>::List( List<T> const& L ) { copyNodes( L.first(), L._size ); }$/;"	f	class:List
+List	../dsacpp-src/src/list/list_constructor_by_copying.h	/^List<T>::List( List<T> const& L, Rank r, Rank n ) {$/;"	f	class:List
+List	../dsacpp-src/src/list/list_constructor_by_copying.h	/^List<T>::List( ListNodePosi<T> p, Rank n ) { copyNodes( p, n ); }$/;"	f	class:List
+List	../list/list.h	/^    List(){ init(); }$/;"	f	class:List
+List	../list/list.h	/^class List $/;"	c
+List	../list/list_cons.h	/^List<T>::List( const List<T>& L )$/;"	f	class:List
+List	../list/list_cons.h	/^List<T>::List( const List<T>& L, Rank r, Rank n)$/;"	f	class:List
+List	../list/list_cons.h	/^List<T>::List( const ListNodePosi<T> p, Rank n )$/;"	f	class:List
+ListNode	../dsacpp-src/src/list/listNode.h	/^   ListNode ( T e, ListNodePosi<T> p = NULL, ListNodePosi<T> s = NULL )$/;"	f	struct:ListNode
+ListNode	../dsacpp-src/src/list/listNode.h	/^   ListNode() {} \/\/Õë¶ÔheaderºÍtrailerµÄ¹¹Ôì$/;"	f	struct:ListNode
+ListNode	../dsacpp-src/src/list/listNode.h	/^template <typename T> struct ListNode { \/\/ÁĞ±í½ÚµãÄ£°åÀà£¨ÒÔË«ÏòÁ´±íĞÎÊ½ÊµÏÖ£©$/;"	s
+ListNode	../list/listNode.h	/^  ListNode( T e ) : data(e), prev(nullptr), next(nullptr) {} $/;"	f	struct:ListNode
+ListNode	../list/listNode.h	/^  ListNode( T e, ListNodePosi<T> p, ListNodePosi<T> n ):$/;"	f	struct:ListNode
+ListNode	../list/listNode.h	/^  ListNode() : data(), prev(nullptr), next(nullptr){}$/;"	f	struct:ListNode
+ListNode	../list/listNode.h	/^struct ListNode$/;"	s
+ListNodePosi	../dsacpp-src/src/list/listNode.h	/^template <typename T> using ListNodePosi = ListNode<T>*; \/\/ÁĞ±í½ÚµãÎ»ÖÃ$/;"	t	typeref:typename:ListNode<T> *
+ListNodePosi	../list/listNode.h	/^template <typename T> using ListNodePosi = ListNode<T>*;$/;"	t	typeref:typename:ListNode<T> *
+M	../dsacpp-src/src/BitMap/Bitmap.h	/^   unsigned char* M;$/;"	m	class:Bitmap	typeref:typename:unsigned char *
+M	../dsacpp-src/src/hashtable/HashTable.h	/^   Rank M, N; \/\/Í°µÄ×ÜÊı¡¢´ÊÌõµÄÊıÄ¿£º(N+L)\/M <= Lambda_max$/;"	m	class:Hashtable	typeref:typename:Rank
+M	../dsacpp-src/src/string_pm_kr/pm_kr.h	/^#define M /;"	d
+MASK	../dsacpp-src/src/countOnes/countOnes_2.cpp	/^#define MASK(/;"	d	file:
+MUL	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+N	../dsacpp-src/src/BitMap/Bitmap.h	/^   Rank N, _sz; \/\/ä½å›¾ç©ºé—´M[]ï¼ŒN*sizeof(char)*8ä¸ªæ¯”ç‰¹ä¸­å«_szä¸ªæœ‰æ•ˆä½$/;"	m	class:Bitmap	typeref:typename:Rank
+N	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   Rank* F; Rank N; \/\/è§„æ¨¡ä¸ºNçš„å‘é‡Fï¼Œè®°å½•[k]è¢«æ ‡è®°çš„æ¬¡åºï¼ˆå³å…¶åœ¨æ ˆT[]ä¸­çš„/;"	m	class:Bitmap	typeref:typename:Rank
+N	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   Rank* F; Rank N; \/\/¹æÄ£ÎªNµÄÏòÁ¿F£¬¼ÇÂ¼[k]±»±ê¼ÇµÄ´ÎĞò£¨¼´ÆäÔÚÕ»T[]ÖĞµÄÖÈ£©$/;"	m	class:Bitmap	typeref:typename:Rank
+N	../dsacpp-src/src/hashtable/HashTable.h	/^   Rank M, N; \/\/Í°µÄ×ÜÊı¡¢´ÊÌõµÄÊıÄ¿£º(N+L)\/M <= Lambda_max$/;"	m	class:Hashtable	typeref:typename:Rank
+N	../dsacpp-src/src/queen_stack/displayProgress.cpp	/^Rank N = 0; \/\/ÆåÅÌ´óĞ¡$/;"	v	typeref:typename:Rank
+N	../stack/queen/displayProgess.cpp	/^Rank N = 0;$/;"	v	typeref:typename:Rank
+NORTH	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	e	enum:__anone5fdab530203
+NORTH	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon618909220103
+NO_WAY	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	e	enum:__anone5fdab530203
+N_CHAR	../dsacpp-src/src/Prefix_free_Codes/PFC.h	/^#define  N_CHAR /;"	d
+N_CHAR	../dsacpp-src/src/huffman/huffChar.h	/^#define  N_CHAR /;"	d
+N_OPTR	../dsacpp-src/src/rpn/priority.h	/^#define N_OPTR /;"	d
+Operator	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	t	typeref:enum:__anonbb2f0bfd0103
+PFCForest	../dsacpp-src/src/Prefix_free_Codes/PFC.h	/^using PFCForest = Vector<PFCTree*>; \/\/PFCÉ­ÁÖ$/;"	t	typeref:typename:Vector<PFCTree * >
+PFCTable	../dsacpp-src/src/Prefix_free_Codes/PFC.h	/^using PFCTable = Skiplist<char, char*>; \/\/PFC±àÂë±í£¬´ÊÌõ¸ñÊ½Îª£º(key = ×Ö·û, value = ±àÂë´®)$/;"	t	typeref:typename:Skiplist<char,char * >
+PFCTree	../dsacpp-src/src/Prefix_free_Codes/PFC.h	/^using PFCTree = BinTree<char>; \/\/PFCÊ÷$/;"	t	typeref:typename:BinTree<char>
+PFS	../dsacpp-src/src/graph/Graph_pfs.h	/^void Graph<Tv, Te>::PFS( Rank v, PU prioUpdater ) { \/\/ÓÅÏÈ¼¶ËÑË÷£¨µ¥¸öÁ¬Í¨Óò£©$/;"	f	class:Graph	typeref:typename:void
+POW	../dsacpp-src/src/countOnes/countOnes_2.cpp	/^#define POW(/;"	d	file:
+POW	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+PQ	../dsacpp-src/src/PQ/PQ.h	/^template <typename T> struct PQ { \/\/ÓÅÏÈ¼¶¶ÓÁĞPQÄ£°åÀà$/;"	s
+PQ_ComplHeap	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap.h	/^   PQ_ComplHeap( T* A, Rank n ) { copyFrom( A, 0, n ); heapify( _elem, n ); } \/\/ÅúÁ¿¹¹Ôì$/;"	f	struct:PQ_ComplHeap
+PQ_ComplHeap	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap.h	/^   PQ_ComplHeap() {} \/\/Ä¬ÈÏ¹¹Ôì$/;"	f	struct:PQ_ComplHeap
+PQ_ComplHeap	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap.h	/^template <typename T> struct PQ_ComplHeap : public PQ<T>, public Vector<T> { \/\/ÍêÈ«¶ş²æ¶Ñ$/;"	s
+PQ_LeftHeap	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap.h	/^   PQ_LeftHeap( PQ_LeftHeap& A, PQ_LeftHeap& B ) { \/\/ºÏ²¢¹¹Ôì$/;"	f	class:PQ_LeftHeap
+PQ_LeftHeap	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap.h	/^   PQ_LeftHeap( T* E, int n ) \/\/ÅúÁ¿¹¹Ôì£º¿É¸Ä½øÎªFloyd½¨¶ÑËã·¨$/;"	f	class:PQ_LeftHeap
+PQ_LeftHeap	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap.h	/^   PQ_LeftHeap() {} \/\/Ä¬ÈÏ¹¹Ôì$/;"	f	class:PQ_LeftHeap
+PQ_LeftHeap	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap.h	/^class PQ_LeftHeap : public PQ<T>, public BinTree<T> { \/\/»ùÓÚ¶ş²æÊ÷£¬ÒÔ×óÊ½¶ÑĞÎÊ½ÊµÏÖµÄPQ$/;"	c
+PQ_List	../dsacpp-src/src/PQ_List/PQ_List.h	/^   PQ_List ( T* E, int n ) { while ( 0 < n-- ) insertAsFirst ( ( E[n] ) ); } \/\/ÅúÁ¿¹¹Ôì$/;"	f	class:PQ_List
+PQ_List	../dsacpp-src/src/PQ_List/PQ_List.h	/^   PQ_List() { } \/\/Ä¬ÈÏ¹¹Ôì$/;"	f	class:PQ_List
+PQ_List	../dsacpp-src/src/PQ_List/PQ_List.h	/^template <typename T> class PQ_List : public PQ<T>, public List<T> { \/\/»ùÓÚÁĞ±íÊµÏÖµÄÓÅÏÈ¼¶¶ÓÁ/;"	c
+PRIMEFILE	../dsacpp-src/src/prime/main.cpp	/^#define PRIMEFILE /;"	d	file:
+PRIME_TABLE	../dsacpp-src/src/hashtable/HashTable_Implementation.h	/^#define PRIME_TABLE /;"	d
+PRINT	../dsacpp-src/src/UniPrint/print.h	/^#define PRINT(/;"	d
+PRINT	../dsacpp-src/src/list/main.cpp	/^#define PRINT(/;"	d	file:
+Parent	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  Parent(/;"	d
+PrimPU	../dsacpp-src/src/graph/Graph_prim_PU.h	/^template <typename Tv, typename Te> struct PrimPU { \/\/Õë¶ÔPrimËã·¨µÄ¶¥µãÓÅÏÈ¼¶¸üĞÂÆ÷$/;"	s
+Print	../binTree/binTree.h	/^template <typename T> struct Print{$/;"	s
+ProperParent	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  ProperParent(/;"	d
+Put	../dsacpp-src/src/vector/vector_quickSort_iterative.h	/^#define Put(/;"	d
+QNode	../dsacpp-src/src/skiplist/QuadListNode.h	/^   QNode( T e = T(), QNodePosi<T> p = NULL, QNodePosi<T> s = NULL,$/;"	f	struct:QNode
+QNode	../dsacpp-src/src/skiplist/QuadListNode.h	/^template <typename T> struct QNode { \/\/ËÄÁª½Úµã$/;"	s
+QNodePosi	../dsacpp-src/src/skiplist/QuadListNode.h	/^template <typename T> using QNodePosi = QNode<T>*; \/\/Ìø×ª±í½ÚµãÎ»ÖÃ$/;"	t	typeref:typename:QNode<T> *
+QUEEN_MAX	../dsacpp-src/src/queen_brute_force_1/queen.h	/^#define QUEEN_MAX /;"	d
+QUEEN_MAX	../dsacpp-src/src/queen_stack/main.cpp	/^#define QUEEN_MAX /;"	d	file:
+QUEEN_MAX	../stack/queen/run.cpp	/^#define QUEEN_MAX /;"	d	file:
+Quadlist	../dsacpp-src/src/skiplist/QuadList.h	/^   Quadlist() { init(); } \/\/¹¹Ôì$/;"	f	struct:Quadlist
+Quadlist	../dsacpp-src/src/skiplist/QuadList.h	/^template <typename T> struct Quadlist { \/\/ËÄÁªÁĞ±í$/;"	s
+Queen	../dsacpp-src/src/queen_stack/queen.h	/^   Queen ( int xx = 0, int yy = 0 ) : x ( xx ), y ( yy ) {};$/;"	f	struct:Queen
+Queen	../dsacpp-src/src/queen_stack/queen.h	/^struct Queen { \/\/»ÊºóÀà$/;"	s
+Queen	../stack/queen/queen.h	/^  Queen ( int xx = 0, int yy = 0 ) : x ( xx ), y ( yy ) {};$/;"	f	struct:Queen
+Queen	../stack/queen/queen.h	/^struct Queen { $/;"	s
+Queue	../dsacpp-src/src/queue/queue.h	/^template <typename T> class Queue: public List<T> { \/\/¶ÓÁĞÄ£°åÀà$/;"	c
+Queue	../queue/queue.h	/^class Queue: public List<T> {$/;"	c
+R	../dsacpp-src/src/string_pm_kr/pm_kr.h	/^#define R /;"	d
+RBColor	../binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	t	typeref:enum:__anonf92704fd0103
+RBColor	../dsacpp-src/src/binTree/BinNode.h	/^typedef enum { RB_RED, RB_BLACK} RBColor; \/\/½ÚµãÑÕÉ«$/;"	t	typeref:enum:__anonb9fa95330103
+RB_BLACK	../binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	e	enum:__anonf92704fd0103
+RB_BLACK	../dsacpp-src/src/binTree/BinNode.h	/^typedef enum { RB_RED, RB_BLACK} RBColor; \/\/½ÚµãÑÕÉ«$/;"	e	enum:__anonb9fa95330103
+RB_RED	../binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	e	enum:__anonf92704fd0103
+RB_RED	../dsacpp-src/src/binTree/BinNode.h	/^typedef enum { RB_RED, RB_BLACK} RBColor; \/\/½ÚµãÑÕÉ«$/;"	e	enum:__anonb9fa95330103
+RChild	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  RChild(/;"	d
+RChildValid	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_macro.h	/^#define  RChildValid(/;"	d
+ROOT	../dsacpp-src/src/UniPrint/print_PQ_ComplHeap.h	/^#define ROOT /;"	d
+ROOT	../dsacpp-src/src/UniPrint/print_bintree.h	/^#define ROOT /;"	d
+ROUND	../dsacpp-src/src/countOnes/countOnes_2.cpp	/^#define ROUND(/;"	d	file:
+ROUTE	../dsacpp-src/src/laby/Cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status; \/\/ÃÔ¹¬µ¥Ôª×´Ì¬$/;"	e	enum:__anone5fdab530103
+ROUTE	../stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon618909220203
+R_CHILD	../dsacpp-src/src/UniPrint/print_PQ_ComplHeap.h	/^#define R_CHILD /;"	d
+R_CHILD	../dsacpp-src/src/UniPrint/print_bintree.h	/^#define R_CHILD /;"	d
+R_P	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+Rank	../binTree/binNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	../dsacpp-src/src/BitMap/Bitmap.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	../dsacpp-src/src/binTree/BinNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	../dsacpp-src/src/cursor_list/cursor_list.h	/^using Rank = unsigned int; \/\/ÖÈ$/;"	t	typeref:typename:unsigned int
+Rank	../dsacpp-src/src/fibonacci/Fib.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	../dsacpp-src/src/list/listNode.h	/^using Rank = unsigned int; \/\/ÖÈ$/;"	t	typeref:typename:unsigned int
+Rank	../dsacpp-src/src/maxRect/mr_BF.cpp	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int	file:
+Rank	../dsacpp-src/src/maxRect/test.cpp	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int	file:
+Rank	../dsacpp-src/src/vector/vector.h	/^using Rank = unsigned int; \/\/ÖÈ$/;"	t	typeref:typename:unsigned int
+Rank	../graph/graph.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	../list/listNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+RedBlack	../dsacpp-src/src/redBlack/RedBlack.h	/^template <typename T> class RedBlack : public BST<T> { \/\/RedBlackÊ÷Ä£°åÀà$/;"	c
+RunMode	../dsacpp-src/src/queen_brute_force_1/queen.h	/^typedef enum {Continuous, Step} RunMode;$/;"	t	typeref:enum:__anonf94e39860103
+RunMode	../dsacpp-src/src/queen_stack/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	t	typeref:enum:__anon145f16910103
+RunMode	../stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	t	typeref:enum:__anon6621600b0103
+SMMH	../dsacpp-src/src/SMMH/DEPQ_SMMH.h	/^   SMMH() { insert((T) -1); } \/\/initialized with a dummy root$/;"	f	class:SMMH
+SMMH	../dsacpp-src/src/SMMH/DEPQ_SMMH.h	/^template <typename T> class SMMH : public DEPQ<T>, public Vector<T> { \/\/Symmetric Min-Max Heap$/;"	c
+SOUTH	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	e	enum:__anone5fdab530203
+SOUTH	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon618909220103
+SUB	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	e	enum:__anonbb2f0bfd0103
+Skiplist	../dsacpp-src/src/skiplist/SkipList.h	/^   Skiplist() { insertAsFirst( new Quadlist< Entry<K, V> > ); }; \/\/¼´±ãÎª¿Õ£¬Ò²ÓĞÒ»²ã¿ÕÁĞ±í$/;"	f	struct:Skiplist
+Skiplist	../dsacpp-src/src/skiplist/SkipList.h	/^struct Skiplist : public Dictionary<K, V>, public List< Quadlist< Entry<K, V> >* > {$/;"	s
+Solutions	../stack/queen/run.cpp	/^int Solutions = 0;$/;"	v	typeref:typename:int
+Splay	../dsacpp-src/src/splay/Splay.h	/^template <typename T> class Splay : public BST<T> { \/\/ÓÉBSTÅÉÉúµÄSplayÊ÷Ä£°åÀà$/;"	c
+Stack	../dsacpp-src/src/stack_list/stack_list.h	/^template <typename T> class Stack: public List<T> { \/\/½«ÁĞ±íµÄÊ×\/Ä©¶Ë×÷ÎªÕ»µ×\/¶¥$/;"	c
+Stack	../dsacpp-src/src/stack_vector/stack_vector.h	/^template <typename T> class Stack: public Vector<T> { \/\/½«ÏòÁ¿µÄÊ×\/Ä©¶Ë×÷ÎªÕ»µ×\/¶¥$/;"	c
+Stack	../stack/stack.h	/^class Stack: public List<T> {$/;"	c
+Status	../dsacpp-src/src/laby/Cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status; \/\/ÃÔ¹¬µ¥Ôª×´Ì¬$/;"	t	typeref:enum:__anone5fdab530103
+Status	../stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	t	typeref:enum:__anon618909220203
+Step	../dsacpp-src/src/queen_brute_force_1/queen.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anonf94e39860103
+Step	../dsacpp-src/src/queen_stack/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anon145f16910103
+Step	../stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anon6621600b0103
+Sum	../queue/bestWindow.h	/^  Sum(unsigned int n) : num(n) {} $/;"	f	struct:Sum
+Sum	../queue/bestWindow.h	/^struct Sum$/;"	s
+Sx	../dsacpp-src/src/hanoi/main.cpp	/^Stack<int> Sx, Sy, Sz; \/\/ÓÃÈı¸öÕ»Ä£ÄâÈı¸ùÖù×Ó£¬Ã¿¸öÅÌ×ÓµÄ°ë¾¶ÓÃÕûÊı±íÊ¾$/;"	v	typeref:typename:Stack<int>
+Sy	../dsacpp-src/src/hanoi/main.cpp	/^Stack<int> Sx, Sy, Sz; \/\/ÓÃÈı¸öÕ»Ä£ÄâÈı¸ùÖù×Ó£¬Ã¿¸öÅÌ×ÓµÄ°ë¾¶ÓÃÕûÊı±íÊ¾$/;"	v	typeref:typename:Stack<int>
+Sz	../dsacpp-src/src/hanoi/main.cpp	/^Stack<int> Sx, Sy, Sz; \/\/ÓÃÈı¸öÕ»Ä£ÄâÈı¸ùÖù×Ó£¬Ã¿¸öÅÌ×ÓµÄ°ë¾¶ÓÃÕûÊı±íÊ¾$/;"	v	typeref:typename:Stack<int>
+T	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   Rank* T; Rank top; \/\/å®¹é‡ä¸ºNçš„æ ˆTï¼Œè®°å½•è¢«æ ‡è®°å„ä½ç§©çš„æ ˆï¼Œä»¥åŠæ ˆé¡¶æŒ‡é’ˆ$/;"	m	class:Bitmap	typeref:typename:Rank *
+T	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   Rank* T; Rank top; \/\/ÈİÁ¿ÎªNµÄÕ»T£¬¼ÇÂ¼±»±ê¼Ç¸÷Î»ÖÈµÄÕ»£¬ÒÔ¼°Õ»¶¥Ö¸Õë$/;"	m	class:Bitmap	typeref:typename:Rank *
+TARGET	../list/Makefile	/^TARGET = list_test.cpp$/;"	m
+TARGET	../stack/Makefile	/^TARGET = stack_test.cpp$/;"	m
+TARGET_EXEC	../list/Makefile	/^TARGET_EXEC = list_test$/;"	m
+TARGET_EXEC	../stack/Makefile	/^TARGET_EXEC = stack_test$/;"	m
+TSort	../dsacpp-src/src/graph/Graph_tsort.h	/^bool Graph<Tv, Te>::TSort( Rank v, Rank& clock, Stack<Tv>* S ) { \/\/ v < n$/;"	f	class:Graph	typeref:typename:bool
+TestFind	../dsacpp-src/src/vector/main.cpp	/^template <typename T> void TestFind( Vector<T>& V ) {$/;"	f	typeref:typename:void
+TestOrderedInsertion	../dsacpp-src/src/vector/main.cpp	/^void TestOrderedInsertion( Vector<T>& V, Rank n ) {$/;"	f	typeref:typename:void
+TestSearch	../dsacpp-src/src/vector/main.cpp	/^template <typename T> void TestSearch( Vector<T>& V ) {$/;"	f	typeref:typename:void
+U	../dsacpp-src/src/list/List_RadixSort.h	/^using U = unsigned int; \/\/Ô¼¶¨£ºÀàĞÍT»ò¾ÍÊÇU£»»ò¿É×ª»»ÎªU£¬²¢ÒÀ´Ë¶¨Ğò$/;"	t	typeref:typename:unsigned int
+UNKNOWN	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	e	enum:__anone5fdab530203
+UNKNOWN	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon618909220103
+UniPrint	../dsacpp-src/src/UniPrint/print.h	/^class UniPrint {$/;"	c
+UnionFind	../dsacpp-src/src/_py/UnionFind_QuickFind.py	/^class UnionFind:$/;"	c
+V	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Vector<Vertex<Tv>> V; \/\/¶¥µã¼¯£¨ÏòÁ¿£©$/;"	m	class:GraphMatrix	typeref:typename:Vector<Vertex<Tv>>
+VStatus	../dsacpp-src/src/graph/Graph.h	/^using VStatus = enum { UNDISCOVERED, DISCOVERED, VISITED }; \/\/¶¥µã×´Ì¬$/;"	t
+VStatus	../graph/graph.h	/^using VStatus = enum { UNDISCOVERED, DISCOVERED, VISITED };$/;"	t
+Vector	../dsacpp-src/src/vector/vector.h	/^   Vector ( Rank c = DEFAULT_CAPACITY, Rank s = 0, T v = 0 ) \/\/ÈİÁ¿Îªc¡¢¹æÄ£Îªs¡¢ËùÓĞÔªËØ³õÊ¼Îª/;"	f	class:Vector
+Vector	../dsacpp-src/src/vector/vector.h	/^   Vector ( T const* A, Rank lo, Rank hi ) { copyFrom ( A, lo, hi ); } \/\/Çø¼ä$/;"	f	class:Vector
+Vector	../dsacpp-src/src/vector/vector.h	/^   Vector ( T const* A, Rank n ) { copyFrom ( A, 0, n ); } \/\/Êı×éÕûÌå¸´ÖÆ$/;"	f	class:Vector
+Vector	../dsacpp-src/src/vector/vector.h	/^   Vector ( Vector<T> const& V ) { copyFrom ( V._elem, 0, V._size ); } \/\/ÏòÁ¿ÕûÌå¸´ÖÆ$/;"	f	class:Vector
+Vector	../dsacpp-src/src/vector/vector.h	/^   Vector ( Vector<T> const& V, Rank lo, Rank hi ) { copyFrom ( V._elem, lo, hi ); } \/\/Çø¼ä$/;"	f	class:Vector
+Vector	../dsacpp-src/src/vector/vector.h	/^template <typename T> class Vector { \/\/ÏòÁ¿Ä£°åÀà$/;"	c
+Vertex	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Vertex( Tv const& d = (Tv)0 ) : \/\/¹¹ÔìĞÂ¶¥µã$/;"	f	struct:Vertex
+Vertex	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^template <typename Tv> struct Vertex { \/\/¶¥µã¶ÔÏó£¨Îª¼ò»¯Æğ¼û£¬²¢Î´ÑÏ¸ñ·â×°£©$/;"	s
+WALL	../dsacpp-src/src/laby/Cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status; \/\/ÃÔ¹¬µ¥Ôª×´Ì¬$/;"	e	enum:__anone5fdab530103
+WALL	../stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon618909220203
+WEST	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	e	enum:__anone5fdab530203
+WEST	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon618909220103
+XX	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon618909220103
+_CRT_SECURE_NO_WARNINGS	../dsacpp-src/src/Prefix_free_Codes/PFC_test.h	/^#define _CRT_SECURE_NO_WARNINGS$/;"	d
+_CRT_SECURE_NO_WARNINGS	../dsacpp-src/src/_share/util.h	/^#define _CRT_SECURE_NO_WARNINGS$/;"	d
+_CRT_SECURE_NO_WARNINGS	../dsacpp-src/src/huffman/Huffman_PQ_test.h	/^#define _CRT_SECURE_NO_WARNINGS$/;"	d
+__AVL_IMPLE__	../AVL/AVL_imple.h	/^#define __AVL_IMPLE__$/;"	d
+__AVL__	../AVL/AVL.h	/^#define __AVL__$/;"	d
+__BINNODE_IMPLE__	../binTree/binNode_imple.h	/^#define __BINNODE_IMPLE__$/;"	d
+__BINNODE_LV__	../binTree/binNode_travLv.h	/^#define __BINNODE_LV__$/;"	d
+__BINNODE_POST__	../binTree/binNode_travPo.h	/^#define __BINNODE_POST__$/;"	d
+__BINNODE_SUCC__	../binTree/binNode_succ.h	/^#define __BINNODE_SUCC__$/;"	d
+__BINNODE_TRAVMI__	../binTree/binNode_travMi.h	/^#define __BINNODE_TRAVMI__$/;"	d
+__BINNODE_TRAVPRE__	../binTree/binNode_travPre.h	/^#define __BINNODE_TRAVPRE__$/;"	d
+__BINNODE_TRAV__	../binTree/binNode_trav.h	/^#define __BINNODE_TRAV__$/;"	d
+__BINNODE__	../binTree/binNode.h	/^#define __BINNODE__$/;"	d
+__BINTREE_IMPLE__	../binTree/binTree_imple.h	/^#define __BINTREE_IMPLE__$/;"	d
+__BINTREE__	../binTree/binTree.h	/^#define __BINTREE__$/;"	d
+__BST_BASIC__	../BST/BST_basic.h	/^#define __BST_BASIC__$/;"	d
+__BST_IMPLE__	../BST/BST_imple.h	/^#define __BST_IMPLE__$/;"	d
+__BST__	../BST/BST.h	/^#define __BST__$/;"	d
+__CELL__	../stack/laby/cell.h	/^#define __CELL__$/;"	d
+__CUSTOMER__	../queue/customer.h	/^#define __CUSTOMER__$/;"	d
+__DEQUE__	../deque/deque.h	/^#define __DEQUE__$/;"	d
+__DISP_LABY__	../stack/laby/displayLaby.h	/^#define __DISP_LABY__$/;"	d
+__DISP__	../queue/displayProgress.h	/^#define __DISP__$/;"	d
+__GRAPH_BFS__	../graph/graph_bfs.h	/^#define __GRAPH_BFS__$/;"	d
+__GRAPH_IMPLE__	../graph/graph_imple.h	/^#define __GRAPH_IMPLE__$/;"	d
+__GRAPH_MATRIX__	../graph/graph_matrix.h	/^#define __GRAPH_MATRIX__$/;"	d
+__GRAPH__	../graph/graph.h	/^#define __GRAPH__$/;"	d
+__LABY__	../stack/laby/laby.h	/^#define __LABY__$/;"	d
+__QUEEN_STACK__	../stack/queen/queen_stack.h	/^#define __QUEEN_STACK__$/;"	d
+__QUEEN__	../stack/queen/queen.h	/^#define __QUEEN__$/;"	d
+__QUEUE__	../queue/queue.h	/^#define __QUEUE__$/;"	d
+__RAND_LABY__	../stack/laby/randLaby.h	/^#define __RAND_LABY__$/;"	d
+__RAND_LABY__	../stack/randlaby.h	/^#define __RAND_LABY__$/;"	d
+__READ_LABY__	../stack/laby/readLaby.h	/^#define __READ_LABY__$/;"	d
+__SIMU__	../queue/simu.h	/^#define __SIMU__$/;"	d
+__WINDOW__	../queue/bestWindow.h	/^#define __WINDOW__$/;"	d
+__anon145f16910103	../dsacpp-src/src/queen_stack/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	g
+__anon618909220103	../stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	g
+__anon618909220203	../stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	g
+__anon6621600b0103	../stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	g
+__anonb9fa95330103	../dsacpp-src/src/binTree/BinNode.h	/^typedef enum { RB_RED, RB_BLACK} RBColor; \/\/½ÚµãÑÕÉ«$/;"	g
+__anonbb2f0bfd0103	../dsacpp-src/src/rpn/priority.h	/^typedef enum { ADD, SUB, MUL, DIV, POW, FAC, L_P, R_P, EOE } Operator; \/\/ÔËËã·û¼¯ºÏ$/;"	g
+__anone5fdab530103	../dsacpp-src/src/laby/Cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status; \/\/ÃÔ¹¬µ¥Ôª×´Ì¬$/;"	g
+__anone5fdab530203	../dsacpp-src/src/laby/Cell.h	/^typedef enum { UNKNOWN, EAST, SOUTH, WEST, NORTH, NO_WAY } ESWN; \/\/µ¥ÔªµÄÏà¶ÔÁÚ½Ó·½Ïò$/;"	g
+__anonf92704fd0103	../binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	g
+__anonf94e39860103	../dsacpp-src/src/queen_brute_force_1/queen.h	/^typedef enum {Continuous, Step} RunMode;$/;"	g
+__init__	../dsacpp-src/src/_py/UnionFind_QuickFind.py	/^   def __init__(self, n):$/;"	m	class:UnionFind
+__listNode__	../list/listNode.h	/^#define __listNode__$/;"	d
+__list__	../list/list.h	/^#define __list__$/;"	d
+__list_bracket__	../list/list_bracket.h	/^#define __list_bracket__$/;"	d
+__list_clear__	../list/list_clear.h	/^#define __list_clear__$/;"	d
+__list_cons__	../list/list_cons.h	/^#define __list_cons__$/;"	d
+__list_copynode__	../list/list_copynode.h	/^#define __list_copynode__$/;"	d
+__list_deduplicate__	../list/list_deduplicate.h	/^#define __list_deduplicate__$/;"	d
+__list_dest__	../list/list_dest.h	/^#define __list_dest__$/;"	d
+__list_find__	../list/list_find.h	/^#define __list_find__$/;"	d
+__list_imple__	../list/list_imple.h	/^#define __list_imple__$/;"	d
+__list_init__	../list/list_init.h	/^#define __list_init__$/;"	d
+__list_insert__	../list/list_insert.h	/^#define __list_insert__$/;"	d
+__list_insertion__	../list/list_insertion.h	/^#define __list_insertion__$/;"	d
+__list_max__	../list/list_max.h	/^#define __list_max__$/;"	d
+__list_merge__	../list/list_merge.h	/^#define __list_merge__$/;"	d
+__list_remove__	../list/list_remove.h	/^#define __list_remove__$/;"	d
+__list_reverse__	../list/list_reverse.h	/^#define __list_reverse__$/;"	d
+__list_search__	../list/list_search.h	/^#define __list_search__$/;"	d
+__list_selection__	../list/list_selection.h	/^#define __list_selection__$/;"	d
+__list_sort__	../list/list_sort.h	/^#define __list_sort__$/;"	d
+__list_traverse__	../list/list_traverse.h	/^#define __list_traverse__$/;"	d
+__list_uniquify__	../list/list_uniquify.h	/^#define __list_uniquify__$/;"	d
+__node__imple__	../list/listNode_imple.h	/^#define __node__imple__$/;"	d
+__node_next__	../list/listNode_insertAsNext.h	/^#define __node_next__$/;"	d
+__node_prev__	../list/listNode_insertAsPrev.h	/^#define __node_prev__$/;"	d
+__stack_list__	../stack/stack.h	/^#define __stack_list__$/;"	d
+__test_helper__	../list/list_testhelper.h	/^#define __test_helper__$/;"	d
+_capacity	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank _size; Rank _capacity; \/\/¹æÄ£¡¢ÈİÁ¿$/;"	m	class:CursorList	typeref:typename:Rank
+_capacity	../dsacpp-src/src/vector/vector.h	/^   Rank _size; Rank _capacity;  T* _elem; \/\/¹æÄ£¡¢ÈİÁ¿¡¢Êı¾İÇø$/;"	m	class:Vector	typeref:typename:Rank
+_data	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank _data, _free; \/\/Êı¾İÁ´±íºÍ¿ÕÏĞÁ´±íµÄÆğµã$/;"	m	class:CursorList	typeref:typename:Rank
+_elem	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank* _link; T* _elem; \/\/ÓÎ±êÖ¸Õë¡¢Êı¾İÇø$/;"	m	class:CursorList	typeref:typename:T *
+_elem	../dsacpp-src/src/vector/vector.h	/^   Rank _size; Rank _capacity;  T* _elem; \/\/¹æÄ£¡¢ÈİÁ¿¡¢Êı¾İÇø$/;"	m	class:Vector	typeref:typename:T *
+_free	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank _data, _free; \/\/Êı¾İÁ´±íºÍ¿ÕÏĞÁ´±íµÄÆğµã$/;"	m	class:CursorList	typeref:typename:Rank
+_hot	../dsacpp-src/src/BST/BST.h	/^   BinNodePosi<T> _hot; \/\/¡°ÃüÖĞ¡±½ÚµãµÄ¸¸Ç×$/;"	m	class:BST	typeref:typename:BinNodePosi<T>
+_hot	../dsacpp-src/src/BTree/BTree.h	/^   BTNodePosi<T> _hot; \/\/ BTree::search()×îºó·ÃÎÊµÄ·Ç¿Õ£¨³ı·ÇÊ÷¿Õ£©µÄ½ÚµãÎ»ÖÃ$/;"	m	class:BTree	typeref:typename:BTNodePosi<T>
+_link	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank* _link; T* _elem; \/\/ÓÎ±êÖ¸Õë¡¢Êı¾İÇø$/;"	m	class:CursorList	typeref:typename:Rank *
+_m	../dsacpp-src/src/BTree/BTree.h	/^   Rank _m; \/\/ B-Ê÷µÄ½×´Î£¬ÖÁÉÙÎª3¡ª¡ª´´½¨Ê±Ö¸¶¨£¬Ò»°ã²»ÄÜĞŞ¸Ä$/;"	m	class:BTree	typeref:typename:Rank
+_root	../binTree/binTree.h	/^    Rank _size;  BinNodePosi<T> _root;$/;"	m	class:BinTree	typeref:typename:BinNodePosi<T>
+_root	../dsacpp-src/src/BTree/BTree.h	/^   BTNodePosi<T> _root; \/\/¸ù½Úµã$/;"	m	class:BTree	typeref:typename:BTNodePosi<T>
+_root	../dsacpp-src/src/binTree/BinTree.h	/^   Rank _size; BinNodePosi<T> _root; \/\/¹æÄ£¡¢¸ù½Úµã$/;"	m	class:BinTree	typeref:typename:BinNodePosi<T>
+_s	../BST/BST.h	/^BinNodePosi<T> _s;$/;"	m	class:BST	typeref:typename:BinNodePosi<T>
+_size	../binTree/binTree.h	/^    Rank _size;  BinNodePosi<T> _root;$/;"	m	class:BinTree	typeref:typename:Rank
+_size	../dsacpp-src/src/BTree/BTree.h	/^   Rank _size; \/\/´æ·ÅµÄ¹Ø¼üÂë×ÜÊı$/;"	m	class:BTree	typeref:typename:Rank
+_size	../dsacpp-src/src/binTree/BinTree.h	/^   Rank _size; BinNodePosi<T> _root; \/\/¹æÄ£¡¢¸ù½Úµã$/;"	m	class:BinTree	typeref:typename:Rank
+_size	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank _size; Rank _capacity; \/\/¹æÄ£¡¢ÈİÁ¿$/;"	m	class:CursorList	typeref:typename:Rank
+_size	../dsacpp-src/src/list/list.h	/^   Rank _size; ListNodePosi<T> header, trailer; \/\/¹æÄ£¡¢Í·ÉÚ±ø¡¢Î²ÉÚ±ø$/;"	m	class:List	typeref:typename:Rank
+_size	../dsacpp-src/src/skiplist/QuadList.h	/^   Rank _size; \/\/¹æÄ£$/;"	m	struct:Quadlist	typeref:typename:Rank
+_size	../dsacpp-src/src/vector/vector.h	/^   Rank _size; Rank _capacity;  T* _elem; \/\/¹æÄ£¡¢ÈİÁ¿¡¢Êı¾İÇø$/;"	m	class:Vector	typeref:typename:Rank
+_size	../list/list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:int
+_sz	../dsacpp-src/src/BitMap/Bitmap.h	/^   Rank N, _sz; \/\/ä½å›¾ç©ºé—´M[]ï¼ŒN*sizeof(char)*8ä¸ªæ¯”ç‰¹ä¸­å«_szä¸ªæœ‰æ•ˆä½$/;"	m	class:Bitmap	typeref:typename:Rank
+above	../dsacpp-src/src/skiplist/QuadListNode.h	/^   QNodePosi<T> pred, succ, above, below; \/\/Ç°Çı¡¢ºó¼Ì¡¢ÉÏÁÚ¡¢ÏÂÁÚ$/;"	m	struct:QNode	typeref:typename:QNodePosi<T>
+advance	../dsacpp-src/src/laby/advance.h	/^inline Cell* advance ( Cell* cell ) { \/\/´Óµ±Ç°Î»ÖÃ×ªÈëÏàÁÚ¸ñµã$/;"	f	typeref:typename:Cell *
+all	../list/Makefile	/^all: $(PROGRAMS)$/;"	t
+all	../list/make/Makefile	/^all: f1.o f2.o$/;"	t
+all	../stack/Makefile	/^all: $(PROGRAMS)$/;"	t
+append	../dsacpp-src/src/rpn/append2RPN.cpp	/^void append ( char* rpn, char optr ) { \/\/½«ÔËËã·û½ÓÖÁRPNÄ©Î²$/;"	f	typeref:typename:void
+append	../dsacpp-src/src/rpn/append2RPN.cpp	/^void append ( char* rpn, double opnd ) { \/\/½«²Ù×÷Êı½ÓÖÁRPNÄ©Î²$/;"	f	typeref:typename:void
+attach	../dsacpp-src/src/binTree/BinTree_attach.h	/^BinNodePosi<T> BinTree<T>::attach( BinNodePosi<T> x, BinTree<T>*& S ) { \/\/ x->rc == NULL$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+attach	../dsacpp-src/src/binTree/BinTree_attach.h	/^BinNodePosi<T> BinTree<T>::attach( BinTree<T>*& S, BinNodePosi<T> x ) { \/\/ x->lc == NULL$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+attachAsLC	../binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::attachAsLC( BinNodePosi<T> n, BinTree<T>* S )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+attachAsLC	../dsacpp-src/src/splay/Splay_splay.h	/^void attachAsLC( NodePosi lc, NodePosi p ) { p->lc = lc; if ( lc ) lc->parent = p; }$/;"	f	typeref:typename:void
+attachAsRC	../binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::attachAsRC( BinNodePosi<T> n, BinTree<T>* S )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+attachAsRC	../dsacpp-src/src/splay/Splay_splay.h	/^void attachAsRC( NodePosi p, NodePosi rc ) { p->rc = rc; if ( rc ) rc->parent = p; }$/;"	f	typeref:typename:void
+bag	../dsacpp-src/src/_py/list.py	/^bag = [ 'data structures', 'calculus', box, 2012012012 ]$/;"	v
+balance	../dsacpp-src/src/BST/BST.h	/^   \/*DSA*\/void balance() { _root = _root->balance(); } $/;"	f	class:BST	typeref:typename:void
+bcc	../dsacpp-src/src/graph/Graph_bcc.h	/^template <typename Tv, typename Te> void Graph<Tv, Te>::bcc( Rank s ) { \/\/»ùÓÚDFSµÄBCC·Ö½âËã·¨$/;"	f	class:Graph	typeref:typename:void
+beauty	../dsacpp-src/src/_py/Hash.py	/^beauty = dict({	# declare and initialize a dictionary object$/;"	v
+below	../dsacpp-src/src/skiplist/QuadListNode.h	/^   QNodePosi<T> pred, succ, above, below; \/\/Ç°Çı¡¢ºó¼Ì¡¢ÉÏÁÚ¡¢ÏÂÁÚ$/;"	m	struct:QNode	typeref:typename:QNodePosi<T>
+bestWindow	../dsacpp-src/src/simu/bestWindow.cpp	/^int bestWindow ( Queue<Customer> windows[], Rank nWin ) { \/\/ÎªĞÂµ½¹Ë¿ÍÈ·¶¨×î¼Ñ¶ÓÁĞ$/;"	f	typeref:typename:int
+bestWindow	../queue/bestWindow.h	/^int bestWindow ( Queue< Customer > windows[], Rank nWin )$/;"	f	typeref:typename:int
+bfs	../dsacpp-src/src/graph/Graph_bfs.h	/^void Graph<Tv, Te>::bfs( Rank s ) { \/\/ s < n$/;"	f	class:Graph	typeref:typename:void
+binSearch	../dsacpp-src/src/vector/Vector_search_binary_A.h	/^template <typename T> static Rank binSearch( T* S, T const& e, Rank lo, Rank hi ) {$/;"	f	typeref:typename:Rank
+binSearch	../dsacpp-src/src/vector/Vector_search_binary_B.h	/^template <typename T> static Rank binSearch( T* S, T const& e, Rank lo, Rank hi ) {$/;"	f	typeref:typename:Rank
+binSearch	../dsacpp-src/src/vector/Vector_search_binary_C.h	/^template <typename T> static Rank binSearch( T* S, T const& e, Rank lo, Rank hi ) {$/;"	f	typeref:typename:Rank
+bits2string	../dsacpp-src/src/BitMap/Bitmap.h	/^   char* bits2string( Rank n ) { \/\/å°†å‰nä½è½¬æ¢ä¸ºå­—ç¬¦ä¸²â€”â€”$/;"	f	class:Bitmap	typeref:typename:char *
+box	../dsacpp-src/src/_py/list.py	/^box = [ 'pencil', 'pen', 'ruler', 'eraser' ]$/;"	v
+bubbleSort	../dsacpp-src/src/vector/vector_bubblesort_A.h	/^void Vector<T>::bubbleSort( Rank lo, Rank hi ) { \/\/assert: 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+bubbleSort	../dsacpp-src/src/vector/vector_bubblesort_B.h	/^void Vector<T>::bubbleSort( Rank lo, Rank hi ) { \/\/assert: 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+bubbleSort	../dsacpp-src/src/vector/vector_bubblesort_C.h	/^void Vector<T>::bubbleSort( Rank lo, Rank hi ) { \/\/assert: 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+bubblesort	../dsacpp-src/src/bubblesort/bubble.cpp	/^void bubblesort( int A[], int n ) { \/\/ÆğÅİÅÅĞòËã·¨£¨°æ±¾0£©£º0 <= n$/;"	f	typeref:typename:void
+bubblesort1A	../dsacpp-src/src/bubblesort/bubble1A.cpp	/^void bubblesort1A( int A[], int n ) { \/\/ÆğÅİÅÅĞòËã·¨£¨°æ±¾1A£©£º0 <= n$/;"	f	typeref:typename:void
+bubblesort1B	../dsacpp-src/src/bubblesort/bubble1B.cpp	/^void bubblesort1B( int A[], int n ) { \/\/ÆğÅİÅÅĞòËã·¨£¨°æ±¾1B£¬Óë°æ±¾1AÍêÈ«µÈ¼Û£©£º0 <= n$/;"	f	typeref:typename:void
+bubblesort2	../dsacpp-src/src/bubblesort/bubble2.cpp	/^void bubblesort2( int A[], int n ) { \/\/ÆğÅİÅÅĞòËã·¨£¨°æ±¾2£©£º0 <= n$/;"	f	typeref:typename:void
+buildBC	../dsacpp-src/src/string_pm_bm_bc/pm_bm_buildBC.cpp	/^int* buildBC( char* P ) { \/\/¹¹ÔìBad Charactor Shift±í£ºO(m + 256)$/;"	f	typeref:typename:int *
+buildGS	../dsacpp-src/src/string_pm_bm_bc+gs/pm_bm_buildGS.cpp	/^int* buildGS ( char* P ) { \/\/¹¹ÔìºÃºó×ºÎ»ÒÆÁ¿±í£ºO(m)$/;"	f	typeref:typename:int *
+buildNext	../dsacpp-src/src/string_pm_kmp/pm_kmp_next.cpp	/^int* buildNext ( char* P ) { \/\/¹¹ÔìÄ£Ê½´®PµÄnext±í$/;"	f	typeref:typename:int *
+buildNext	../dsacpp-src/src/string_pm_kmp_improved/pm_kmp_next_improved.cpp	/^int* buildNext ( char* P ) { \/\/¹¹ÔìÄ£Ê½´®PµÄnext±í£¨¸Ä½ø°æ±¾£©$/;"	f	typeref:typename:int *
+buildSS	../dsacpp-src/src/string_pm_bm_bc+gs/pm_bm_buildGS.cpp	/^int* buildSS ( char* P ) { \/\/¹¹Ôì×î´óÆ¥Åäºó×º³¤¶È±í£ºO(m)$/;"	f	typeref:typename:int *
+c	../binTree/test.cpp	/^  int c = 0;$/;"	v	typeref:typename:int
+c	../dsacpp-src/src/_share/crc_Elem.h	/^   T& c;$/;"	m	struct:Crc	typeref:typename:T &
+calcu	../dsacpp-src/src/rpn/calculation.cpp	/^double calcu ( char op, double b ) { \/\/Ö´ĞĞÒ»ÔªÔËËã$/;"	f	typeref:typename:double
+calcu	../dsacpp-src/src/rpn/calculation.cpp	/^double calcu ( double a, char op, double b ) { \/\/Ö´ĞĞ¶şÔªÔËËã$/;"	f	typeref:typename:double
+ch	../dsacpp-src/src/huffman/huffChar.h	/^   char ch; unsigned int weight; \/\/×Ö·û¡¢ÆµÂÊ$/;"	m	struct:HuffChar	typeref:typename:char
+check1by1	../dsacpp-src/src/string_pm_kr/pm_kr_check1by1.cpp	/^bool check1by1 ( char* P, char* T, size_t i ) { \/\/Ö¸ÎÆÏàÍ¬Ê±£¬ÖğÎ»±È¶ÔÒÔÈ·ÈÏÊÇ·ñÕæÕıÆ¥Åä$/;"	f	typeref:typename:bool
+checkOrder	../dsacpp-src/src/_share/checkOrder_list.h	/^template <typename T> void checkOrder( List<T>& L ) { \/\/ÅĞ¶ÏÁĞ±íÊÇ·ñÕûÌåÓĞĞò$/;"	f	typeref:typename:void
+checkOrder	../dsacpp-src/src/_share/checkOrder_vector.h	/^template <typename T> void checkOrder ( Vector<T> & V ) { \/\/ÅĞ¶ÏÏòÁ¿ÊÇ·ñÕûÌåÓĞĞò$/;"	f	typeref:typename:void
+child	../dsacpp-src/src/BTree/BTNode.h	/^   Vector<BTNodePosi<T>> child; \/\/º¢×ÓÏòÁ¿£¨×Ü±È¹Ø¼üÂë¶àÒ»¸ö£©$/;"	m	struct:BTNode	typeref:typename:Vector<BTNodePosi<T>>
+clean	../dsacpp-src/src/_share/release.h	/^   static void clean( T x ) { \/\/Ïàµ±ÓÚµİ¹é»ù$/;"	f	struct:Cleaner	typeref:typename:void
+clean	../dsacpp-src/src/_share/release.h	/^   static void clean( T* x ) {$/;"	f	struct:Cleaner	typeref:typename:void
+clean	../list/Makefile	/^clean:$/;"	t
+clean	../stack/Makefile	/^clean:$/;"	t
+clear	../dsacpp-src/src/BitMap/Bitmap.h	/^   void clear ( Rank k ) { expand( k ); _sz--; M[k >> 3] &= ~ ( 0x80 >> ( k & 0x07 ) ); }$/;"	f	class:Bitmap	typeref:typename:void
+clear	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   inline void clear( Rank k ) { \/\/åˆ é™¤ï¼šä»é€»è¾‘ä¸Šå°†B[k]ç½®ä¸ºfalseï¼ŒO(1)$/;"	f	class:Bitmap	typeref:typename:void
+clear	../dsacpp-src/src/list/list_clear.h	/^template <typename T> Rank List<T>::clear() { \/\/Çå¿ÕÁĞ±í$/;"	f	class:List	typeref:typename:Rank
+clear	../dsacpp-src/src/skiplist/QuadList_remove.h	/^template <typename T> int Quadlist<T>::clear() { \/\/Çå¿ÕQuadlist$/;"	f	class:Quadlist	typeref:typename:int
+clear	../list/list_clear.h	/^int List<T>::clear()$/;"	f	class:List	typeref:typename:int
+collide	../dsacpp-src/src/queen_brute_force_1/collision.cpp	/^bool collide ( int* solu, int k ) { \/\/ÅĞ¶ÏÊÇ·ñ¿ÉÒÔÔÚµ±Ç°ĞĞµÄµÚkÁĞ·ÅÖÃÏÂÒ»»Êºó$/;"	f	typeref:typename:bool
+color	../binTree/binNode.h	/^  RBColor color;$/;"	m	struct:BinNode	typeref:typename:RBColor
+color	../dsacpp-src/src/binTree/BinNode.h	/^   RBColor color; \/\/ÑÕÉ«£¨ºìºÚÊ÷£©$/;"	m	struct:BinNode	typeref:typename:RBColor
+connect34	../dsacpp-src/src/BST/BST_connect34.h	/^template <typename T> BinNodePosi<T> BST<T>::connect34 ($/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+convert	../dsacpp-src/src/conversion/convert.cpp	/^void convert ( Stack<char>& S, __int64 n, int base ) { \/\/ÕûÊınµÄ1<base<=16½øÖÆ´òÓ¡£¨µü´ú°æ£©$/;"	f	typeref:typename:void
+convert	../dsacpp-src/src/conversion_recursive/convert.cpp	/^void convert ( Stack<char>& S, __int64 n, int base ) { \/\/ÕûÊınµÄ1<base<=16½øÖÆ´òÓ¡£¨µİ¹é°æ£©$/;"	f	typeref:typename:void
+convert	../stack/convertor.cpp	/^void convert ( Stack<char>& S, int64_t n, int base)$/;"	f	typeref:typename:void
+copyFrom	../dsacpp-src/src/vector/vector_constructor_by_copying.h	/^void Vector<T>::copyFrom ( T const* A, Rank lo, Rank hi ) { \/\/ÒÔÊı×éÇø¼äA[lo, hi)ÎªÀ¶±¾¸´ÖÆÏòÁ¿$/;"	f	class:Vector	typeref:typename:void
+copyNodes	../dsacpp-src/src/list/list_copyNodes.h	/^void List<T>::copyNodes( ListNodePosi<T> p, Rank n ) { \/\/ pºÏ·¨£¬ÇÒÖÁÉÙÓĞn-1¸öÕæºó¼Ì$/;"	f	class:List	typeref:typename:void
+copyNodes	../list/list_copynode.h	/^void List<T>::copyNodes( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+countOnes	../dsacpp-src/src/countOnes/countOnes.cpp	/^int countOnes ( unsigned int n ) { \/\/Í³¼ÆÕûÊı¶ş½øÖÆÕ¹¿ªÖĞÊıÎ»1µÄ×ÜÊı£ºO(logn)$/;"	f	typeref:typename:int
+countOnes1	../dsacpp-src/src/countOnes/countOnes_1.cpp	/^int countOnes1 ( unsigned int n ) { \/\/Í³¼ÆÕûÊı¶ş½øÖÆÕ¹¿ªÖĞÊıÎ»1µÄ×ÜÊı£ºO(ones)Õı±ÈÓÚÊıÎ»1µÄ×ÜÊ/;"	f	typeref:typename:int
+countOnes2	../dsacpp-src/src/countOnes/countOnes_2.cpp	/^int countOnes2 ( unsigned int n ) { \/\/Í³¼ÆÕûÊınµÄ¶ş½øÖÆÕ¹¿ªÖĞÊıÎ»1µÄ×ÜÊı$/;"	f	typeref:typename:int
+crc	../dsacpp-src/src/_share/crc_list.h	/^template <typename T> void crc ( List<T> & L ) { \/\/Í³¼ÆÁĞ±íµÄÌØÕ÷£¨ËùÓĞÔªËØ×ÜºÍ£©$/;"	f	typeref:typename:void
+crc	../dsacpp-src/src/_share/crc_vector.h	/^template <typename T> void crc ( Vector<T> & V ) { \/\/Í³¼ÆÏòÁ¿µÄÌØÕ÷£¨ËùÓĞÔªËØÖ®ºÍ£©$/;"	f	typeref:typename:void
+dTime	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Rank dTime, fTime; \/\/Ê±¼ä±êÇ©$/;"	m	struct:Vertex	typeref:typename:Rank
+dTime	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank& dTime( Rank v ) { return V[v].dTime; } \/\/Ê±¼ä±êÇ©dTime$/;"	f	class:GraphMatrix	typeref:typename:Rank &
+data	../binTree/binNode.h	/^  T data;$/;"	m	struct:BinNode	typeref:typename:T
+data	../dsacpp-src/src/binTree/BinNode.h	/^   T data; \/\/ÊıÖµ$/;"	m	struct:BinNode	typeref:typename:T
+data	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Te data; int weight;$/;"	m	struct:Edge	typeref:typename:Te
+data	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Tv data; int inDegree, outDegree; VStatus status; \/\/Êı¾İ¡¢³öÈë¶ÈÊı¡¢×´Ì¬$/;"	m	struct:Vertex	typeref:typename:Tv
+data	../dsacpp-src/src/list/listNode.h	/^   T data; ListNodePosi<T> pred, succ; \/\/ÊıÖµ¡¢Ç°Çı¡¢ºó¼Ì$/;"	m	struct:ListNode	typeref:typename:T
+data	../list/listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:T
+decode	../dsacpp-src/src/Prefix_free_Codes/PFC_decode.cpp	/^void decode ( PFCTree* tree, Bitmap& code, int n ) { \/\/PFC½âÂëËã·¨$/;"	f	typeref:typename:void
+decode	../dsacpp-src/src/huffman/huffman_decode.cpp	/^void decode ( HuffTree* tree, Bitmap* code, int n ) {$/;"	f	typeref:typename:void
+decrease	../dsacpp-src/src/_share/decrease_list.h	/^template <typename T> void decrease( List<T> & L ) \/\/Í³Ò»µİ¼õÁĞ±íÖĞµÄ¸÷ÔªËØ$/;"	f	typeref:typename:void
+decrease	../dsacpp-src/src/_share/decrease_vector.h	/^template <typename T> void decrease( Vector<T> & V ) \/\/Í³Ò»µİ¼õÏòÁ¿ÖĞµÄ¸÷ÔªËØ$/;"	f	typeref:typename:void
+deduplicate	../dsacpp-src/src/list/List_deduplicate.h	/^template <typename T> Rank List<T>::deduplicate() {$/;"	f	class:List	typeref:typename:Rank
+deduplicate	../dsacpp-src/src/vector/Vector_deduplicate.h	/^template <typename T> Rank Vector<T>::deduplicate() { \/\/É¾³ıÎŞĞòÏòÁ¿ÖĞÖØ¸´ÔªËØ£¨¸ßĞ§°æ£©$/;"	f	class:Vector	typeref:typename:Rank
+deduplicate	../dsacpp-src/src/vector/vector_deduplicate_1.h	/^template <typename T> int Vector<T>::deduplicate() { \/\/É¾³ıÎŞĞòÏòÁ¿ÖĞÖØ¸´ÔªËØ£¨·±Ëö°æ£©$/;"	f	class:Vector	typeref:typename:int
+deduplicate	../dsacpp-src/src/vector/vector_deduplicate_wrong_1.h	/^template <typename T> int Vector<T>::deduplicate() { \/\/É¾³ıÎŞĞòÏòÁ¿ÖĞÖØ¸´ÔªËØ£¨´íÎó°æ£©$/;"	f	class:Vector	typeref:typename:int
+deduplicate	../list/list_deduplicate.h	/^Rank List<T>::deduplicate()$/;"	f	class:List	typeref:typename:Rank
+delMax	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_delMax.h	/^template <typename T> T PQ_ComplHeap<T>::delMax() { \/\/È¡³ö×î´ó´ÊÌõ$/;"	f	class:PQ_ComplHeap	typeref:typename:T
+delMax	../dsacpp-src/src/PQ_List/PQ_List.h	/^   T delMax() { return remove ( selectMax() ); } \/\/É¾³ıÓÅÏÈ¼¶×î¸ßµÄÔªËØ$/;"	f	class:PQ_List	typeref:typename:T
+delMax	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap_delMax.h	/^template <typename T> T PQ_LeftHeap<T>::delMax() {$/;"	f	class:PQ_LeftHeap	typeref:typename:T
+delMax	../dsacpp-src/src/SMMH/DEPQ_SMMH_delMax.h	/^template <typename T> T SMMH<T>::delMax() { \/\/delMax from a non-empty SMMH$/;"	f	class:SMMH	typeref:typename:T
+delMin	../dsacpp-src/src/SMMH/DEPQ_SMMH_delMin.h	/^template <typename T> T SMMH<T>::delMin() { \/\/delMin from a non-empty SMMH$/;"	f	class:SMMH	typeref:typename:T
+delay	../dsacpp-src/src/simu/main.cpp	/^int delay;$/;"	v	typeref:typename:int
+delay	../queue/main.cpp	/^int delay;$/;"	v	typeref:typename:int
+deque	../deque/deque.h	/^class deque: public List<T> {$/;"	c
+dequeue	../dsacpp-src/src/queue/queue.h	/^   T dequeue() { return remove( first() ); } \/\/³ö¶Ó£ºÊ×²¿É¾³ı$/;"	f	class:Queue	typeref:typename:T
+dequeue	../queue/queue.h	/^    T dequeue () { return List<T>::remove ( List<T>::first () ); }$/;"	f	class:Queue	typeref:typename:T
+dfs	../dsacpp-src/src/graph/Graph_dfs.h	/^void Graph<Tv, Te>::dfs( Rank s ) { \/\/ s < n$/;"	f	class:Graph	typeref:typename:void
+dice	../binTree/test.cpp	/^#define dice(/;"	d	file:
+dice	../dsacpp-src/src/_share/rand.h	/^static char dice() { return (char)( 32 + rand() % 96 ); }$/;"	f	typeref:typename:char
+dice	../dsacpp-src/src/_share/rand.h	/^static double dice( double range ) { return rand() % ( 1000 * (int)range ) \/ (double)1000.; }$/;"	f	typeref:typename:double
+dice	../dsacpp-src/src/_share/rand.h	/^static float dice( float range ) { return rand() % ( 1000 * (int)range ) \/ (float)1000.; }$/;"	f	typeref:typename:float
+dice	../dsacpp-src/src/_share/rand.h	/^static int dice( int lo, int hi ) { return lo + rand() % ( hi - lo ); } \/\/È¡[lo, hi)ÖĞµÄËæ»úÕû/;"	f	typeref:typename:int
+dice	../dsacpp-src/src/_share/rand.h	/^static int dice( int range ) { return rand() % range; } \/\/È¡[0, range)ÖĞµÄËæ»úÕûÊı$/;"	f	typeref:typename:int
+dice	../dsacpp-src/src/_share/rand.h	/^static size_t dice( size_t lo, size_t hi ) { return lo + rand() % ( hi - lo ); } \/\/È¡[lo, hi)Ö/;"	f	typeref:typename:size_t
+dice	../dsacpp-src/src/_share/rand.h	/^static size_t dice( size_t range ) { return rand() % range; } \/\/È¡[0, range)ÖĞµÄËæ»úÕûÊı$/;"	f	typeref:typename:size_t
+dice	../stack/stack_test.cpp	/^static size_t dice( size_t range ) { return rand() % range + 1; }$/;"	f	typeref:typename:size_t	file:
+digit	../stack/convertor.cpp	/^  static char digit[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',$/;"	v	typeref:typename:char[]	file:
+dijkstra	../dsacpp-src/src/graph/Graph_dijkstra.h	/^void Graph<Tv, Te>::dijkstra( Rank s ) { \/\/ s < n$/;"	f	class:Graph	typeref:typename:void
+display	../dsacpp-src/src/hanoi/display.cpp	/^void display ( Stack<int>& S, Rank i ) {$/;"	f	typeref:typename:void
+displayHanoi	../dsacpp-src/src/hanoi/display.cpp	/^void displayHanoi() {$/;"	f	typeref:typename:void
+displayLaby	../dsacpp-src/src/laby/displayLaby.h	/^void displayLaby() { \/\/©¼©¸©´©°©¦©¤$/;"	f	typeref:typename:void
+displayLaby	../stack/laby/displayLaby.h	/^void displayLaby() { \/\/Â©Â¼Â©Â¸Â©Â´Â©Â°Â©Â¦Â©Â¤$/;"	f	typeref:typename:void
+displayProgress	../dsacpp-src/src/nest_recursive/display.cpp	/^void displayProgress ( const char exp[], Rank i, Stack<char> S ) {$/;"	f	typeref:typename:void
+displayProgress	../dsacpp-src/src/queen_stack/displayProgress.cpp	/^void displayProgress ( Stack<Queen>& S, Rank nQueen ) { \/\/ÔÚÆåÅÌÉÏÏÔÊ¾ËÑ²éµÄ½øÕ¹$/;"	f	typeref:typename:void
+displayProgress	../dsacpp-src/src/rpn/displayProgress.cpp	/^void displayProgress ( char* expr, char* pCh, Stack<double>& opndStk, Stack<char>& optrStk, char/;"	f	typeref:typename:void
+displayProgress	../dsacpp-src/src/simu/displayProgress.cpp	/^void displayProgress ( Queue<Customer> windows[], Rank nWin, Rank now ) {$/;"	f	typeref:typename:void
+displayProgress	../queue/displayProgress.h	/^void displayProgress ( Queue<Customer> windows[], Rank nWin, Rank now )$/;"	f	typeref:typename:void
+displayProgress	../stack/queen/displayProgess.cpp	/^void displayProgress ( Stack<Queen>& S, Rank nQueen )$/;"	f	typeref:typename:void
+displayRow	../dsacpp-src/src/queen_stack/displayProgress.cpp	/^void displayRow ( Queen& q ) { \/\/´òÓ¡µ±Ç°»Êºó£¨·ÅÖÃÓÚcolÁĞ£©ËùÔÚĞĞ$/;"	f	typeref:typename:void
+displayRow	../stack/queen/displayProgess.cpp	/^void displayRow ( Queen& q )$/;"	f	typeref:typename:void
+displaySolution	../dsacpp-src/src/queen_brute_force_1/displaySolution.cpp	/^void displaySolution ( int* solu, int n ) { \/\/Êä³ön*nµÄ¿ÉĞĞ²¼¾Ö$/;"	f	typeref:typename:void
+displaySubstring	../dsacpp-src/src/nest_recursive/display.cpp	/^void displaySubstring ( const char exp[], Rank lo, Rank hi ) {$/;"	f	typeref:typename:void
+divide	../dsacpp-src/src/nest_recursive/nest.cpp	/^Rank divide ( const char exp[], Rank lo, Rank hi ) { \/\/ÇĞ·Öexp[lo, hi]£¬Ê¹expÆ¥Åä½öµ±×Ó±í´ïÊ½Æ¥/;"	f	typeref:typename:Rank
+dump	../dsacpp-src/src/BitMap/Bitmap.h	/^   void dump( char* file ) \/\/å°†ä½å›¾æ•´ä½“å¯¼å‡ºè‡³æŒ‡å®šçš„æ–‡ä»¶ï¼Œä»¥ä¾¿å¯¹æ­¤åçš„æ–°ä½/;"	f	class:Bitmap	typeref:typename:void
+e	../dsacpp-src/src/graph/Graph.h	/^   Rank e; \/\/±ß×ÜÊı$/;"	m	class:Graph	typeref:typename:Rank
+edge	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Te& edge( Rank v, Rank u ) { return E[v][u]->data; } \/\/±ß(v, u)µÄÊı¾İ$/;"	f	class:GraphMatrix	typeref:typename:Te &
+empty	../binTree/binTree.h	/^  bool empty() const { return !_root; }$/;"	f	class:BinTree	typeref:typename:bool
+empty	../dsacpp-src/src/BTree/BTree.h	/^   bool empty() const { return !_root; } \/\/ÅĞ¿Õ$/;"	f	class:BTree	typeref:typename:bool
+empty	../dsacpp-src/src/binTree/BinTree.h	/^   bool empty() const { return !_root; } \/\/ÅĞ¿Õ$/;"	f	class:BinTree	typeref:typename:bool
+empty	../dsacpp-src/src/cursor_list/cursor_list.h	/^   bool empty() const { return !_size; } \/\/ÅĞ¿Õ$/;"	f	class:CursorList	typeref:typename:bool
+empty	../dsacpp-src/src/list/list.h	/^   bool empty() const { return _size <= 0; } \/\/ÅĞ¿Õ$/;"	f	class:List	typeref:typename:bool
+empty	../dsacpp-src/src/vector/vector.h	/^   bool empty() const { return !_size; } \/\/ÅĞ¿Õ$/;"	f	class:Vector	typeref:typename:bool
+empty	../list/list.h	/^    bool empty() const { return _size <= 0;}$/;"	f	class:List	typeref:typename:bool
+encode	../dsacpp-src/src/Prefix_free_Codes/PFC_encode.cpp	/^int encode ( PFCTable* table, Bitmap& codeString, char* s ) { \/\/PFC±àÂëËã·¨$/;"	f	typeref:typename:int
+encode	../dsacpp-src/src/huffman/huffman_encode.cpp	/^int encode ( HuffTable* table, Bitmap* codeString, char* s ) { \/\/°´ÕÕ±àÂë±í¶ÔBitmap´®±àÂë$/;"	f	typeref:typename:int
+enqueue	../dsacpp-src/src/queue/queue.h	/^   void enqueue( T const& e ) { insertAsLast( e ); } \/\/Èë¶Ó£ºÎ²²¿²åÈë$/;"	f	class:Queue	typeref:typename:void
+enqueue	../queue/queue.h	/^    void enqueue ( const T& e ) { List<T>::insertAsLast( e ); }$/;"	f	class:Queue	typeref:typename:void
+entry	../dsacpp-src/src/skiplist/QuadListNode.h	/^   T entry; \/\/Ëù´æ´ÊÌõ$/;"	m	struct:QNode	typeref:typename:T
+enumerate	../dsacpp-src/src/_py/UnionFind_QuickFind.py	/^   def enumerate(self):$/;"	m	class:UnionFind
+eq	../dsacpp-src/src/_share/comparator.h	/^template <typename T> static bool eq( T& a, T& b ) { return a == b; } \/\/ equal$/;"	f	typeref:typename:bool
+eq	../dsacpp-src/src/_share/comparator.h	/^template <typename T> static bool eq( T* a, T* b ) { return eq( *a, *b ); } \/\/ equal$/;"	f	typeref:typename:bool
+evaluate	../dsacpp-src/src/rpn/rpn.cpp	/^double evaluate ( char* S, char* RPN ) { \/\/¶Ô£¨ÒÑÌŞ³ı°×¿Õ¸ñµÄ£©±í´ïÊ½SÇóÖµ£¬²¢×ª»»ÎªÄæ²¨À¼Ê½RP/;"	f	typeref:typename:double
+exists	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual bool exists( Rank v, Rank u ) \/\/±ß(v, u)ÊÇ·ñ´æÔÚ$/;"	f	class:GraphMatrix	typeref:typename:bool
+expand	../dsacpp-src/src/BitMap/Bitmap.h	/^   void expand( Rank k ) { \/\/è‹¥è¢«è®¿é—®çš„Bitmap[k]å·²å‡ºç•Œï¼Œåˆ™éœ€æ‰©å®¹$/;"	f	class:Bitmap	typeref:typename:void
+expand	../dsacpp-src/src/vector/vector_expand.h	/^template <typename T> void Vector<T>::expand() { \/\/ÏòÁ¿¿Õ¼ä²»×ãÊ±À©Èİ$/;"	f	class:Vector	typeref:typename:void
+f	../dsacpp-src/src/fibonacci/Fib.h	/^   Rank f, g; \/\/f = fib(k - 1), g = fib(k)¡£¾ùÎªintĞÍ£¬ºÜ¿ì¾Í»áÊıÖµÒç³ö$/;"	m	class:Fib	typeref:typename:Rank
+f1.o	../list/make/Makefile	/^f1.o f2.o:$/;"	t
+f2.o	../list/make/Makefile	/^f1.o f2.o:$/;"	t
+fTime	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Rank dTime, fTime; \/\/Ê±¼ä±êÇ©$/;"	m	struct:Vertex	typeref:typename:Rank
+fTime	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank& fTime( Rank v ) { return V[v].fTime; } \/\/Ê±¼ä±êÇ©fTime$/;"	f	class:GraphMatrix	typeref:typename:Rank &
+facI	../dsacpp-src/src/factorial/fac_iterative.cpp	/^__int64 facI ( int n ) { __int64 f = 1; while ( n > 1 ) f *= n--; return f; } \/\/½×³ËÔËËã£¨µü´ú°/;"	f	typeref:typename:__int64
+facR	../dsacpp-src/src/factorial/fac_recursive.cpp	/^__int64 facR ( int n ) { return ( n < 1 ) ? 1 : n * facR ( n - 1 ); } \/\/½×³ËÔËËã£¨µİ¹é°æ£©/;"	f	typeref:typename:__int64
+fib	../dsacpp-src/src/fibonacci/Fib1.cpp	/^__int64 fib ( int n ) { \/\/¼ÆËãFibonacciÊıÁĞµÄµÚnÏî£¨¶ş·Öµİ¹é°æ£©£ºO(2^n)$/;"	f	typeref:typename:__int64
+fib	../dsacpp-src/src/fibonacci/Fib2.cpp	/^__int64 fib ( int n, __int64& prev ) { \/\/¼ÆËãFibonacciÊıÁĞµÚnÏî£¨ÏßĞÔµİ¹é°æ£©£ºÈë¿ÚĞÎÊ½fib(n, /;"	f	typeref:typename:__int64
+fibI	../dsacpp-src/src/fibonacci/Fib0.cpp	/^__int64 fibI ( int n ) { \/\/¼ÆËãFibonacciÊıÁĞµÄµÚnÏî£¨µü´ú°æ£©£ºO(n)$/;"	f	typeref:typename:__int64
+fibSearch	../dsacpp-src/src/vector/Vector_search_fibonaccian_A.h	/^template <typename T> static Rank fibSearch( T* S, T const& e, Rank lo, Rank hi ) {$/;"	f	typeref:typename:Rank
+fibSearch	../dsacpp-src/src/vector/Vector_search_fibonaccian_B.h	/^template <typename T> static Rank fibSearch( T* S, T const& e, Rank lo, Rank hi ) {$/;"	f	typeref:typename:Rank
+find	../dsacpp-src/src/_py/UnionFind_QuickFind.py	/^   def find(self, k):$/;"	m	class:UnionFind
+find	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank find ( T const& e ) const { \/\/²éÕÒ$/;"	f	class:CursorList	typeref:typename:Rank
+find	../dsacpp-src/src/list/List_find.h	/^ListNodePosi<T> List<T>::find( T const& e, Rank n, ListNodePosi<T> p ) const {$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+find	../dsacpp-src/src/list/list.h	/^   ListNodePosi<T> find( T const& e ) const \/\/ÎŞĞòÁĞ±í²éÕÒ$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+find	../dsacpp-src/src/vector/vector.h	/^   Rank find ( T const& e ) const { return find ( e, 0, _size ); } \/\/ÎŞĞòÏòÁ¿ÕûÌå²éÕÒ$/;"	f	class:Vector	typeref:typename:Rank
+find	../dsacpp-src/src/vector/vector_find.h	/^Rank Vector<T>::find ( T const& e, Rank lo, Rank hi ) const { \/\/0 <= lo < hi <= _size$/;"	f	class:Vector	typeref:typename:Rank
+find	../list/list.h	/^    ListNodePosi<T> find( const T& e ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+find	../list/list_find.h	/^ListNodePosi<T> List<T>::find( const T& e, Rank n, ListNodePosi<T> p) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+first	../dsacpp-src/src/list/list.h	/^   ListNodePosi<T> first() const { return header->succ; } \/\/Ê×½ÚµãÎ»ÖÃ$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+first	../list/list.h	/^    ListNodePosi<T> first() const { return head->next; }$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+firstNbr	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank firstNbr( Rank v ) { return nextNbr( v, n ); } \/\/Ê×¸öÁÚ½Ó¶¥µã$/;"	f	class:GraphMatrix	typeref:typename:Rank
+front	../deque/deque.h	/^    T& front() { return List<T>::first(); }$/;"	f	class:deque	typeref:typename:T &
+front	../dsacpp-src/src/queue/queue.h	/^   T& front() { return first()->data; } \/\/¶ÓÊ×$/;"	f	class:Queue	typeref:typename:T &
+g	../dsacpp-src/src/fibonacci/Fib.h	/^   Rank f, g; \/\/f = fib(k - 1), g = fib(k)¡£¾ùÎªintĞÍ£¬ºÜ¿ì¾Í»áÊıÖµÒç³ö$/;"	m	class:Fib	typeref:typename:Rank
+gcd	../dsacpp-src/src/gcd/main.cpp	/^__int64 gcd ( __int64 a, __int64 b ) {$/;"	f	typeref:typename:__int64
+gcdCN	../dsacpp-src/src/gcd/gcd_chinese.cpp	/^__int64 gcdCN ( __int64 a, __int64 b ) { \/\/assert: 0 < min(a, b)$/;"	f	typeref:typename:__int64
+gcdEU	../dsacpp-src/src/gcd/gcd_euclidean.cpp	/^__int64 gcdEU ( __int64 a, __int64 b ) { \/\/assert: 0 <= min(a, b)$/;"	f	typeref:typename:__int64
+gcdEU_R	../dsacpp-src/src/gcd/gcd_euclidean.cpp	/^__int64 gcdEU_R ( __int64 a, __int64 b ) { \/\/assert: 0 <= min(a, b)$/;"	f	typeref:typename:__int64
+generateCT	../dsacpp-src/src/Prefix_free_Codes/PFC_generateTable.cpp	/^void generateCT \/\/Í¨¹ı±éÀú»ñÈ¡¸÷×Ö·ûµÄ±àÂë$/;"	f	typeref:typename:void
+generateCT	../dsacpp-src/src/huffman/huffman_generateTable.cpp	/^static void generateCT \/\/Í¨¹ı±éÀú»ñÈ¡¸÷×Ö·ûµÄ±àÂë$/;"	f	typeref:typename:void	file:
+generateTable	../dsacpp-src/src/Prefix_free_Codes/PFC_generateTable.cpp	/^PFCTable* generateTable ( PFCTree* tree ) { \/\/¹¹ÔìPFC±àÂë±í$/;"	f	typeref:typename:PFCTable *
+generateTable	../dsacpp-src/src/huffman/huffman_generateTable.cpp	/^HuffTable* generateTable ( HuffTree* tree ) { \/\/½«¸÷×Ö·û±àÂëÍ³Ò»´æÈëÒÔÉ¢ÁĞ±íÊµÏÖµÄ±àÂë±íÖĞ$/;"	f	typeref:typename:HuffTable *
+generateTree	../dsacpp-src/src/Prefix_free_Codes/PFC_generateTree.cpp	/^PFCTree* generateTree ( PFCForest* forest ) { \/\/¹¹ÔìPFCÊ÷$/;"	f	typeref:typename:PFCTree *
+generateTree	../dsacpp-src/src/huffman/Huffman_PQ_generateTree.cpp	/^HuffTree* generateTree ( HuffForest* forest ) {$/;"	f	typeref:typename:HuffTree *
+generateTree	../dsacpp-src/src/huffman/huffman_generateTree.cpp	/^HuffTree* generateTree ( HuffForest* forest ) { \/\/Huffman±àÂëËã·¨$/;"	f	typeref:typename:HuffTree *
+get	../dsacpp-src/src/fibonacci/Fib.h	/^   Rank get()  { return g; } \/\/»ñÈ¡µ±Ç°FibonacciÏî£¬O(1)Ê±¼ä$/;"	f	class:Fib	typeref:typename:Rank
+get	../dsacpp-src/src/hashtable/HashTable_get.h	/^template <typename K, typename V> V* Hashtable<K, V>::get( K k ) \/\/É¢ÁĞ±í´ÊÌõ²éÕÒËã·¨$/;"	f	class:Hashtable	typeref:typename:V *
+get	../dsacpp-src/src/skiplist/SkipList_get.h	/^template <typename K, typename V> V* Skiplist<K, V>::get( K k ) { \/\/Ìø×ª±í´ÊÌõ²éÕÒËã·¨$/;"	f	class:Skiplist	typeref:typename:V *
+getMax	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_getMax.h	/^template <typename T> T PQ_ComplHeap<T>::getMax() { return _elem[0]; } \/\/È¡ÓÅÏÈ¼¶×î¸ßµÄ´ÊÌõ$/;"	f	class:PQ_ComplHeap	typeref:typename:T
+getMax	../dsacpp-src/src/PQ_List/PQ_List.h	/^   T getMax() { return selectMax()->data; } \/\/È¡³öÓÅÏÈ¼¶×î¸ßµÄÔªËØ$/;"	f	class:PQ_List	typeref:typename:T
+getMax	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap_getMax.h	/^template <typename T> T PQ_LeftHeap<T>::getMax() { return _root->data; } \/\/¶Ñ¶¥¼´ÊÇ×î´ó´ÊÌõ$/;"	f	class:PQ_LeftHeap	typeref:typename:T
+getMax	../dsacpp-src/src/SMMH/DEPQ_SMMH.h	/^   T getMax() { return _size < 3 ? _elem[1] : _elem[2]; }$/;"	f	class:SMMH	typeref:typename:T
+getMin	../dsacpp-src/src/SMMH/DEPQ_SMMH.h	/^   T getMin() { return _elem[1]; }$/;"	f	class:SMMH	typeref:typename:T
+go	../stack/laby/cell.h	/^inline Cell* go ( Cell* cell )$/;"	f	typeref:typename:Cell *
+goAlongLeftBreach	../binTree/binNode_travMi.h	/^static void goAlongLeftBreach( BinNodePosi<T> n, Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+goAlongVine	../dsacpp-src/src/binTree/BinNode_TravInorder_I1.h	/^static void goAlongVine( BinNodePosi<T> x, Stack<BinNodePosi<T>>& S ) {$/;"	f	typeref:typename:void
+goalCell	../dsacpp-src/src/laby/main.cpp	/^Cell* goalCell;$/;"	v	typeref:typename:Cell *
+goalCell	../stack/laby/main.cpp	/^Cell* goalCell;$/;"	v	typeref:typename:Cell *
+gotoHLVFL	../binTree/binNode_travPo.h	/^void gotoHLVFL ( Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+gotoLeftmostLeaf	../dsacpp-src/src/binTree/BinNode_travPostorder_I.h	/^static void gotoLeftmostLeaf( Stack<BinNodePosi<T>>& S ) { \/\/ÑØÍ¾ËùÓö½ÚµãÒÀ´ÎÈëÕ»$/;"	f	typeref:typename:void
+gp	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define gp(/;"	d
+gs_BF	../dsacpp-src/src/greatest_slice/gs_bf.cpp	/^int gs_BF( int A[], int n ) { \/\/ÂùÁ¦²ßÂÔ£ºO(n^3)$/;"	f	typeref:typename:int
+gs_DC	../dsacpp-src/src/greatest_slice/gs_dc.cpp	/^int gs_DC( int A[], int lo, int hi ) { \/\/·ÖÖÎ²ßÂÔ£ºO(n*logn)$/;"	f	typeref:typename:int
+gs_IC	../dsacpp-src/src/greatest_slice/gs_ic.cpp	/^int gs_IC( int A[], int n ) { \/\/µİÔö²ßÂÔ£ºO(n^2)$/;"	f	typeref:typename:int
+gs_LS	../dsacpp-src/src/greatest_slice/gs_ls.cpp	/^int gs_LS( int A[], int n ) { \/\/É¨Ãè²ßÂÔ£ºO(n)$/;"	f	typeref:typename:int
+half	../dsacpp-src/src/_share/half_list.h	/^template <typename T> void half ( List<T> & L ) \/\/Í³Ò»¼õ°ëÁĞ±íÖĞµÄ¸÷ÔªËØ$/;"	f	typeref:typename:void
+half	../list/list_testhelper.h	/^void half(List<T>& L)$/;"	f	typeref:typename:void
+hanoi	../dsacpp-src/src/hanoi/hanoi.cpp	/^void hanoi ( int n, Stack<Disk>& Sx, Stack<Disk>& Sy, Stack<Disk>& Sz ) {$/;"	f	typeref:typename:void
+hasGP	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define hasGP(/;"	d
+hashCode	../dsacpp-src/src/hashtable/HashTable_hashcode.h	/^static Rank hashCode( char c ) { return (Rank)c; } \/\/×Ö·û$/;"	f	typeref:typename:Rank
+hashCode	../dsacpp-src/src/hashtable/HashTable_hashcode.h	/^static Rank hashCode( char s[] ) { \/\/Éú³É×Ö·û´®µÄÑ­»·ÒÆÎ»É¢ÁĞÂë£¨cyclic shift hash code£©$/;"	f	typeref:typename:Rank
+hashCode	../dsacpp-src/src/hashtable/HashTable_hashcode.h	/^static Rank hashCode( int k ) { return (Rank)k; } \/\/ÕûÊıÒÔ¼°³¤³¤ÕûÊı$/;"	f	typeref:typename:Rank
+hashCode	../dsacpp-src/src/hashtable/HashTable_hashcode.h	/^static Rank hashCode( long long i ) { return (Rank)( ( i >> 32 ) + (int)i ); }$/;"	f	typeref:typename:Rank
+hca	../dsacpp-src/src/graph/Graph_bcc.h	/^#define hca(/;"	d
+head	../list/list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+header	../dsacpp-src/src/list/list.h	/^   Rank _size; ListNodePosi<T> header, trailer; \/\/¹æÄ£¡¢Í·ÉÚ±ø¡¢Î²ÉÚ±ø$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+header	../dsacpp-src/src/skiplist/QuadList.h	/^   QNodePosi<T> header, trailer; \/\/Í·ÉÚ±ø¡¢Î²ÉÚ±ø$/;"	m	struct:Quadlist	typeref:typename:QNodePosi<T>
+heapSort	../dsacpp-src/src/vector/vector_heapSort.h	/^template <typename T> void Vector<T>::heapSort( Rank lo, Rank hi ) { \/\/ 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+heapify	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_Heapify.Floyd.h	/^template <typename T> void heapify( T* A, const Rank n ) { \/\/Floyd½¨¶ÑËã·¨£¬O(n)Ê±¼ä$/;"	f	typeref:typename:void
+heapify	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_Heapify.Naive.h	/^template <typename T> void heapify( T* A, const Rank n ) { \/\/ÂùÁ¦½¨¶ÑËã·¨£¬O(nlogn)Ê±¼ä$/;"	f	typeref:typename:void
+height	../binTree/binNode.h	/^  Rank height;$/;"	m	struct:BinNode	typeref:typename:Rank
+height	../dsacpp-src/src/binTree/BinNode.h	/^   Rank height; \/\/¸ß¶È£¨Í¨ÓÃ£©$/;"	m	struct:BinNode	typeref:typename:Rank
+height	../dsacpp-src/src/skiplist/SkipList.h	/^   Rank height() { return List::size(); } \/\/²ã¸ß == #Quadlist$/;"	f	struct:Skiplist	typeref:typename:Rank
+ht	../dsacpp-src/src/hashtable/HashTable.h	/^   Entry<K, V>** ht; \/\/Í°Êı×é£¬´æ·Å´ÊÌõÖ¸Õë$/;"	m	class:Hashtable	typeref:typename:Entry<K,V> **
+imitate	../dsacpp-src/src/BST/BST.h	/^   \/*DSA*\/void imitate( BST<T> Y ) { _root = _root->imitate( Y._root ); }$/;"	f	class:BST	typeref:typename:void
+importGraph	../dsacpp-src/src/graph/Graph_Test.cpp	/^void importGraph ( GraphMatrix<char, int> & g ) {$/;"	f	typeref:typename:void
+inDegree	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Tv data; int inDegree, outDegree; VStatus status; \/\/Êı¾İ¡¢³öÈë¶ÈÊı¡¢×´Ì¬$/;"	m	struct:Vertex	typeref:typename:int
+inDegree	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank inDegree( Rank v ) { return V[v].inDegree; } \/\/Èë¶È$/;"	f	class:GraphMatrix	typeref:typename:Rank
+incoming	../dsacpp-src/src/laby/Cell.h	/^   ESWN incoming, outgoing; \/\/½øÈë¡¢×ß³ö·½Ïò$/;"	m	struct:Cell	typeref:typename:ESWN
+incoming	../stack/laby/cell.h	/^  Direc incoming, outgoing;$/;"	m	struct:Cell	typeref:typename:Direc
+increase	../dsacpp-src/src/_share/increase_list.h	/^template <typename T> void increase( List <T>& L ) \/\/Í³Ò»µİÔöÁĞ±íÖĞµÄ¸÷ÔªËØ$/;"	f	typeref:typename:void
+increase	../dsacpp-src/src/_share/increase_vector.h	/^template <typename T> void increase ( Vector<T> & V ) \/\/Í³Ò»µİÔöÏòÁ¿ÖĞµÄ¸÷ÔªËØ$/;"	f	typeref:typename:void
+increase	../list/list_testhelper.h	/^void increase(List<T>& L)$/;"	f	typeref:typename:void
+init	../dsacpp-src/src/BitMap/Bitmap.h	/^   void init( Rank n )$/;"	f	class:Bitmap	typeref:typename:void
+init	../dsacpp-src/src/list/list_initialize.h	/^template <typename T> void List<T>::init() { \/\/ÁĞ±í³õÊ¼»¯£¬ÔÚ´´½¨ÁĞ±í¶ÔÏóÊ±Í³Ò»µ÷ÓÃ$/;"	f	class:List	typeref:typename:void
+init	../dsacpp-src/src/skiplist/QuadList_initialize.h	/^template <typename T> void Quadlist<T>::init() { \/\/Quadlist³õÊ¼»¯£¬´´½¨Quadlist¶ÔÏóÊ±Í³Ò»µ÷ÓÃ$/;"	f	class:Quadlist	typeref:typename:void
+init	../list/list_init.h	/^void List<T>::init()$/;"	f	class:List	typeref:typename:void
+initForest	../dsacpp-src/src/Prefix_free_Codes/PFC_initForest.cpp	/^PFCForest* initForest() { \/\/PFC±àÂëÉ­ÁÖ³õÊ¼»¯$/;"	f	typeref:typename:PFCForest *
+initForest	../dsacpp-src/src/huffman/huffman_PQ_initForest.cpp	/^HuffForest* initForest ( int* freq ) {$/;"	f	typeref:typename:HuffForest *
+initForest	../dsacpp-src/src/huffman/huffman_initForest.cpp	/^HuffForest* initForest ( int* freq ) { \/\/¸ù¾İÆµÂÊÍ³¼Æ±í£¬ÎªÃ¿¸ö×Ö·û´´½¨Ò»¿ÃÊ÷$/;"	f	typeref:typename:HuffForest *
+insert	../AVL/AVL_imple.h	/^BinNodePosi<T> AVL<T>::insert ( const T& e )$/;"	f	class:AVL	typeref:typename:BinNodePosi<T>
+insert	../BST/BST_basic.h	/^BinNodePosi<T> BST<T>::insert ( const T& e )$/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+insert	../binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert ( BinNodePosi<T> n, const T& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	../binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert ( const T& e , BinNodePosi<T> n)$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	../binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert( const T& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/AVL/AVL_Insert.h	/^template <typename T> BinNodePosi<T> AVL<T>::insert( const T& e ) { \/\/½«¹Ø¼üÂëe²åÈëAVLÊ÷ÖĞ$/;"	f	class:AVL	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/BST/bst_insert.h	/^template <typename T> BinNodePosi<T> BST<T>::insert( const T& e ) { \/\/½«¹Ø¼üÂëe²åÈëBSTÊ÷ÖĞ$/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/BTree/BTree_insert.h	/^template <typename T> bool BTree<T>::insert( const T& e ) { \/\/½«¹Ø¼üÂëe²åÈëBÊ÷ÖĞ$/;"	f	class:BTree	typeref:typename:bool
+insert	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_insert.h	/^template <typename T> void PQ_ComplHeap<T>::insert( T e ) { \/\/½«´ÊÌõ²åÈëÍêÈ«¶ş²æ¶ÑÖĞ$/;"	f	class:PQ_ComplHeap	typeref:typename:void
+insert	../dsacpp-src/src/PQ_List/PQ_List.h	/^   void insert ( T e ) { insertAsLast ( e ); } \/\/Ö±½Ó½«ĞÂÔªËØ²åÖÁ¶ÓÁĞÄ©Î²$/;"	f	class:PQ_List	typeref:typename:void
+insert	../dsacpp-src/src/PQ_leftheap/PQ_LeftHeap_insert.h	/^template <typename T> void PQ_LeftHeap<T>::insert( T e ) {$/;"	f	class:PQ_LeftHeap	typeref:typename:void
+insert	../dsacpp-src/src/SMMH/DEPQ_SMMH_insert.h	/^template <typename T> void SMMH<T>::insert( T e ) { \/\/insert e into an SMMH$/;"	f	class:SMMH	typeref:typename:void
+insert	../dsacpp-src/src/binTree/BinTree_insert.h	/^template <typename T> BinNodePosi<T> BinTree<T>::insert( BinNodePosi<T> x, T const& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/binTree/BinTree_insert.h	/^template <typename T> BinNodePosi<T> BinTree<T>::insert( T const& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/binTree/BinTree_insert.h	/^template <typename T> BinNodePosi<T> BinTree<T>::insert( T const& e, BinNodePosi<T> x )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank insert ( T const& e ) { \/\/²åÈëÔªËØ$/;"	f	class:CursorList	typeref:typename:Rank
+insert	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank insert( Tv const& vertex ) { \/\/²åÈë¶¥µã£¬·µ»Ø±àºÅ$/;"	f	class:GraphMatrix	typeref:typename:Rank
+insert	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual void insert( Te const& edge, int w, Rank v, Rank u ) { \/\/²åÈëÈ¨ÖØÎªwµÄ±ß(v, u)$/;"	f	class:GraphMatrix	typeref:typename:void
+insert	../dsacpp-src/src/list/List_insert.h	/^template <typename T> ListNodePosi<T> List<T>::insert( ListNodePosi<T> p, T const& e )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insert	../dsacpp-src/src/list/List_insert.h	/^template <typename T> ListNodePosi<T> List<T>::insert( T const& e, ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insert	../dsacpp-src/src/redBlack/RedBlack_Insert.h	/^template <typename T> BinNodePosi<T> RedBlack<T>::insert( const T& e ) { \/\/½«e²åÈëºìºÚÊ÷$/;"	f	class:RedBlack	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/skiplist/QuadListNode_insert.h	/^QNode<T>::insert( T const& e, QNodePosi<T> b ) {$/;"	f	class:QNode	typeref:typename:QNodePosi<T>
+insert	../dsacpp-src/src/skiplist/QuadList_insert.h	/^Quadlist<T>::insert( T const& e, QNodePosi<T> p, QNodePosi<T> b )$/;"	f	class:Quadlist	typeref:typename:QNodePosi<T>
+insert	../dsacpp-src/src/splay/Splay_Insert.h	/^template <typename T> BinNodePosi<T> Splay<T>::insert( const T& e ) { \/\/½«¹Ø¼üÂëe²åÈëÉìÕ¹Ê÷ÖĞ$/;"	f	class:Splay	typeref:typename:BinNodePosi<T>
+insert	../dsacpp-src/src/vector/Vector_insert.h	/^Rank Vector<T>::insert ( Rank r, T const& e ) { \/\/0 <= r <= size$/;"	f	class:Vector	typeref:typename:Rank
+insert	../dsacpp-src/src/vector/vector.h	/^   Rank insert ( T const& e ) { return insert ( _size, e ); } \/\/Ä¬ÈÏ×÷ÎªÄ©ÔªËØ²åÈë$/;"	f	class:Vector	typeref:typename:Rank
+insert	../list/list_insert.h	/^ListNodePosi<T> List<T>::insert( ListNodePosi<T> p, const T& e )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insert	../list/list_insert.h	/^ListNodePosi<T> List<T>::insert( const T& e, ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsFirst	../dsacpp-src/src/list/List_insert.h	/^template <typename T> ListNodePosi<T> List<T>::insertAsFirst( T const& e )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsFirst	../list/list_insert.h	/^ListNodePosi<T> List<T>::insertAsFirst(const T& e)$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsLC	../binTree/binNode_imple.h	/^  BinNodePosi<T> BinNode<T>::insertAsLC ( const T& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertAsLC	../dsacpp-src/src/binTree/BinNode_insert.h	/^template <typename T> BinNodePosi<T> BinNode<T>::insertAsLC( T const& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertAsLast	../dsacpp-src/src/list/List_insert.h	/^template <typename T> ListNodePosi<T> List<T>::insertAsLast( T const& e )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsLast	../list/list_insert.h	/^ListNodePosi<T> List<T>::insertAsLast(const T& e)$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsNext	../list/listNode_insertAsNext.h	/^ListNodePosi<T> ListNode<T>::insertAsNext( const T& e )$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertAsPred	../dsacpp-src/src/list/listNode_insertAsPred.h	/^ListNodePosi<T> ListNode<T>::insertAsPred( T const& e ) {$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertAsPrev	../list/listNode_insertAsPrev.h	/^ListNodePosi<T> ListNode<T>::insertAsPrev( const T& e )$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertAsRC	../binTree/binNode_imple.h	/^  BinNodePosi<T> BinNode<T>::insertAsRC ( const T& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertAsRC	../dsacpp-src/src/binTree/BinNode_insert.h	/^template <typename T> BinNodePosi<T> BinNode<T>::insertAsRC( T const& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertAsSucc	../dsacpp-src/src/list/listNode_insertAsSucc.h	/^ListNodePosi<T> ListNode<T>::insertAsSucc( T const& e ) {$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertFront	../deque/deque.h	/^    void insertFront ( const T& e ) { return List<T>::insertAsFirst(e); }$/;"	f	class:deque	typeref:typename:void
+insertRear	../deque/deque.h	/^    void insertRear ( const T& e ) { return List<T>::insertAsLast(e); }$/;"	f	class:deque	typeref:typename:void
+insertionSort	../dsacpp-src/src/list/List_insertionsort.h	/^void List<T>::insertionSort( ListNodePosi<T> p, Rank n ) { \/\/ valid(p) && Rank(p) + n <= size$/;"	f	class:List	typeref:typename:void
+insertionSort	../list/list_insertion.h	/^void List<T>::insertionSort( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+isLC	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define isLC(/;"	d
+isRC	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define isRC(/;"	d
+isValid	../list/list.h	/^    bool isValid(ListNodePosi<T> p) { return p && (p != head) && (p != tail); }$/;"	f	class:List	typeref:typename:bool
+key	../dsacpp-src/src/BTree/BTNode.h	/^   Vector<T> key; \/\/¹Ø¼üÂëÏòÁ¿$/;"	m	struct:BTNode	typeref:typename:Vector<T>
+key	../dsacpp-src/src/Entry/Entry.h	/^   K key; V value; \/\/¹Ø¼üÂë¡¢ÊıÖµ$/;"	m	struct:Entry	typeref:typename:K
+laby	../dsacpp-src/src/laby/Cell.h	/^Cell laby[LABY_MAX][LABY_MAX]; \/\/ÃÔ¹¬/;"	v	typeref:typename:Cell[][]
+laby	../stack/laby/cell.h	/^Cell laby[LABY_MAX][LABY_MAX];$/;"	v	typeref:typename:Cell[][]
+labySize	../dsacpp-src/src/laby/main.cpp	/^int labySize;$/;"	v	typeref:typename:int
+labySize	../stack/laby/main.cpp	/^int labySize;$/;"	v	typeref:typename:int
+labyrinth	../dsacpp-src/src/laby/Laby.h	/^bool labyrinth ( Cell Laby[LABY_MAX][LABY_MAX], Cell* s, Cell* t ) {$/;"	f	typeref:typename:bool
+labyrinth	../stack/laby/laby.h	/^bool labyrinth ( Cell laby[LABY_MAX][LABY_MAX], Cell* c, Cell* dest ) $/;"	f	typeref:typename:bool
+last	../dsacpp-src/src/list/list.h	/^   ListNodePosi<T> last() const { return trailer->pred; } \/\/Ä©½ÚµãÎ»ÖÃ$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+last	../list/list.h	/^    ListNodePosi<T> last() const { return tail->prev; }$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+lc	../binTree/binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+lc	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define lc(/;"	d
+lc	../dsacpp-src/src/binTree/BinNode.h	/^   BinNodePosi<T> parent, lc, rc; \/\/¸¸½Úµã¼°×ó¡¢ÓÒº¢×Ó$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+lcsIteration	../dsacpp-src/src/lcs/lcsI.cpp	/^unsigned int lcsIteration(char const * A, int n, char const * B, int m) {$/;"	f	typeref:typename:unsigned int
+lcsM	../dsacpp-src/src/lcs/lcsM.cpp	/^unsigned int lcsM(char const * A, int n, char const * B, int m, unsigned int * const lcs, int co/;"	f	typeref:typename:unsigned int
+lcsMemoization	../dsacpp-src/src/lcs/lcsM.cpp	/^unsigned int lcsMemoization(char const* A, int n, char const* B, int m) {$/;"	f	typeref:typename:unsigned int
+lcsRecursion	../dsacpp-src/src/lcs/lcsR.cpp	/^unsigned int lcsRecursion(char const * A, int n, char const * B, int m) {$/;"	f	typeref:typename:unsigned int
+level	../dsacpp-src/src/daxue/main.cpp	/^char* level[8] =$/;"	v	typeref:typename:char * [8]
+ln	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define ln(/;"	d
+lp	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define lp(/;"	d
+lt	../dsacpp-src/src/_share/comparator.h	/^template <typename T> static bool lt( T& a, T& b ) { return a < b; } \/\/ less than$/;"	f	typeref:typename:bool
+lt	../dsacpp-src/src/_share/comparator.h	/^template <typename T> static bool lt( T* a, T* b ) { return lt( *a, *b ); } \/\/ less than$/;"	f	typeref:typename:bool
+lt	../list/list_max.h	/^ template <typename T> static bool lt ( T& a, T& b ) { return a < b; }$/;"	f	typeref:typename:bool
+lt	../list/list_max.h	/^ template <typename T> static bool lt ( T* a, T* b ){ return lt( *a, *b );}$/;"	f	typeref:typename:bool
+main	../binTree/test.cpp	/^int main ( int argc, char* argv[] ) { \/\/Â²Ã¢ÃŠÃ”Â¶Ã¾Â²Ã¦ÃŠÃ·$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/AVL/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/BST/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/BTree/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/BitMap/main_O1_init.cpp	/^int main( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/Bitmap_set_only/main_O1_init_set_only.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/DEPQ/DEPQ_Test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/PQ/PQ_Test.cpp	/^int main( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/Prefix_free_Codes/PFC_Test.cpp	/^int main ( int argc, char* argv[] ) { \/\/PFC±àÂë¡¢½âÂëËã·¨Í³Ò»²âÊÔÈë¿Ú$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/binTree/main.cpp	/^int main ( int argc, char* argv[] ) { \/\/²âÊÔ¶ş²æÊ÷$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/bubblesort/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/conversion/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/countOnes/main.cpp	/^void  main ( int argc, char* argv[] ) { \/\/¶ş½øÖÆÊıÎ»1¼ÆÊıËã·¨²âÊÔÈë¿Ú$/;"	f	typeref:typename:void
+main	../dsacpp-src/src/cursor_list/test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/daxue/main.cpp	/^int main ( char* argv[], int argc ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/factorial/main.cpp	/^int main ( int argc, char* argv[] ) { \/\/½×³ËÔËËã²âÊÔ$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/fibonacci/main.cpp	/^int main ( int argc, char* argv[] ) { \/\/²âÊÔFIB$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/gcd/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/graph/Graph_Test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/greatest_slice/test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/hanoi/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/hashtable/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/huffman/Huffman_PQ_Test.cpp	/^int main ( int argc, char* argv[] ) { \/\/Huffman±àÂëËã·¨Í³Ò»²âÊÔ$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/laby/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/lcs/test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/list/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/majority/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/maxRect/test.cpp	/^int main( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/median1/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/median2/main.cpp	/^int main( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/nest_stack/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/power/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/prime/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/queen_brute_force_1/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/queen_brute_force_2/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/queen_recursive/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/queen_stack/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/queue/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/redBlack/main.cpp	/^int main( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/rpn/main.cpp	/^int main ( int argc, char* argv[] ) { \/\/±í´ïÊ½ÇóÖµ£¨Èë¿Ú£©$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/selection/main.cpp	/^int main( int argc, char* argv[] ) { \/\/»ùÓÚ¿ìËÙ»®·ÖµÄkÑ¡È¡Ëã·¨²âÊÔ$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/shiftK/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/simu/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/skiplist/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/splay/main.cpp	/^int main( int argc, char* argv[] ) { \/\/²âÊÔÖ÷Èë¿Ú$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/stack/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/string_pm/string_pm_test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/sum/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../dsacpp-src/src/vector/main.cpp	/^int main( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../list/list_test.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	../queue/main.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	../stack/convertor.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	../stack/laby/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../stack/paren.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	../stack/queen/run.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	../stack/stack_test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+majEleCandidate	../dsacpp-src/src/majority/majorityCandidate.h	/^template <typename T> T majEleCandidate( Vector<T> A ) { \/\/Ñ¡³ö¾ß±¸±ØÒªÌõ¼şµÄÖÚÊıºòÑ¡Õß$/;"	f	typeref:typename:T
+majEleCheck	../dsacpp-src/src/majority/majorityCheck.h	/^template <typename T> bool majEleCheck ( Vector<T> A, T maj ) { \/\/ÑéÖ¤ºòÑ¡ÕßÊÇ·ñÈ·ÎªÖÚÊı$/;"	f	typeref:typename:bool
+majority	../dsacpp-src/src/majority/majority.h	/^template <typename T> bool majority( Vector<T> A, T& maj ) { \/\/ÖÚÊı²éÕÒËã·¨£ºT¿É±È½Ï¿ÉÅĞµÈ$/;"	f	typeref:typename:bool
+match	../dsacpp-src/src/string_pm_bf1/pm_brute1.cpp	/^int match ( char* P, char* T ) { \/\/´®Æ¥ÅäËã·¨£¨Brute-force-1£©$/;"	f	typeref:typename:int
+match	../dsacpp-src/src/string_pm_bf2/pm_brute2.cpp	/^int match ( char* P, char* T ) { \/\/´®Æ¥ÅäËã·¨£¨Brute-force-2£©$/;"	f	typeref:typename:int
+match	../dsacpp-src/src/string_pm_bm_bc+gs/pm_bm_bc+gs.cpp	/^int match ( char* P, char* T ) { \/\/Boyer-MorreËã·¨£¨ÍêÈ«°æ£¬¼æ¹ËBad CharacterÓëGood Suffix£©$/;"	f	typeref:typename:int
+match	../dsacpp-src/src/string_pm_bm_bc/pm_bm_bc.cpp	/^int match ( char* P, char* T ) { \/\/Boyer-MorreËã·¨(¼ò»¯°æ£¬Ö»¿¼ÂÇBad Character Shift)$/;"	f	typeref:typename:int
+match	../dsacpp-src/src/string_pm_kmp/pm_kmp.cpp	/^int match ( char* P, char* T ) {  \/\/KMPËã·¨$/;"	f	typeref:typename:int
+match	../dsacpp-src/src/string_pm_kr/pm_kr.cpp	/^int match ( char* P, char* T ) { \/\/´®Æ¥ÅäËã·¨£¨Karp-Rabin£©$/;"	f	typeref:typename:int
+max	../dsacpp-src/src/_share/util.h	/^#define max(/;"	d
+maxI	../dsacpp-src/src/max/max0.cpp	/^int maxI( int A[], int n ) { \/\/ÇóÊı×é×î´óÖµËã·¨£¨µü´ú°æ£©$/;"	f	typeref:typename:int
+maxItem	../dsacpp-src/src/vector/vector_selectionsort.h	/^template <typename T> Rank Vector<T>::maxItem( Rank lo, Rank hi ) { \/\/ÔÚ[lo, hi]ÄÚÕÒ³ö×î´óÕß$/;"	f	class:Vector	typeref:typename:Rank
+maxR	../dsacpp-src/src/max/max1.cpp	/^int maxR( int A[], int n ) { \/\/Êı×éÇó×î´óÖµËã·¨£¨ÏßĞÔµİ¹é°æ£©$/;"	f	typeref:typename:int
+maxR	../dsacpp-src/src/max/max2.cpp	/^int maxR( int A[], int lo, int hi ) { \/\/¼ÆËãÊı×éÇø¼äA[lo, hi)µÄ×î´óÖµ£¨¶ş·Öµİ¹é£©$/;"	f	typeref:typename:int
+median	../dsacpp-src/src/median1/median.h	/^T median( Vector<T>& S1, Rank lo1, Vector<T>& S2, Rank lo2, Rank n ) { \/\/ÖĞÎ»ÊıËã·¨£¨¸ßĞ§°æ£©$/;"	f	typeref:typename:T
+median	../dsacpp-src/src/median2/median.h	/^T median ( Vector<T>& S1, Rank lo1, Rank n1, Vector<T>& S2, Rank lo2, Rank n2 ) { \/\/ÖĞÎ»ÊıËã·¨$/;"	f	typeref:typename:T
+merge	../dsacpp-src/src/PQ_leftheap/PQ_Leftheap_merge.iterative.h	/^BinNodePosi<T> merge( BinNodePosi<T> a, BinNodePosi<T> b ) {$/;"	f	typeref:typename:BinNodePosi<T>
+merge	../dsacpp-src/src/PQ_leftheap/PQ_Leftheap_merge.recursive.h	/^BinNodePosi<T> merge( BinNodePosi<T> a, BinNodePosi<T> b ) {$/;"	f	typeref:typename:BinNodePosi<T>
+merge	../dsacpp-src/src/list/List_merge.h	/^ListNodePosi<T> List<T>::merge( ListNodePosi<T> p, Rank n,$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+merge	../dsacpp-src/src/list/list.h	/^   void merge( List<T>& L ) { merge( header->succ, _size, L, L.header->succ, L._size ); } \/\/È«/;"	f	class:List	typeref:typename:void
+merge	../dsacpp-src/src/vector/Vector_merge.h	/^void Vector<T>::merge( Rank lo, Rank mi, Rank hi ) { \/\/ lo < mi < hi$/;"	f	class:Vector	typeref:typename:void
+merge	../list/list.h	/^    void merge( List<T>& L) $/;"	f	class:List	typeref:typename:void
+merge	../list/list_merge.h	/^void List<T>::merge( ListNodePosi<T> p, Rank n, List<T>& L, ListNodePosi<T> q, Rank m)$/;"	f	class:List	typeref:typename:void
+mergeSort	../dsacpp-src/src/list/List_mergesort.h	/^void List<T>::mergeSort( ListNodePosi<T>& p, Rank n ) { \/\/ valid(p) && Rank(p) + n <= size$/;"	f	class:List	typeref:typename:void
+mergeSort	../dsacpp-src/src/vector/vector_mergeSort.h	/^void Vector<T>::mergeSort( Rank lo, Rank hi ) { \/\/ 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+mergeSort	../list/list_merge.h	/^void List<T>::mergeSort( ListNodePosi<T>& p, Rank n )$/;"	f	class:List	typeref:typename:void
+min	../dsacpp-src/src/_share/util.h	/^#define min(/;"	d
+minHChar	../dsacpp-src/src/huffman/huffman_generateTree.cpp	/^HuffTree* minHChar ( HuffForest* forest ) { \/\/ÔÚHuffmanÉ­ÁÖÖĞÕÒ³öÈ¨ÖØ×îĞ¡µÄ³¬×Ö·û$/;"	f	typeref:typename:HuffTree *
+move	../dsacpp-src/src/hanoi/move_disk.cpp	/^void move ( Stack<Disk>& Sa, Stack<Disk>& Sb ) { \/\/½«Sa¶¥²¿µÄÅÌ×ÓÒÆÖÁSb¶¥²¿$/;"	f	typeref:typename:void
+mr_BRUTE	../dsacpp-src/src/maxRect/mr_BF.cpp	/^__int64 mr_BRUTE( int H[], Rank n, Rank& mr_r, Rank& mr_s, Rank& mr_t ) { \/\/ÂùÁ¦£ºO(n^2)$/;"	f	typeref:typename:__int64
+mr_STACK	../dsacpp-src/src/maxRect/mr_STACK.cpp	/^__int64 mr_STACK( int H[], Rank n, Rank& mr_r, Rank& mr_s, Rank& mr_t ) { \/\/H[]½Ô·Ç¸º$/;"	f	typeref:typename:__int64
+mr_STACKS	../dsacpp-src/src/maxRect/mr_STACKS.cpp	/^__int64 mr_STACKS( int H[], Rank n, Rank& mr_r, Rank& mr_s, Rank& mr_t ) { \/\/³ıÄ©Ïî-1ÉÚ±ø£¬H[]½/;"	f	typeref:typename:__int64
+n	../dsacpp-src/src/_py/reverse.py	/^      n = 2**i; # test the two algorithms with a list of size n = 2^i$/;"	v
+n	../dsacpp-src/src/_py/reverse.py	/^   n = 13$/;"	v
+n	../dsacpp-src/src/graph/Graph.h	/^   Rank n; \/\/¶¥µã×ÜÊı$/;"	m	class:Graph	typeref:typename:Rank
+n	../graph/graph.h	/^    Rank n;$/;"	m	class:Graph	typeref:typename:Rank
+nCheck	../dsacpp-src/src/queen_brute_force_1/main.cpp	/^int nCheck = 0; \/\/³¢ÊÔµÄ×Ü´ÎÊı$/;"	v	typeref:typename:int
+nCheck	../dsacpp-src/src/queen_brute_force_2/main.cpp	/^int nCheck = 0; \/\/³¢ÊÔµÄ×Ü´ÎÊı$/;"	v	typeref:typename:int
+nCheck	../dsacpp-src/src/queen_recursive/main.cpp	/^int nCheck = 0; \/\/³¢ÊÔµÄ×Ü´ÎÊı$/;"	v	typeref:typename:int
+nCheck	../dsacpp-src/src/queen_stack/main.cpp	/^int nCheck = 0; \/\/³¢ÊÔµÄ×Ü´ÎÊı$/;"	v	typeref:typename:int
+nCheck	../stack/queen/run.cpp	/^int nCheck = 0;$/;"	v	typeref:typename:int
+nDisk	../dsacpp-src/src/hanoi/main.cpp	/^int nDisk; \/\/ÅÌ×Ó×ÜÊı$/;"	v	typeref:typename:int
+nSolu	../dsacpp-src/src/queen_brute_force_1/main.cpp	/^int nSolu = 0; \/\/½âµÄ×ÜÊı$/;"	v	typeref:typename:int
+nSolu	../dsacpp-src/src/queen_brute_force_2/main.cpp	/^int nSolu = 0; \/\/½âµÄ×ÜÊı$/;"	v	typeref:typename:int
+nSolu	../dsacpp-src/src/queen_recursive/main.cpp	/^int nSolu = 0; \/\/½âµÄ×ÜÊı$/;"	v	typeref:typename:int
+nSolu	../dsacpp-src/src/queen_stack/main.cpp	/^int nSolu = 0; \/\/½âµÄ×ÜÊı$/;"	v	typeref:typename:int
+nStep	../dsacpp-src/src/daxue/main.cpp	/^#define nStep /;"	d	file:
+neighbor	../dsacpp-src/src/laby/neighbor.h	/^inline Cell* neighbor ( Cell* cell ) { \/\/²éÑ¯µ±Ç°Î»ÖÃµÄÏàÁÚ¸ñµã$/;"	f	typeref:typename:Cell *
+neighbor	../stack/laby/cell.h	/^inline Cell* neighbor ( Cell* cell )$/;"	f	typeref:typename:Cell *
+next	../dsacpp-src/src/fibonacci/Fib.h	/^   Rank next() { g += f; f = g - f; return g; } \/\/×ªÖÁÏÂÒ»FibonacciÏî£¬O(1)Ê±¼ä$/;"	f	class:Fib	typeref:typename:Rank
+next	../list/listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+nextDirec	../stack/laby/cell.h	/^inline Direc nextDirec ( Direc direc ) { return Direc ( direc + rand() % 4 ); }$/;"	f	typeref:typename:Direc
+nextESWN	../dsacpp-src/src/laby/Cell.h	/^inline ESWN nextESWN ( ESWN eswn ) { return ESWN ( eswn + 1 ); } \/\/ÒÀ´Î×ªÖÁÏÂÒ»ÁÚ½Ó·½Ïò$/;"	f	typeref:typename:ESWN
+nextNbr	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank nextNbr( Rank v, Rank u ) \/\/Ïà¶ÔÓÚ¶¥µãuµÄÏÂÒ»ÁÚ½Ó¶¥µã£¨¸ÄÓÃÁÚ½Ó±íĞ§ÂÊ¸ü¸ß£©$/;"	f	class:GraphMatrix	typeref:typename:Rank
+npl	../binTree/binNode.h	/^  Rank npl;$/;"	m	struct:BinNode	typeref:typename:Rank
+npl	../dsacpp-src/src/binTree/BinNode.h	/^   Rank npl; \/\/Null Path Length£¨×óÊ½¶Ñ£¬Ò²¿ÉÖ±½ÓÓÃheight´úÌæ£©$/;"	m	struct:BinNode	typeref:typename:Rank
+num	../list/list_testhelper.h	/^  unsigned int num;$/;"	m	struct:Increase	typeref:typename:unsigned int
+num	../queue/bestWindow.h	/^  unsigned int num;$/;"	m	struct:Sum	typeref:typename:unsigned int
+operator !=	../dsacpp-src/src/Entry/Entry.h	/^   bool operator!=( Entry<K, V> const& e ) { return key != e.key; } \/\/ÅĞµÈÆ÷£º²»µÈÓÚ$/;"	f	struct:Entry	typeref:typename:bool
+operator !=	../dsacpp-src/src/queen_stack/queen.h	/^   bool operator!= ( Queen const& q ) const { return ! ( *this == q ); } \/\/ÖØÔØ²»µÈ²Ù×÷·û \/*D/;"	f	struct:Queen	typeref:typename:bool
+operator !=	../stack/queen/queen.h	/^   bool operator!= ( const Queen& q ) const { return ! ( *this == q ); }$/;"	f	struct:Queen	typeref:typename:bool
+operator ()	../dsacpp-src/src/_share/Hailstone_Elem.h	/^   virtual void operator()( T& e ) { \/\/¼ÙÉèT¿ÉÖ±½Ó×öËãÊõÔËËã$/;"	f	struct:Hailstone	typeref:typename:void
+operator ()	../dsacpp-src/src/_share/checkOrder_Elem.h	/^   virtual void operator()( T& e ) { if ( pred > e ) u++; pred = e; }$/;"	f	struct:CheckOrder	typeref:typename:void
+operator ()	../dsacpp-src/src/_share/double_Elem.h	/^   { virtual void operator()( T& e ) { e *= 2; } }; \/\/¼ÙÉèT¿ÉÖ±½Ó±¶Ôö$/;"	f	struct:Double	typeref:typename:void
+operator ()	../dsacpp-src/src/_share/half_Elem.h	/^   { virtual void operator()( T& e ) { e \/= 2; } }; \/\/¼ÙÉèT¿ÉÖ±½Ó¼õ°ë$/;"	f	struct:Half	typeref:typename:void
+operator ()	../dsacpp-src/src/_share/increase_Elem.h	/^   { virtual void operator()( T& e ) { e++; } }; \/\/¼ÙÉèT¿ÉÖ±½ÓµİÔö»òÒÑÖØÔØ++$/;"	f	struct:Increase	typeref:typename:void
+operator ()	../dsacpp-src/src/graph/Graph_bfs_PU.h	/^   virtual void operator()( Graph<Tv, Te>* g, int uk, int v ) {$/;"	f	struct:BfsPU	typeref:typename:void
+operator ()	../dsacpp-src/src/graph/Graph_dfs_PU.h	/^   virtual void operator()( Graph<Tv, Te>* g, int uk, int v ) {$/;"	f	struct:DfsPU	typeref:typename:void
+operator ()	../dsacpp-src/src/graph/Graph_dijkstra_PU.h	/^   virtual void operator()( Graph<Tv, Te>* g, Rank v, Rank u ) {$/;"	f	struct:DijkPU	typeref:typename:void
+operator ()	../dsacpp-src/src/graph/Graph_prim_PU.h	/^   virtual void operator()( Graph<Tv, Te>* g, Rank v, Rank u ) {$/;"	f	struct:PrimPU	typeref:typename:void
+operator ()	../list/list_testhelper.h	/^  virtual void operator()(T& e) { e += num;} $/;"	f	struct:Increase	typeref:typename:void
+operator ()	../list/list_testhelper.h	/^  virtual void operator()(T& e) { e \/= 2;} $/;"	f	struct:Half	typeref:typename:void
+operator ()	../queue/bestWindow.h	/^  virtual void operator()(Customer& e) { num += e.time; } $/;"	f	struct:Sum	typeref:typename:void
+operator () 	../binTree/binTree.h	/^  virtual void operator () ( T& e )$/;"	f	struct:Print	typeref:typename:void
+operator () 	../binTree/test.cpp	/^  virtual void operator () ( T& e ) { e *= 2; }$/;"	f	struct:Double	typeref:typename:void	file:
+operator () 	../binTree/test.cpp	/^  virtual void operator () ( T& e ) { e++; }$/;"	f	struct:Increase	typeref:typename:void	file:
+operator () 	../binTree/test.cpp	/^  virtual void operator () ( T& e )$/;"	f	struct:Hailstone	typeref:typename:void	file:
+operator () 	../dsacpp-src/src/_share/crc_Elem.h	/^   virtual void operator() ( T& e ) { c += e; } \/\/¼ÙÉèT¿ÉÖ±½ÓÏà¼Ó$/;"	f	struct:Crc	typeref:typename:void
+operator () 	../dsacpp-src/src/_share/decrease_Elem.h	/^   {  virtual void operator() ( T& e ) { e--; }  }; \/\/¼ÙÉèT¿ÉÖ±½Óµİ¼õ»òÒÑÖØÔØ--$/;"	f	struct:Decrease	typeref:typename:void
+operator <	../binTree/binNode.h	/^  bool operator< ( const BinNode& n ) { return data < n.data; }$/;"	f	struct:BinNode	typeref:typename:bool
+operator <	../binTree/binTree.h	/^  bool operator< ( const BinTree<T>& t ) $/;"	f	class:BinTree	typeref:typename:bool
+operator <	../dsacpp-src/src/Entry/Entry.h	/^   bool operator<( Entry<K, V> const& e ) { return key < e.key; } \/\/±È½ÏÆ÷£ºĞ¡ÓÚ$/;"	f	struct:Entry	typeref:typename:bool
+operator <	../dsacpp-src/src/binTree/BinNode.h	/^   bool operator< ( BinNode const& bn ) { return data < bn.data; } \/\/Ğ¡ÓÚ$/;"	f	struct:BinNode	typeref:typename:bool
+operator <	../dsacpp-src/src/binTree/BinTree.h	/^   bool operator<( BinTree<T> const& t ) \/\/±È½ÏÆ÷£¨ÆäÓà×ÔĞĞ²¹³ä£©$/;"	f	class:BinTree	typeref:typename:bool
+operator <	../dsacpp-src/src/huffman/huffChar.h	/^   bool operator< ( HuffChar const& hc ) { return weight > hc.weight; } \/\/´Ë´¦¹ÊÒâ´óĞ¡µßµ¹$/;"	f	struct:HuffChar	typeref:typename:bool
+operator <<	../binTree/binTree.h	/^std::ostream& operator<< ( std::ostream& os, BinTree<T>& bt )$/;"	f	typeref:typename:std::ostream &
+operator <<	../list/list.h	/^std::ostream& operator<<(std::ostream& ostr, const List<T>& L)$/;"	f	typeref:typename:std::ostream &
+operator <<	../list/list_testhelper.h	/^std::ostream& operator <<(std::ostream& os, std::nullptr_t ptr)$/;"	f	typeref:typename:std::ostream &
+operator <<	../stack/stack.h	/^std::ostream& operator<<(std::ostream& ostr, const Stack<T>& L)$/;"	f	typeref:typename:std::ostream &
+operator =	../dsacpp-src/src/vector/vector_assignment.h	/^template <typename T> Vector<T>& Vector<T>::operator= ( Vector<T> const& V ) { \/\/Éî¸´ÖÆ$/;"	f	class:Vector	typeref:typename:Vector<T> &
+operator ==	../binTree/binNode.h	/^  bool operator== ( const BinNode& n ) { return data == n.data; }$/;"	f	struct:BinNode	typeref:typename:bool
+operator ==	../binTree/binTree.h	/^  bool operator== ( const BinTree<T>& t ) $/;"	f	class:BinTree	typeref:typename:bool
+operator ==	../dsacpp-src/src/Entry/Entry.h	/^   bool operator==( Entry<K, V> const& e ) { return key == e.key; } \/\/ÅĞµÈÆ÷£ºµÈÓÚ$/;"	f	struct:Entry	typeref:typename:bool
+operator ==	../dsacpp-src/src/binTree/BinNode.h	/^   bool operator== ( BinNode const& bn ) { return data == bn.data; } \/\/µÈÓÚ$/;"	f	struct:BinNode	typeref:typename:bool
+operator ==	../dsacpp-src/src/binTree/BinTree.h	/^   bool operator==( BinTree<T> const& t ) \/\/ÅĞµÈÆ÷$/;"	f	class:BinTree	typeref:typename:bool
+operator ==	../dsacpp-src/src/huffman/huffChar.h	/^   bool operator== ( HuffChar const& hc ) { return weight == hc.weight; }$/;"	f	struct:HuffChar	typeref:typename:bool
+operator ==	../dsacpp-src/src/queen_stack/queen.h	/^   bool operator== ( Queen const& q ) const { \/\/ÖØÔØÅĞµÈ²Ù×÷·û£¬ÒÔ¼ì²â²»Í¬»ÊºóÖ®¼ä¿ÉÄÜµÄ³åÍ»$/;"	f	struct:Queen	typeref:typename:bool
+operator ==	../stack/queen/queen.h	/^  bool operator== ( const Queen& q ) const { $/;"	f	struct:Queen	typeref:typename:bool
+operator >	../dsacpp-src/src/Entry/Entry.h	/^   bool operator>( Entry<K, V> const& e ) { return key > e.key; } \/\/±È½ÏÆ÷£º´óÓÚ$/;"	f	struct:Entry	typeref:typename:bool
+operator []	../dsacpp-src/src/list/list_bracket.h	/^ListNodePosi<T> List<T>::operator[]( Rank r ) const { \/\/ 0 <= r < size$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+operator []	../list/list_bracket.h	/^ListNodePosi<T> List<T>::operator[]( Rank r ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+operator [] 	../dsacpp-src/src/vector/vector_bracket.h	/^template <typename T> T & Vector<T>::operator[] ( Rank r ) \/\/ÖØÔØÏÂ±ê²Ù×÷·û$/;"	f	class:Vector	typeref:typename:T &
+operator [] 	../dsacpp-src/src/vector/vector_bracket.h	/^template <typename T> const T & Vector<T>::operator[] ( Rank r ) const \/\/½öÏŞÓÚ×öÓÒÖµ$/;"	f	class:Vector	typeref:typename:const T &
+optr2rank	../dsacpp-src/src/rpn/priority.cpp	/^Operator optr2rank ( char op ) { \/\/ÓÉÔËËã·û×ªÒë³ö±àºÅ$/;"	f	typeref:typename:Operator
+order	../dsacpp-src/src/BTree/BTree.h	/^   int const order() { return _m; } \/\/½×´Î$/;"	f	class:BTree	typeref:typename:int const
+outDegree	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Tv data; int inDegree, outDegree; VStatus status; \/\/Êı¾İ¡¢³öÈë¶ÈÊı¡¢×´Ì¬$/;"	m	struct:Vertex	typeref:typename:int
+outDegree	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank outDegree( Rank v ) { return V[v].outDegree; } \/\/³ö¶È$/;"	f	class:GraphMatrix	typeref:typename:Rank
+outgoing	../dsacpp-src/src/laby/Cell.h	/^   ESWN incoming, outgoing; \/\/½øÈë¡¢×ß³ö·½Ïò$/;"	m	struct:Cell	typeref:typename:ESWN
+outgoing	../stack/laby/cell.h	/^  Direc incoming, outgoing;$/;"	m	struct:Cell	typeref:typename:Direc
+p	../dsacpp-src/src/UniPrint/print.h	/^   template <typename T> static void p( T* s ) \/\/ËùÓĞÖ¸Õë$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_Entry.h	/^void UniPrint::p ( Entry<K, V>& e ) \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_GraphMatrix.h	/^void UniPrint::p ( GraphMatrix<Tv, Te>& s ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_HashTable.h	/^void UniPrint::p ( Hashtable<K, V>& HT ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_HuffChar.cpp	/^void UniPrint::p( HuffChar& e ) { printf( "[%c]:%-5d", e.ch, e.weight ); }/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_PQ_ComplHeap.h	/^void UniPrint::p ( PQ_ComplHeap<T> & pq ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_PQ_LeftHeap.h	/^void UniPrint::p ( PQ_LeftHeap<T> & lh ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_PQ_List.h	/^void UniPrint::p ( PQ_List<T> & pq ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_QuadList.h	/^void UniPrint::p ( Quadlist<T>& q ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_SkipList.h	/^void UniPrint::p ( Skiplist<K, V>& s ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( EType e ) {$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( VStatus e ) {$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( char e ) { printf( " %c", ( 31 < e ) && ( e < 128 ) ? e : '$' ); }$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( double e ) { printf( " %4.3f", e ); }$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( float e ) { printf( " %4.3f", e ); }$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( int e ) { printf( " %04d", e ); }$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_basic.cpp	/^void UniPrint::p( size_t e ) { p( (int)e ); } \/\/ RankĞÍ0xFFFFFFFFÔÚ´òÓ¡Ç°ÏÈ×ª»»Îª-1£¬ÒÔ±ã¹Û²ì$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_binNode.h	/^template <typename T> void UniPrint::p ( BinNode<T>& node ) {$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_bintree.h	/^void UniPrint::p ( AVL<T> & avl ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_bintree.h	/^void UniPrint::p ( BST<T> & bt ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_bintree.h	/^void UniPrint::p ( BinTree<T> & bt ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_bintree.h	/^void UniPrint::p ( RedBlack<T> & rb ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_bintree.h	/^void UniPrint::p ( Splay<T> & bt ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_btree.h	/^void UniPrint::p ( BTree<T> & bt ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+p	../dsacpp-src/src/UniPrint/print_traversable.h	/^void UniPrint::p ( T& s ) { \/\/ÒıÓÃ$/;"	f	class:UniPrint	typeref:typename:void
+paren	../dsacpp-src/src/nest_recursive/nest.cpp	/^bool paren ( const char exp[], Rank lo, Rank hi ) { \/\/¼ì²é±í´ïÊ½exp[lo, hi]ÊÇ·ñÀ¨ºÅÆ¥Åä£¨µİ¹é°/;"	f	typeref:typename:bool
+paren	../dsacpp-src/src/nest_stack/nest.cpp	/^bool paren ( const char exp[], Rank lo, Rank hi ) { \/\/±í´ïÊ½À¨ºÅÆ¥Åä¼ì²é£¬¿É¼æ¹ËÈıÖÖÀ¨ºÅ$/;"	f	typeref:typename:bool
+paren	../stack/paren.cpp	/^bool paren ( string expr )$/;"	f	typeref:typename:bool
+parent	../binTree/binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+parent	../dsacpp-src/src/BTree/BTNode.h	/^   BTNodePosi<T> parent; \/\/¸¸½Úµã$/;"	m	struct:BTNode	typeref:typename:BTNodePosi<T>
+parent	../dsacpp-src/src/binTree/BinNode.h	/^   BinNodePosi<T> parent, lc, rc; \/\/¸¸½Úµã¼°×ó¡¢ÓÒº¢×Ó$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+parent	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Rank parent; int priority; \/\/ÔÚ±éÀúÊ÷ÖĞµÄ¸¸½Úµã¡¢ÓÅÏÈ¼¶Êı$/;"	m	struct:Vertex	typeref:typename:Rank
+parent	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Rank& parent( Rank v ) { return V[v].parent; } \/\/ÔÚ±éÀúÊ÷ÖĞµÄ¸¸Ç×$/;"	f	class:GraphMatrix	typeref:typename:Rank &
+partition	../dsacpp-src/src/vector/vector_partition_DUP.h	/^Rank Vector<T>::partition( Rank lo, Rank hi ) { \/\/ DUP°æ£º¿ÉÓÅ»¯´¦Àí¶à¸ö¹Ø¼üÂëÀ×Í¬µÄÍË»¯Çé¿ö$/;"	f	class:Vector	typeref:typename:Rank
+partition	../dsacpp-src/src/vector/vector_partition_LGU.h	/^Rank Vector<T>::partition( Rank lo, Rank hi ) { \/\/ LGU°æ$/;"	f	class:Vector	typeref:typename:Rank
+partition	../dsacpp-src/src/vector/vector_partition_LUG.h	/^Rank Vector<T>::partition( Rank lo, Rank hi ) { \/\/ LUG°æ£º»ù±¾ĞÎÊ½$/;"	f	class:Vector	typeref:typename:Rank
+peek	../queue/queue.h	/^    T& peek () { return List<T>::first()->data; }$/;"	f	class:Queue	typeref:typename:T &
+peek	../stack/stack.h	/^    T& peek() const { return List<T>::last()->data; }$/;"	f	class:Stack	typeref:typename:T &
+percolateDown	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_percolateDown.h	/^template <typename T> Rank percolateDown( T* A, Rank n, Rank i ) {$/;"	f	typeref:typename:Rank
+percolateUp	../dsacpp-src/src/PQ_ComplHeap/PQ_ComplHeap_percolateUp.h	/^template <typename T> Rank percolateUp( T* A, Rank i ) { \/\/¶Ô´ÊÌõA[i]×öÉÏÂË£¬0 <= i < _size$/;"	f	typeref:typename:Rank
+permute	../dsacpp-src/src/vector/permute.h	/^template <typename T> void permute ( Vector<T>& V ) { \/\/Ëæ»úÖÃÂÒÏòÁ¿£¬Ê¹¸÷ÔªËØµÈ¸ÅÂÊ³öÏÖÓÚ¸÷Î»/;"	f	typeref:typename:void
+pfs	../dsacpp-src/src/graph/Graph_pfs.h	/^void Graph<Tv, Te>::pfs( Rank s, PU prioUpdater ) { \/\/ s < n$/;"	f	class:Graph	typeref:typename:void
+phase	../dsacpp-src/src/daxue/main.cpp	/^void phase ( int n, bool done ) {$/;"	f	typeref:typename:void
+place2Queens	../dsacpp-src/src/queen_brute_force_2/2queens.cpp	/^void place2Queens() { \/\/2»Êºó¼ôÖ¦Ëã·¨$/;"	f	typeref:typename:void
+place3Queens	../dsacpp-src/src/queen_brute_force_2/3queens.cpp	/^void place3Queens() { \/\/3»Êºó¼ôÖ¦Ëã·¨$/;"	f	typeref:typename:void
+place4Queens	../dsacpp-src/src/queen_brute_force_2/4queens.cpp	/^void place4Queens() { \/\/4»Êºó¼ôÖ¦Ëã·¨$/;"	f	typeref:typename:void
+place5Queens	../dsacpp-src/src/queen_brute_force_2/5queens.cpp	/^void place5Queens() { \/\/5»Êºó¼ôÖ¦Ëã·¨$/;"	f	typeref:typename:void
+place5Queens_BruteForce	../dsacpp-src/src/queen_brute_force_1/5queens.cpp	/^void place5Queens_BruteForce() { \/\/5»ÊºóÂùÁ¦Ëã·¨$/;"	f	typeref:typename:void
+placeQueens	../dsacpp-src/src/queen_recursive/placeQueens.cpp	/^void placeQueens ( int nQueen, int k ) { \/\/·ÅÖÃn¸ö»ÊºóÖĞµÄµÚk¸ö£¨¼ÙÉè0ÖÁk-1¾ùÒÑ¾ÍÎ»£©$/;"	f	typeref:typename:void
+placeQueens	../dsacpp-src/src/queen_stack/placeQueens.cpp	/^void placeQueens ( Rank N ) { \/\/N»ÊºóËã·¨£¨µü´ú°æ£©£º²ÉÓÃÊÔÌ½\/»ØËİµÄ²ßÂÔ£¬½èÖúÕ»¼ÇÂ¼²éÕÒµÄ½á¹/;"	f	typeref:typename:void
+placeQueens	../stack/queen/placeQueens.cpp	/^void placeQueens ( const Rank& N )$/;"	f	typeref:typename:void
+pop	../dsacpp-src/src/stack_list/stack_list.h	/^   T pop() { return remove ( last() ); } \/\/³öÕ»£ºµÈĞ§ÓÚÉ¾³ıÁĞ±íµÄÄ©ÔªËØ$/;"	f	class:Stack	typeref:typename:T
+pop	../dsacpp-src/src/stack_vector/stack_vector.h	/^   T pop() { return remove ( size() - 1 ); } \/\/³öÕ»£ºµÈĞ§ÓÚÉ¾³ıÏòÁ¿µÄÄ©ÔªËØ$/;"	f	class:Stack	typeref:typename:T
+pop	../stack/stack.h	/^    T pop() { return List<T>::remove( List<T>::last() ); }$/;"	f	class:Stack	typeref:typename:T
+posi	../binTree/test.cpp	/^int posi = 0;$/;"	v	typeref:typename:int
+power	../dsacpp-src/src/power/Power1.cpp	/^__int64 power ( __int64 a, int n ) { \/\/a^nËã·¨£ºn >= 0$/;"	f	typeref:typename:__int64
+power2	../dsacpp-src/src/power/Power2-1-R.cpp	/^__int64 power2 ( int n ) { \/\/Ãİº¯Êı2^nËã·¨£¨ÓÅ»¯µİ¹é°æ£©£¬n >= 0$/;"	f	typeref:typename:__int64
+power2BF	../dsacpp-src/src/power/Power2-0-R.cpp	/^__int64 power2BF ( int n ) { \/\/Ãİº¯Êı2^nËã·¨£¨ÂùÁ¦µİ¹é°æ£©£¬n >= 0$/;"	f	typeref:typename:__int64
+power2BF_I	../dsacpp-src/src/power/Power2-0-I.cpp	/^__int64 power2BF_I ( int n ) { \/\/Ãİº¯Êı2^nËã·¨£¨ÂùÁ¦µü´ú°æ£©£¬n >= 0$/;"	f	typeref:typename:__int64
+power2_I	../dsacpp-src/src/power/Power2-1-I.cpp	/^__int64 power2_I ( int n ) { \/\/Ãİº¯Êı2^nËã·¨£¨ÓÅ»¯µü´ú°æ£©£¬n >= 0$/;"	f	typeref:typename:__int64
+powerBF	../dsacpp-src/src/power/Power0.cpp	/^__int64 powerBF ( __int64 a, int n ) { \/\/a^nËã·¨£¨ÂùÁ¦°æ£©£ºn >= 0$/;"	f	typeref:typename:__int64
+pred	../dsacpp-src/src/_share/checkOrder_Elem.h	/^   T pred; int& u;$/;"	m	struct:CheckOrder	typeref:typename:T
+pred	../dsacpp-src/src/list/listNode.h	/^   T data; ListNodePosi<T> pred, succ; \/\/ÊıÖµ¡¢Ç°Çı¡¢ºó¼Ì$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+pred	../dsacpp-src/src/skiplist/QuadListNode.h	/^   QNodePosi<T> pred, succ, above, below; \/\/Ç°Çı¡¢ºó¼Ì¡¢ÉÏÁÚ¡¢ÏÂÁÚ$/;"	m	struct:QNode	typeref:typename:QNodePosi<T>
+prepareDm	../dsacpp-src/src/string_pm_kr/pm_kr_prepareDm.cpp	/^HashCode prepareDm ( size_t m ) { \/\/Ô¤´¦Àí£º¼ÆËãR^(m - 1) % M £¨½öĞèµ÷ÓÃÒ»´Î£¬²»±ØÓÅ»¯£©$/;"	f	typeref:typename:HashCode
+prev	../dsacpp-src/src/fibonacci/Fib.h	/^   Rank prev() { f = g - f; g -= f; return g; } \/\/×ªÖÁÉÏÒ»FibonacciÏî£¬O(1)Ê±¼ä$/;"	f	class:Fib	typeref:typename:Rank
+prev	../list/listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+pri	../dsacpp-src/src/rpn/priority.h	/^const char pri[N_OPTR][N_OPTR] = { \/\/ÔËËã·ûÓÅÏÈµÈ¼¶ [Õ»¶¥] [µ±Ç°]$/;"	v	typeref:typename:const char[][]
+prim	../dsacpp-src/src/graph/Graph_prim.h	/^void Graph<Tv, Te>::prim( Rank s ) { \/\/ s < n$/;"	f	class:Graph	typeref:typename:void
+primeNLT	../dsacpp-src/src/prime/primeNLT.cpp	/^Rank primeNLT( Rank c, Rank n, char* file ) { \/\/¸ù¾İfileÎÄ¼şÖĞµÄ¼ÇÂ¼£¬ÔÚ[c, n)ÄÚÈ¡×îĞ¡µÄËØÊı$/;"	f	typeref:typename:Rank
+print	../dsacpp-src/src/BitMap/Bitmap.h	/^   \/*DSA*\/   void print( Rank n ) \/\/é€ä½æ‰“å°ä»¥æ£€éªŒä½å›¾å†…å®¹ï¼Œéå¿…éœ€æ¥å£$/;"	f	class:Bitmap	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print.h	/^static void print ( char* x ) {  printf ( " %s", x ? x : "<NULL>" );  } \/\/×Ö·û´®ÌØ±ğ´¦Àí$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print.h	/^static void print ( const char* x ) {  printf ( " %s", x ? x : "<NULL>" );  } \/\/×Ö·û´®ÌØ±ğ´¦Àí$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print.h	/^template <typename T> static void print ( T& x ) {  UniPrint::p ( x );  }$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print.h	/^template <typename T> static void print ( T* x ) {  x ? print ( *x ) : printf ( " <NULL>" );  }$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print.h	/^template <typename T> static void print ( const T& x ) {  UniPrint::p ( x );  } \/\/for Stack$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print_int_array.cpp	/^void print ( int A[], int n ) { print ( A, n, 0, n ); }$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/UniPrint/print_int_array.cpp	/^void print ( int A[], int n, int lo, int hi ) { \/\/Êä³öÕûÊıÊı×éÇø¼äA[lo, hi)$/;"	f	typeref:typename:void
+print	../dsacpp-src/src/cursor_list/cursor_list.h	/^   void print() {$/;"	f	class:CursorList	typeref:typename:void
+print	../list/list_testhelper.h	/^#define print(/;"	d
+printBC	../dsacpp-src/src/string_pm/string_pm_test.cpp	/^void printBC ( int* bc ) {$/;"	f	typeref:typename:void
+printBTree	../dsacpp-src/src/UniPrint/print_btree.h	/^static void printBTree ( BTNodePosi<T> bt, int depth, bool isLeftmost, bool isRightmost, Bitmap*/;"	f	typeref:typename:void
+printBinTree	../dsacpp-src/src/UniPrint/print_bintree.h	/^static void printBinTree ( BinNodePosi<T> bt, int depth, int type, Bitmap* bType ) {$/;"	f	typeref:typename:void
+printChar	../dsacpp-src/src/rpn/displayProgress.cpp	/^void printChar ( char& p )$/;"	f	typeref:typename:void
+printComplHeap	../dsacpp-src/src/UniPrint/print_PQ_ComplHeap.h	/^static void printComplHeap ( Vector<T>& elem, int n, int k, int depth, int type, int* bType ) {$/;"	f	typeref:typename:void
+printCustomer	../dsacpp-src/src/simu/main.cpp	/^void printCustomer ( Customer c )$/;"	f	typeref:typename:void
+printCustomer	../queue/displayProgress.h	/^void printCustomer ( Customer c )$/;"	f	typeref:typename:void
+printGS	../dsacpp-src/src/string_pm/string_pm_test.cpp	/^void printGS ( char* P, int* GS ) {$/;"	f	typeref:typename:void
+printLabyCell	../dsacpp-src/src/laby/displayLaby.h	/^void printLabyCell ( Cell* elem ) {$/;"	f	typeref:typename:void
+printLabyCell	../stack/laby/displayLaby.h	/^void printLabyCell ( Cell* elem ) {$/;"	f	typeref:typename:void
+printNext	../dsacpp-src/src/string_pm/string_pm_test.cpp	/^void printNext ( int* N, int offset, int length ) {$/;"	f	typeref:typename:void
+printString	../dsacpp-src/src/string_pm/string_pm_test.h	/^#define printString(/;"	d
+priority	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Rank parent; int priority; \/\/ÔÚ±éÀúÊ÷ÖĞµÄ¸¸½Úµã¡¢ÓÅÏÈ¼¶Êı$/;"	m	struct:Vertex	typeref:typename:int
+priority	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual int& priority( Rank v ) { return V[v].priority; } \/\/ÔÚ±éÀúÊ÷ÖĞµÄÓÅÏÈ¼¶Êı$/;"	f	class:GraphMatrix	typeref:typename:int &
+priority	../dsacpp-src/src/rpn/priority.cpp	/^char priority ( char op1, char op2 ) \/\/±È½ÏÁ½¸öÔËËã·ûÖ®¼äµÄÓÅÏÈ¼¶$/;"	f	typeref:typename:char
+probe4Free	../dsacpp-src/src/hashtable/HashTable_probe4Free.h	/^template <typename K, typename V> Rank Hashtable<K, V>::probe4Free( const K& k ) {$/;"	f	class:Hashtable	typeref:typename:Rank
+probe4Hit	../dsacpp-src/src/hashtable/Hashtable_probe4Hit.h	/^template <typename K, typename V> Rank Hashtable<K, V>::probe4Hit( const K& k ) {$/;"	f	class:Hashtable	typeref:typename:Rank
+push	../dsacpp-src/src/stack_list/stack_list.h	/^   void push ( T const& e ) { insertAsLast ( e ); } \/\/ÈëÕ»£ºµÈĞ§ÓÚ½«ĞÂÔªËØ×÷ÎªÁĞ±íµÄÄ©ÔªËØ²åÈë$/;"	f	class:Stack	typeref:typename:void
+push	../dsacpp-src/src/stack_vector/stack_vector.h	/^   void push ( T const& e ) { insert ( e ); } \/\/ÈëÕ»£ºµÈĞ§ÓÚ½«ĞÂÔªËØ×÷ÎªÏòÁ¿µÄÄ©ÔªËØ²åÈë$/;"	f	class:Stack	typeref:typename:void
+push	../stack/stack.h	/^    void push( const T& e ) { List<T>::insertAsLast( e ); }$/;"	f	class:Stack	typeref:typename:void
+put	../dsacpp-src/src/hashtable/HashTable_put.h	/^template <typename K, typename V> bool Hashtable<K, V>::put( K k, V v ) { \/\/É¢ÁĞ±í´ÊÌõ²åÈë$/;"	f	class:Hashtable	typeref:typename:bool
+put	../dsacpp-src/src/skiplist/SkipList_put.h	/^template <typename K, typename V> bool Skiplist<K, V>::put( K k, V v ) { \/\/Ìø×ª±í´ÊÌõ²åÈëËã·¨$/;"	f	class:Skiplist	typeref:typename:bool
+quickSelect	../dsacpp-src/src/selection/quickselect.h	/^template <typename T> void quickSelect( Vector<T>& A, Rank k ) { \/\/»ùÓÚ¿ìËÙ»®·ÖµÄkÑ¡È¡Ëã·¨$/;"	f	typeref:typename:void
+quickSort	../dsacpp-src/src/vector/vector_quickSort_iterative.h	/^void Vector<T>::quickSort( Rank lo, Rank hi ) { \/\/0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+quickSort	../dsacpp-src/src/vector/vector_quickSort_recursive.h	/^void Vector<T>::quickSort( Rank lo, Rank hi ) { \/\/ 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+radixSort	../dsacpp-src/src/list/List_RadixSort.h	/^void List<T>::radixSort( ListNodePosi<T> p, Rank n ) { \/\/ valid(p) && Rank(p) + n <= size$/;"	f	class:List	typeref:typename:void
+randLaby	../dsacpp-src/src/laby/randLaby.h	/^void randLaby() { \/\/Éú³ÉËæ»úµÄÃÔ¹¬$/;"	f	typeref:typename:void
+randLaby	../stack/laby/randLaby.h	/^void randLaby() { \/\/Ã‰ÃºÂ³Ã‰Ã‹Ã¦Â»ÃºÂµÃ„ÃƒÃ”Â¹Â¬$/;"	f	typeref:typename:void
+randLaby	../stack/randlaby.h	/^void randLaby() { \/\/Ã‰ÃºÂ³Ã‰Ã‹Ã¦Â»ÃºÂµÃ„ÃƒÃ”Â¹Â¬$/;"	f	typeref:typename:void
+randomArray	../dsacpp-src/src/bubblesort/main.cpp	/^void randomArray ( int A[], int n, int seed ) {$/;"	f	typeref:typename:void
+randomBinTree	../binTree/test.cpp	/^template <typename T> bool randomBinTree ( BinTree<T> & bt, BinNodePosi<T> x, int h ) {$/;"	f	typeref:typename:bool
+randomBinTree	../dsacpp-src/src/binTree/main.cpp	/^template <typename T> bool randomBinTree ( BinTree<T> & bt, BinNodePosi<T> x, int h ) {$/;"	f	typeref:typename:bool
+randomGraph	../dsacpp-src/src/graph/Graph_Test.cpp	/^void randomGraph ( GraphMatrix<Tv, Te> & g, Rank n, Rank e ) { \/\/assert: 0 < e(e-1) <= v$/;"	f	typeref:typename:void
+randomList	../dsacpp-src/src/list/main.cpp	/^void randomList ( List<T> & list, Rank n ) { \/\/´´½¨³¤¶ÈÎªnµÄÁĞ±í£¬ÆäÔªËØËæ»úÈ¡×Ô[0, 4n)$/;"	f	typeref:typename:void
+randomList	../list/list_testhelper.h	/^void randomList ( List<T>& list, Rank n )$/;"	f	typeref:typename:void
+randomPosiInBinTree	../binTree/test.cpp	/^template <typename T> BinNodePosi<T> randomPosiInBinTree ( BinNodePosi<T> root ) {$/;"	f	typeref:typename:BinNodePosi<T>
+randomPosiInBinTree	../dsacpp-src/src/binTree/main.cpp	/^template <typename T> BinNodePosi<T> randomPosiInBinTree ( BinNodePosi<T> root ) {$/;"	f	typeref:typename:BinNodePosi<T>
+randomSortedVector	../dsacpp-src/src/random/randomSortedVector.cpp	/^randomSortedVector ( Rank n, int min, int max ) { \/\/ACP, Vol.2, Algorithm S$/;"	f	typeref:typename:Vector<int>
+rc	../binTree/binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+rc	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define rc(/;"	d
+rc	../dsacpp-src/src/binTree/BinNode.h	/^   BinNodePosi<T> parent, lc, rc; \/\/¸¸½Úµã¼°×ó¡¢ÓÒº¢×Ó$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+readLaby	../dsacpp-src/src/laby/readLaby.h	/^void readLaby ( char* labyFile ) { \/\/¶ÁÈëÃÔ¹¬$/;"	f	typeref:typename:void
+readLaby	../stack/laby/readLaby.h	/^void readLaby ( char* labyFile ) { \/\/Â¶ÃÃˆÃ«ÃƒÃ”Â¹Â¬$/;"	f	typeref:typename:void
+readNumber	../dsacpp-src/src/rpn/readNumber.cpp	/^void readNumber ( char*& p, Stack<double>& stk ) { \/\/½«ÆğÊ¼ÓÚpµÄ×Ó´®½âÎöÎªÊıÖµ£¬²¢´æÈë²Ù×÷ÊıÕ»$/;"	f	typeref:typename:void
+rear	../deque/deque.h	/^    T& rear() { return List<T>::last(); }$/;"	f	class:deque	typeref:typename:T &
+rehash	../dsacpp-src/src/hashtable/HashTable_rehash.h	/^template <typename K, typename V> void Hashtable<K, V>::rehash() {$/;"	f	class:Hashtable	typeref:typename:void
+release	../dsacpp-src/src/_share/release.h	/^template <typename T> void release( T x ) { Cleaner<T>::clean( x ); }$/;"	f	typeref:typename:void
+remove	../AVL/AVL_imple.h	/^bool AVL<T>::remove ( const T& e )$/;"	f	class:AVL	typeref:typename:bool
+remove	../BST/BST_basic.h	/^bool BST<T>::remove ( const T& e )$/;"	f	class:BST	typeref:typename:bool
+remove	../BST/BST_basic.h	/^static BinNodePosi<T> remove ( BinNodePosi<T>& n, BinNodePosi<T>& s )$/;"	f	typeref:typename:BinNodePosi<T>
+remove	../binTree/binTree_imple.h	/^Rank BinTree<T>::remove( BinNodePosi<T> n )$/;"	f	class:BinTree	typeref:typename:Rank
+remove	../dsacpp-src/src/AVL/AVL_remove.h	/^template <typename T> bool AVL<T>::remove( const T& e ) { \/\/´ÓAVLÊ÷ÖĞÉ¾³ı¹Ø¼üÂëe$/;"	f	class:AVL	typeref:typename:bool
+remove	../dsacpp-src/src/BST/bst_remove.h	/^template <typename T> bool BST<T>::remove( const T& e ) { \/\/´ÓBSTÊ÷ÖĞÉ¾³ı¹Ø¼üÂëe$/;"	f	class:BST	typeref:typename:bool
+remove	../dsacpp-src/src/BTree/BTree_remove.h	/^template <typename T> bool BTree<T>::remove( const T& e ) { \/\/´ÓBTreeÊ÷ÖĞÉ¾³ı¹Ø¼üÂëe$/;"	f	class:BTree	typeref:typename:bool
+remove	../dsacpp-src/src/binTree/BinTree_remove.h	/^Rank BinTree<T>::remove( BinNodePosi<T> x ) { \/\/ assert: xÎª¶ş²æÊ÷ÖĞµÄºÏ·¨Î»ÖÃ$/;"	f	class:BinTree	typeref:typename:Rank
+remove	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank remove ( Rank k ) { \/\/É¾³ıÖÈÎªkµÄÔªËØ$/;"	f	class:CursorList	typeref:typename:Rank
+remove	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Te remove( Rank v, Rank u ) { \/\/É¾³ı¶¥µãvºÍuÖ®¼äµÄÁª±ß£¨exists(v, u)£©$/;"	f	class:GraphMatrix	typeref:typename:Te
+remove	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Tv remove( Rank v ) { \/\/É¾³ıµÚv¸ö¶¥µã¼°Æä¹ØÁª±ß£¨0 <= v < n£©$/;"	f	class:GraphMatrix	typeref:typename:Tv
+remove	../dsacpp-src/src/hashtable/HashTable_remove.h	/^template <typename K, typename V> bool Hashtable<K, V>::remove( K k ) { \/\/É¢ÁĞ±í´ÊÌõÉ¾³ıËã·¨$/;"	f	class:Hashtable	typeref:typename:bool
+remove	../dsacpp-src/src/list/list_remove.h	/^template <typename T> T List<T>::remove( ListNodePosi<T> p ) { \/\/É¾³ıºÏ·¨½Úµãp£¬·µ»ØÆäÊıÖµ$/;"	f	class:List	typeref:typename:T
+remove	../dsacpp-src/src/redBlack/RedBlack_remove.h	/^template <typename T> bool RedBlack<T>::remove( const T& e ) { \/\/´ÓºìºÚÊ÷ÖĞÉ¾³ı¹Ø¼üÂëe$/;"	f	class:RedBlack	typeref:typename:bool
+remove	../dsacpp-src/src/skiplist/QuadList_remove.h	/^T Quadlist<T>::remove( QNodePosi<T> p ) { \/\/ assert: pÎªQuadlistÖĞµÄºÏ·¨Î»ÖÃ$/;"	f	class:Quadlist	typeref:typename:T
+remove	../dsacpp-src/src/skiplist/SkipList_remove.h	/^template <typename K, typename V> bool Skiplist<K, V>::remove( K k ) { \/\/Ìø×ª±í´ÊÌõÉ¾³ıËã·¨$/;"	f	class:Skiplist	typeref:typename:bool
+remove	../dsacpp-src/src/splay/Splay_remove.h	/^template <typename T> bool Splay<T>::remove( const T& e ) { \/\/´ÓÉìÕ¹Ê÷ÖĞÉ¾³ı¹Ø¼üÂëe$/;"	f	class:Splay	typeref:typename:bool
+remove	../dsacpp-src/src/vector/vector_remove.h	/^template <typename T> T Vector<T>::remove( Rank r ) { \/\/É¾³ıÏòÁ¿ÖĞÖÈÎªrµÄÔªËØ£¬0 <= r < size$/;"	f	class:Vector	typeref:typename:T
+remove	../dsacpp-src/src/vector/vector_removeInterval.h	/^template <typename T> Rank Vector<T>::remove( Rank lo, Rank hi ) { \/\/0 <= lo <= hi <= n$/;"	f	class:Vector	typeref:typename:Rank
+remove	../list/list_remove.h	/^T List<T>::remove( ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:T
+removeAt	../binTree/binTree_imple.h	/^static Rank removeAt( BinNodePosi<T> n )$/;"	f	typeref:typename:Rank
+removeAt	../dsacpp-src/src/BST/bst_removeAt.h	/^static BinNodePosi<T> removeAt( BinNodePosi<T>& x, BinNodePosi<T>& hot ) {$/;"	f	typeref:typename:BinNodePosi<T>
+removeAt	../dsacpp-src/src/binTree/BinTree_remove.h	/^static Rank removeAt( BinNodePosi<T> x ) { \/\/ assert: xÎª¶ş²æÊ÷ÖĞµÄºÏ·¨Î»ÖÃ$/;"	f	typeref:typename:Rank
+removeFront	../deque/deque.h	/^    T removeFront() { return List<T>::remove( front() ); }$/;"	f	class:deque	typeref:typename:T
+removeRear	../deque/deque.h	/^    T removeRear() { return List<T>::remove( rear() ); }$/;"	f	class:deque	typeref:typename:T
+removeSpace	../dsacpp-src/src/rpn/main.cpp	/^char* removeSpace ( char* s ) { \/\/ÌŞ³ıs[]ÖĞµÄ°×¿Õ¸ñ$/;"	f	typeref:typename:char *
+removed	../dsacpp-src/src/hashtable/HashTable.h	/^   Bitmap* removed; \/\/ÀÁ¶èÉ¾³ı±ê¼ÇÎ»Í¼£º×ÜÊıL = removed->size() = removed->top$/;"	m	class:Hashtable	typeref:typename:Bitmap *
+reset	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   inline void reset() { top = 0; } \/\/å¤ä½ï¼šä»é€»è¾‘ä¸Šåˆ‡æ–­æ‰€æœ‰æ ¡éªŒç¯ï¼ŒO(1)$/;"	f	class:Bitmap	typeref:typename:void
+reset	../dsacpp-src/src/graph/Graph.h	/^   void reset() { \/\/ËùÓĞ¶¥µã¡¢±ßµÄ¸¨ÖúĞÅÏ¢¸´Î»$/;"	f	class:Graph	typeref:typename:void
+reset	../graph/graph.h	/^    void reset()$/;"	f	class:Graph	typeref:typename:void
+reverse	../deque/deque.h	/^    void reverse()$/;"	f	class:deque	typeref:typename:void
+reverse	../dsacpp-src/src/list/list_reverse1.h	/^template <typename T> void List<T>::reverse() { \/\/Ç°ºóµ¹ÖÃ$/;"	f	class:List	typeref:typename:void
+reverse	../dsacpp-src/src/list/list_reverse2.h	/^template <typename T> void List<T>::reverse() { \/\/Ç°ºóµ¹ÖÃ$/;"	f	class:List	typeref:typename:void
+reverse	../dsacpp-src/src/list/list_reverse3.h	/^template <typename T> void List<T>::reverse() { \/\/Ç°ºóµ¹ÖÃ$/;"	f	class:List	typeref:typename:void
+reverse	../dsacpp-src/src/reverse/reverse-iterative-0.cpp	/^void reverse( int* A, int lo, int hi ) { \/\/Êı×éµ¹ÖÃ£¨Ö±½Ó¸ÄÔì¶øµÃµÄµü´ú°æ£©$/;"	f	typeref:typename:void
+reverse	../dsacpp-src/src/reverse/reverse-iterative-1.cpp	/^void reverse ( int* A, int lo, int hi ) { \/\/Êı×éµ¹ÖÃ£¨¹æ·¶ÕûÀíÖ®ºóµÄµü´ú°æ£©$/;"	f	typeref:typename:void
+reverse	../dsacpp-src/src/reverse/reverse-recursive.cpp	/^void reverse ( int* A, int lo, int hi ) { \/\/Êı×éµ¹ÖÃ£¨¶àµİ¹é»ùµİ¹é°æ£©$/;"	f	typeref:typename:void
+reverse	../dsacpp-src/src/reverse/reverse.cpp	/^void reverse ( int* A, int n ) \/\/Êı×éµ¹ÖÃ£¨Ëã·¨µÄ³õÊ¼Èë¿Ú£¬µ÷ÓÃµÄ¿ÉÄÜÊÇreverse()µÄµİ¹é°æ»òµü´ú°/;"	f	typeref:typename:void
+reverse	../list/list_reverse.h	/^void List<T>::reverse()$/;"	f	class:List	typeref:typename:void
+reverse	../stack/stack.h	/^    void reverse(){$/;"	f	class:Stack	typeref:typename:void
+reverse_1	../dsacpp-src/src/_py/reverse.py	/^def reverse_1(L): # reverse a list in manner of CALL-BY-RANK$/;"	f
+reverse_1_test	../dsacpp-src/src/_py/reverse.py	/^def reverse_1_test(n): reverse_1([ randrange(n) for i in range(n) ]); return$/;"	f
+reverse_2	../dsacpp-src/src/_py/reverse.py	/^def reverse_2(L): # reverse a list in manner of CALL-BY-POSITION$/;"	f
+reverse_2_test	../dsacpp-src/src/_py/reverse.py	/^def reverse_2_test(n): reverse_2([ randrange(n) for i in range(n) ]); return$/;"	f
+rn	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define rn(/;"	d
+root	../binTree/binTree.h	/^  BinNodePosi<T> root() const { return _root; }$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+root	../dsacpp-src/src/BTree/BTree.h	/^   BTNodePosi<T> & root() { return _root; } \/\/Ê÷¸ù$/;"	f	class:BTree	typeref:typename:BTNodePosi<T> &
+root	../dsacpp-src/src/binTree/BinTree.h	/^   BinNodePosi<T> root() const { return _root; } \/\/Ê÷¸ù$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+rotate	../BST/BST_basic.h	/^BinNodePosi<T> BST<T>::rotate ( BinNodePosi<T> son )$/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+rotateAt	../dsacpp-src/src/BST/BST_RotateAt.h	/^template <typename T> BinNodePosi<T> BST<T>::rotateAt( BinNodePosi<T> v ) { \/\/vÎª·Ç¿ÕËï±²½Úµã$/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+rotateGFS	../BST/BST_basic.h	/^BinNodePosi<T> BST<T>::rotateGFS ($/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+rp	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define rp(/;"	d
+runMode	../dsacpp-src/src/queen_brute_force_1/main.cpp	/^RunMode runMode; \/\/ÑİÊ¾Ä£Ê½$/;"	v	typeref:typename:RunMode
+runMode	../dsacpp-src/src/queen_brute_force_2/main.cpp	/^RunMode runMode; \/\/ÑİÊ¾Ä£Ê½$/;"	v	typeref:typename:RunMode
+runMode	../dsacpp-src/src/queen_recursive/main.cpp	/^RunMode runMode; \/\/ÑİÊ¾Ä£Ê½$/;"	v	typeref:typename:RunMode
+runMode	../dsacpp-src/src/queen_stack/main.cpp	/^RunMode runMode; \/\/ÑİÊ¾Ä£Ê½$/;"	v	typeref:typename:RunMode
+runMode	../stack/queen/run.cpp	/^RunMode runMode;$/;"	v	typeref:typename:RunMode
+s_hi	../dsacpp-src/src/greatest_slice/test.cpp	/^int s_lo, s_hi;$/;"	v	typeref:typename:int
+s_lo	../dsacpp-src/src/greatest_slice/test.cpp	/^int s_lo, s_hi;$/;"	v	typeref:typename:int
+search	../BST/BST_basic.h	/^BinNodePosi<T>& BST<T>::search( const T& e )$/;"	f	class:BST	typeref:typename:BinNodePosi<T> &
+search	../dsacpp-src/src/BST/BST_search.h	/^template <typename T> BinNodePosi<T>& BST<T>::search( const T& e ) { \/\/ÔÚBSTÖĞ²éÕÒ¹Ø¼üÂëe$/;"	f	class:BST	typeref:typename:BinNodePosi<T> &
+search	../dsacpp-src/src/BTree/BTree_search.h	/^template <typename T> BTNodePosi<T> BTree<T>::search( const T& e ) { \/\/ÔÚB-Ê÷ÖĞ²éÕÒ¹Ø¼üÂëe$/;"	f	class:BTree	typeref:typename:BTNodePosi<T>
+search	../dsacpp-src/src/list/List_search.h	/^ListNodePosi<T> List<T>::search( T const& e, Rank n, ListNodePosi<T> p ) const {$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+search	../dsacpp-src/src/list/list.h	/^   ListNodePosi<T> search( T const& e ) const \/\/ÓĞĞòÁĞ±í²éÕÒ$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+search	../dsacpp-src/src/skiplist/SkipList_search.h	/^template <typename K, typename V> QNodePosi<Entry<K, V>> Skiplist<K, V>::search( K k ) {$/;"	f	class:Skiplist	typeref:typename:QNodePosi<Entry<K,V>>
+search	../dsacpp-src/src/splay/Splay_search.h	/^template <typename T> BinNodePosi<T>& Splay<T>::search( const T& e ) { \/\/ÔÚÉìÕ¹Ê÷ÖĞ²éÕÒe$/;"	f	class:Splay	typeref:typename:BinNodePosi<T> &
+search	../dsacpp-src/src/vector/Vector_search.h	/^Rank Vector<T>::search( T const& e, Rank lo, Rank hi ) const { \/\/ 0 <= lo < hi <= _size$/;"	f	class:Vector	typeref:typename:Rank
+search	../dsacpp-src/src/vector/vector.h	/^   Rank search ( T const& e ) const \/\/ÓĞĞòÏòÁ¿ÕûÌå²éÕÒ$/;"	f	class:Vector	typeref:typename:Rank
+search	../list/list.h	/^    ListNodePosi<T> search( const T& e ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+search	../list/list_search.h	/^ListNodePosi<T> List<T>::search( const T& e, Rank n, ListNodePosi<T> p) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+secede	../binTree/binTree_imple.h	/^BinTree<T>* BinTree<T>::secede( BinNodePosi<T> n )$/;"	f	class:BinTree	typeref:typename:BinTree<T> *
+secede	../dsacpp-src/src/binTree/BinTree_secede.h	/^BinTree<T>* BinTree<T>::secede( BinNodePosi<T> x ) { \/\/ assert: xÎª¶ş²æÊ÷ÖĞµÄºÏ·¨Î»ÖÃ$/;"	f	class:BinTree	typeref:typename:BinTree<T> *
+selectMax	../dsacpp-src/src/list/List_selectMax.h	/^ListNodePosi<T> List<T>::selectMax( ListNodePosi<T> p, Rank n ) {$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+selectMax	../dsacpp-src/src/list/list.h	/^   ListNodePosi<T> selectMax() { return selectMax( header->succ, _size ); } \/\/ÕûÌå×î´óÕß$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+selectionSort	../dsacpp-src/src/list/List_SelectionSort.h	/^void List<T>::selectionSort( ListNodePosi<T> p, Rank n ) { \/\/ valid(p) && Rank(p) + n <= size$/;"	f	class:List	typeref:typename:void
+selectionSort	../dsacpp-src/src/vector/vector_selectionsort.h	/^void Vector<T>::selectionSort( Rank lo, Rank hi ) { \/\/ 0 <= lo < hi <= size$/;"	f	class:Vector	typeref:typename:void
+selectionSort	../list/list_selection.h	/^void List<T>::selectionSort( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+set	../dsacpp-src/src/BitMap/Bitmap.h	/^   void set   ( Rank k ) { expand( k ); _sz++; M[k >> 3] |=   ( 0x80 >> ( k & 0x07 ) ); }$/;"	f	class:Bitmap	typeref:typename:void
+set	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   inline void set ( Rank k ) { \/\/æ’å…¥ï¼šä»é€»è¾‘ä¸Šå°†B[k]ç½®ä¸ºtrueï¼ŒO(1)$/;"	f	class:Bitmap	typeref:typename:void
+set	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   inline void set( Rank k ) { \/\/²åÈë$/;"	f	class:Bitmap	typeref:typename:void
+shellSort	../dsacpp-src/src/vector/vector_shellSort.h	/^void Vector<T>::shellSort( Rank lo, Rank hi ) { \/\/ 0 <= lo < hi <= size <= 2^31$/;"	f	class:Vector	typeref:typename:void
+shift	../dsacpp-src/src/shiftK/shift.cpp	/^int shift ( int* A, int n, int s, int k ) { \/\/´ÓA[s]³ö·¢£¬ÒÔkÎª¼ä¸ôÑ­»·×óÒÆ£¬O(n \/ GCD(n, k))$/;"	f	typeref:typename:int
+shift0	../dsacpp-src/src/shiftK/shift0.cpp	/^int shift0 ( int* A, int n, int k ) { \/\/ÂùÁ¦µØ½«Êı×éÑ­»·×óÒÆkÎ»£¬O(nk)$/;"	f	typeref:typename:int
+shift1	../dsacpp-src/src/shiftK/shift1.cpp	/^int shift1 ( int* A, int n, int k ) { \/\/Í¨¹ıGCD(n, k)ÂÖµü´ú£¬½«Êı×éÑ­»·×óÒÆkÎ»£¬O(n)$/;"	f	typeref:typename:int
+shift2	../dsacpp-src/src/shiftK/shift2.cpp	/^int shift2 ( int* A, int n, int k ) { \/\/½èÖúµ¹ÖÃËã·¨£¬½«Êı×éÑ­»·×óÒÆkÎ»£¬O(3n)$/;"	f	typeref:typename:int
+show	../dsacpp-src/src/_py/reverse.py	/^def show(L): print( str(sum(L)) + '\/' + str(len(L)) + ':' + str(L) ); return$/;"	f
+showProgress	../dsacpp-src/src/string_pm/string_pm_test.cpp	/^void showProgress ( char* T, char* P, int i, int j ) {$/;"	f	typeref:typename:void
+showProgressOfKR	../dsacpp-src/src/string_pm_kr/pm_kr.h	/^\/*DSA*\/#define showProgressOfKR(/;"	d
+shrink	../dsacpp-src/src/vector/vector_shrink.h	/^template <typename T> void Vector<T>::shrink() { \/\/×°ÌîÒò×Ó¹ıĞ¡Ê±Ñ¹ËõÏòÁ¿ËùÕ¼¿Õ¼ä$/;"	f	class:Vector	typeref:typename:void
+shuffle	../dsacpp-src/src/random/Shuffle.cpp	/^void shuffle( int A[], int lo, int hi ) \/\/½«A[lo, hi)Ëæ»ú´òÂÒ$/;"	f	typeref:typename:void
+shuffle	../dsacpp-src/src/random/Shuffle.cpp	/^void shuffle( int A[], int n ) { \/\/½«A[0, n)Ëæ»ú´òÂÒ$/;"	f	typeref:typename:void
+sib	../dsacpp-src/src/SMMH/DEPQ_SMMH_macro.h	/^#define sib(/;"	d
+sibling	../binTree/binNode_imple.h	/^#define sibling(/;"	d
+sibling	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define sibling(/;"	d
+simulate	../dsacpp-src/src/simu/simu.cpp	/^void simulate ( Rank nWin, Rank servTime ) { \/\/°´Ö¸¶¨´°¿ÚÊı¡¢·şÎñ×ÜÊ±¼äÄ£ÄâÒøĞĞÒµÎñ$/;"	f	typeref:typename:void
+simulate	../queue/simu.h	/^void simulate ( Rank nWin, Rank time )$/;"	f	typeref:typename:void
+size	../binTree/binNode_imple.h	/^  Rank BinNode<T>::size() $/;"	f	class:BinNode	typeref:typename:Rank
+size	../binTree/binTree.h	/^  Rank size() const { return _size; }$/;"	f	class:BinTree	typeref:typename:Rank
+size	../dsacpp-src/src/BTree/BTree.h	/^   int const size() { return _size; } \/\/¹æÄ£$/;"	f	class:BTree	typeref:typename:int const
+size	../dsacpp-src/src/BitMap/Bitmap.h	/^   Rank size() { return _sz; }$/;"	f	class:Bitmap	typeref:typename:Rank
+size	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   Rank size() { return top; } \/\/æŸ¥è¯¢è§„æ¨¡$/;"	f	class:Bitmap	typeref:typename:Rank
+size	../dsacpp-src/src/binTree/BinNode_size.h	/^template <typename T> Rank BinNode<T>::size() { \/\/Í³¼Æµ±Ç°½Úµãºó´ú×ÜÊı£¬¼´ÒÔÆäÎª¸ùµÄ×ÓÊ÷¹æÄ£$/;"	f	class:BinNode	typeref:typename:Rank
+size	../dsacpp-src/src/binTree/BinTree.h	/^   Rank size() const { return _size; } \/\/¹æÄ£$/;"	f	class:BinTree	typeref:typename:Rank
+size	../dsacpp-src/src/cursor_list/cursor_list.h	/^   Rank size() const { return _size; } \/\/¹æÄ£$/;"	f	class:CursorList	typeref:typename:Rank
+size	../dsacpp-src/src/hashtable/HashTable.h	/^   Rank size() const { return N; } \/\/ µ±Ç°µÄ´ÊÌõÊıÄ¿$/;"	f	class:Hashtable	typeref:typename:Rank
+size	../dsacpp-src/src/list/list.h	/^   Rank size() const { return _size; } \/\/¹æÄ£$/;"	f	class:List	typeref:typename:Rank
+size	../dsacpp-src/src/skiplist/SkipList.h	/^   Rank size() const { return empty() ? 0 : last()->data->_size; } \/\/´ÊÌõ×ÜÊı$/;"	f	struct:Skiplist	typeref:typename:Rank
+size	../dsacpp-src/src/vector/vector.h	/^   Rank size() const { return _size; } \/\/¹æÄ£$/;"	f	class:Vector	typeref:typename:Rank
+size	../list/list.h	/^    Rank size() const { return _size; }$/;"	f	class:List	typeref:typename:Rank
+solveDoubleBlack	../dsacpp-src/src/redBlack/RedBlack_solveDoubleBlack.h	/^template <typename T> void RedBlack<T>::solveDoubleBlack( BinNodePosi<T> r ) {$/;"	f	class:RedBlack	typeref:typename:void
+solveDoubleRed	../dsacpp-src/src/redBlack/RedBlack_solveDoubleRed.h	/^template <typename T> void RedBlack<T>::solveDoubleRed( BinNodePosi<T> x ) { \/\/ xµ±Ç°±ØÎªºì$/;"	f	class:RedBlack	typeref:typename:void
+solveOverflow	../dsacpp-src/src/BTree/BTree_solveOverflow.h	/^void BTree<T>::solveOverflow( BTNodePosi<T> v ) {$/;"	f	class:BTree	typeref:typename:void
+solveUnderflow	../dsacpp-src/src/BTree/BTree_solveUnderflow.h	/^void BTree<T>::solveUnderflow( BTNodePosi<T> v ) {$/;"	f	class:BTree	typeref:typename:void
+sort	../dsacpp-src/src/list/List_sort.h	/^template <typename T> void List<T>::sort ( ListNodePosi<T> p, Rank n ) { \/\/ÁĞ±íÇø¼äÅÅĞò$/;"	f	class:List	typeref:typename:void
+sort	../dsacpp-src/src/list/list.h	/^   void sort() { sort( first(), _size ); } \/\/ÁĞ±íÕûÌåÅÅĞò$/;"	f	class:List	typeref:typename:void
+sort	../dsacpp-src/src/vector/vector.h	/^   void sort() { sort ( 0, _size ); } \/\/ÕûÌåÅÅĞò$/;"	f	class:Vector	typeref:typename:void
+sort	../dsacpp-src/src/vector/vector_sort.h	/^template <typename T> void Vector<T>::sort( Rank lo, Rank hi ) { \/\/ÏòÁ¿Çø¼ä[lo, hi)ÅÅĞò$/;"	f	class:Vector	typeref:typename:void
+sort	../list/list.h	/^    void sort(){ return sort( first(), _size ); }$/;"	f	class:List	typeref:typename:void
+sort	../list/list_sort.h	/^void List<T>::sort(ListNodePosi<T> p, Rank n)$/;"	f	class:List	typeref:typename:void
+splay	../dsacpp-src/src/splay/Splay_splay.h	/^BinNodePosi<T> Splay<T>::splay( BinNodePosi<T> v ) { \/\/ vÎªÒò×î½ü·ÃÎÊ¶øĞèÉìÕ¹µÄ½ÚµãÎ»ÖÃ$/;"	f	class:Splay	typeref:typename:BinNodePosi<T>
+sqr	../dsacpp-src/src/power/Power2-1-R.cpp	/^inline __int64 sqr ( __int64 a ) { return a * a; } \/\/Æ½·½£ºÈôÊÇÁ¬ĞøÖ´ĞĞ£¬ºÜ¿ì¾Í»áÊıÖµÒç³ö£¡$/;"	f	typeref:typename:__int64
+startCell	../dsacpp-src/src/laby/main.cpp	/^Cell* startCell;$/;"	v	typeref:typename:Cell *
+startCell	../stack/laby/main.cpp	/^Cell* startCell;$/;"	v	typeref:typename:Cell *
+statistics	../dsacpp-src/src/huffman/huffman_statistics.cpp	/^int* statistics ( char* sample_text_file ) { \/\/Í³¼Æ×Ö·û³öÏÖÆµÂÊ$/;"	f	typeref:typename:int *
+stature	../binTree/binNode.h	/^#define stature(/;"	d
+stature	../dsacpp-src/src/binTree/BinNode.h	/^#define stature(/;"	d
+status	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Tv data; int inDegree, outDegree; VStatus status; \/\/Êı¾İ¡¢³öÈë¶ÈÊı¡¢×´Ì¬$/;"	m	struct:Vertex	typeref:typename:VStatus
+status	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual VStatus& status( Rank v ) { return V[v].status; } \/\/×´Ì¬$/;"	f	class:GraphMatrix	typeref:typename:VStatus &
+status	../dsacpp-src/src/laby/Cell.h	/^   int x, y; Status status; \/\/x×ø±ê¡¢y×ø±ê¡¢ÀàĞÍ$/;"	m	struct:Cell	typeref:typename:Status
+status	../stack/laby/cell.h	/^  Status status;$/;"	m	struct:Cell	typeref:typename:Status
+stretchByZag	../dsacpp-src/src/binTree/BinNode_stretchByZag.h	/^template <typename T> void stretchByZag( BinNodePosi<T>& x ) {$/;"	f	typeref:typename:void
+stretchByZig	../dsacpp-src/src/binTree/BinNode_stretchByZig.h	/^template <typename T> void stretchByZig( BinNodePosi<T>& x ) {$/;"	f	typeref:typename:void
+stretchToLPath	../dsacpp-src/src/BST/BST.h	/^   \/*DSA*\/void stretchToLPath() { stretchByZag ( _root ); } \/\/½èÖúzagĞı×ª£¬×ª»¯Îª×óÏòµ¥Á´$/;"	f	class:BST	typeref:typename:void
+stretchToRPath	../dsacpp-src/src/BST/BST.h	/^   \/*DSA*\/void stretchToRPath() { stretchByZig ( _root ); } \/\/½èÖúzigĞı×ª£¬×ª»¯ÎªÓÒÏòµ¥Á´$/;"	f	class:BST	typeref:typename:void
+succ	../binTree/binNode_succ.h	/^BinNodePosi<T> BinNode<T>:: succ()$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+succ	../dsacpp-src/src/binTree/BinNode_succ.h	/^template <typename T> BinNodePosi<T> BinNode<T>::succ() { \/\/¶¨Î»½ÚµãvµÄÖ±½Óºó¼Ì$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+succ	../dsacpp-src/src/list/listNode.h	/^   T data; ListNodePosi<T> pred, succ; \/\/ÊıÖµ¡¢Ç°Çı¡¢ºó¼Ì$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+succ	../dsacpp-src/src/skiplist/QuadListNode.h	/^   QNodePosi<T> pred, succ, above, below; \/\/Ç°Çı¡¢ºó¼Ì¡¢ÉÏÁÚ¡¢ÏÂÁÚ$/;"	m	struct:QNode	typeref:typename:QNodePosi<T>
+sum	../dsacpp-src/src/sum/sum1.cpp	/^int sum ( int A[], int n ) { \/\/Êı×éÇóºÍËã·¨£¨ÏßĞÔµİ¹é°æ£©$/;"	f	typeref:typename:int
+sum	../dsacpp-src/src/sum/sum2.cpp	/^int sum ( int A[], int lo, int hi ) { \/\/Êı×éÇóºÍËã·¨£¨¶ş·Öµİ¹é°æ£¬Èë¿ÚÎªsum(A, 0, n)£©$/;"	f	typeref:typename:int
+sum	../queue/bestWindow.h	/^Rank sum( Queue< Customer > Q )$/;"	f	typeref:typename:Rank
+sumI	../dsacpp-src/src/sum/sum0.cpp	/^int sumI ( int A[], int n ) { \/\/Êı×éÇóºÍËã·¨£¨µü´ú°æ£©$/;"	f	typeref:typename:int
+t1	../dsacpp-src/src/_py/reverse.py	/^      t1 = 1000*Timer('__main__.reverse_1_test(__main__.n)', 'import __main__').timeit(1);$/;"	v
+t2	../dsacpp-src/src/_py/reverse.py	/^      t2 = 1000*Timer('__main__.reverse_2_test(__main__.n)', 'import __main__').timeit(1);$/;"	v
+tSort	../dsacpp-src/src/graph/Graph_tsort.h	/^Stack<Tv>* Graph<Tv, Te>::tSort( Rank s ) { \/\/ assert: 0 <= s < n$/;"	f	class:Graph	typeref:typename:Stack<Tv> *
+tail	../list/list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+takeMax	../list/list.h	/^    ListNodePosi<T> takeMax()$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+takeMax	../list/list_max.h	/^ListNodePosi<T> List<T>::takeMax( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+tallerChild	../AVL/AVL_imple.h	/^#define tallerChild(/;"	d
+tallerChild	../dsacpp-src/src/AVL/AVL_macro.h	/^#define tallerChild(/;"	d
+test	../dsacpp-src/src/BitMap/Bitmap.h	/^   bool test  ( Rank k ) { expand( k ); return M[k >> 3] &    ( 0x80 >> ( k & 0x07 ) ); }$/;"	f	class:Bitmap	typeref:typename:bool
+test	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   inline bool test( Rank k ) \/\/ä»é€»è¾‘ä¸Šåˆ¤æ–­B[k]æ˜¯å¦ä¸ºtrueï¼ŒO(1)$/;"	f	class:Bitmap	typeref:typename:bool
+test	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   inline bool test( Rank k ) \/\/²âÊÔ$/;"	f	class:Bitmap	typeref:typename:bool
+test3	../binTree/test.cpp	/^void test3(){}$/;"	f	typeref:typename:void
+testAVL	../dsacpp-src/src/AVL/main.cpp	/^template <typename T> void testAVL ( Rank n ) {$/;"	f	typeref:typename:void
+testBST	../dsacpp-src/src/BST/main.cpp	/^template <typename T> void testBST ( Rank n ) {$/;"	f	typeref:typename:void
+testBTree	../dsacpp-src/src/BTree/main.cpp	/^template <typename T> void  testBTree ( int m, int n ) {$/;"	f	typeref:typename:void
+testBinTree	../binTree/test.cpp	/^template <typename T> void   testBinTree ( int h ) { \/\/Â²Ã¢ÃŠÃ”Â¶Ã¾Â²Ã¦ÃŠÃ·$/;"	f	typeref:typename:void
+testBinTree	../dsacpp-src/src/binTree/main.cpp	/^template <typename T> void   testBinTree ( int h ) { \/\/²âÊÔ¶ş²æÊ÷$/;"	f	typeref:typename:void
+testBitmap	../dsacpp-src/src/BitMap/main_O1_init.cpp	/^int testBitmap( int n, int t ) {$/;"	f	typeref:typename:int
+testBitmap	../dsacpp-src/src/Bitmap_set_only/main_O1_init_set_only.cpp	/^int testBitmap ( int n ) {$/;"	f	typeref:typename:int
+testCursor	../dsacpp-src/src/cursor_list/test.cpp	/^int testCursor ( Rank testSize ) {$/;"	f	typeref:typename:int
+testHashtable	../dsacpp-src/src/hashtable/main.cpp	/^void testHashtable ( Rank n ) {$/;"	f	typeref:typename:void
+testHeap	../dsacpp-src/src/PQ/PQ_Test.cpp	/^template <typename PQ, typename T> void testHeap( Rank n ) {$/;"	f	typeref:typename:void
+testID	../binTree/test.cpp	/^int testID = 0; \/\/Â²Ã¢ÃŠÃ”Â±Ã ÂºÃ…$/;"	v	typeref:typename:int
+testID	../dsacpp-src/src/binTree/main.cpp	/^int testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:int
+testID	../dsacpp-src/src/list/main.cpp	/^Rank testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:Rank
+testID	../dsacpp-src/src/queue/main.cpp	/^int testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:int
+testID	../dsacpp-src/src/stack/main.cpp	/^int testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:int
+testID	../dsacpp-src/src/vector/main.cpp	/^int testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:int
+testID	../list/list_test.cpp	/^Rank testID = 0;$/;"	v	typeref:typename:Rank
+testID	../stack/stack_test.cpp	/^int testID = 0;$/;"	v	typeref:typename:int
+testList	../dsacpp-src/src/list/main.cpp	/^template <typename T> void testList( Rank testSize ) {$/;"	f	typeref:typename:void
+testList	../list/list_testhelper.h	/^void testList( int testSize )$/;"	f	typeref:typename:void
+testQueue	../dsacpp-src/src/queue/main.cpp	/^template <typename T> void testQueue ( Rank n ) {$/;"	f	typeref:typename:void
+testRedBlack	../dsacpp-src/src/redBlack/main.cpp	/^template <typename T> void testRedBlack( Rank n ) {$/;"	f	typeref:typename:void
+testSMMH	../dsacpp-src/src/DEPQ/DEPQ_Test.cpp	/^void testSMMH( Rank n ) {$/;"	f	typeref:typename:void
+testSkiplist	../dsacpp-src/src/skiplist/main.cpp	/^void testSkiplist ( Rank n ) {$/;"	f	typeref:typename:void
+testSplayPeriod	../dsacpp-src/src/splay/main.cpp	/^template <typename T> void testSplayPeriod( int n ) { \/\/ÖÜÆÚĞÔ·ÃÎÊ²âÊÔ$/;"	f	typeref:typename:void
+testSplayRandom	../dsacpp-src/src/splay/main.cpp	/^template <typename T> void testSplayRandom( Rank n ) { \/\/Ëæ»ú·ÃÎÊ²âÊÔ$/;"	f	typeref:typename:void
+testStack	../dsacpp-src/src/stack/main.cpp	/^void testStack ( Rank n ) {$/;"	f	typeref:typename:void
+testStack	../stack/stack_test.cpp	/^void testStack ( Rank n )$/;"	f	typeref:typename:void
+testVector	../dsacpp-src/src/vector/main.cpp	/^void testVector( int testSize ) {$/;"	f	typeref:typename:void
+test_size	../dsacpp-src/src/_py/UnionFind_test.py	/^test_size = 12$/;"	v
+time	../dsacpp-src/src/simu/Customer.h	/^struct Customer { int window; unsigned int time; }; \/\/¹Ë¿ÍÀà£ºËùÊô´°¿Ú£¨¶ÓÁĞ£©¡¢·şÎñÊ±³¤$/;"	m	struct:Customer	typeref:typename:unsigned int
+time	../queue/customer.h	/^  unsigned int time;$/;"	m	struct:Customer	typeref:typename:unsigned int
+top	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   Rank* T; Rank top; \/\/å®¹é‡ä¸ºNçš„æ ˆTï¼Œè®°å½•è¢«æ ‡è®°å„ä½ç§©çš„æ ˆï¼Œä»¥åŠæ ˆé¡¶æŒ‡é’ˆ$/;"	m	class:Bitmap	typeref:typename:Rank
+top	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   Rank* T; Rank top; \/\/ÈİÁ¿ÎªNµÄÕ»T£¬¼ÇÂ¼±»±ê¼Ç¸÷Î»ÖÈµÄÕ»£¬ÒÔ¼°Õ»¶¥Ö¸Õë$/;"	m	class:Bitmap	typeref:typename:Rank
+top	../dsacpp-src/src/stack_list/stack_list.h	/^   T& top() { return last()->data; } \/\/È¡¶¥£ºÖ±½Ó·µ»ØÁĞ±íµÄÄ©ÔªËØ$/;"	f	class:Stack	typeref:typename:T &
+top	../dsacpp-src/src/stack_vector/stack_vector.h	/^   T& top() { return ( *this ) [size() - 1]; } \/\/È¡¶¥£ºÖ±½Ó·µ»ØÏòÁ¿µÄÄ©ÔªËØ$/;"	f	class:Stack	typeref:typename:T &
+towardsDaxue	../dsacpp-src/src/daxue/main.cpp	/^void towardsDaxue ( int n ) {$/;"	f	typeref:typename:void
+trace	../binTree/binNode_imple.h	/^#define trace(/;"	d
+trailer	../dsacpp-src/src/list/list.h	/^   Rank _size; ListNodePosi<T> header, trailer; \/\/¹æÄ£¡¢Í·ÉÚ±ø¡¢Î²ÉÚ±ø$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+trailer	../dsacpp-src/src/skiplist/QuadList.h	/^   QNodePosi<T> header, trailer; \/\/Í·ÉÚ±ø¡¢Î²ÉÚ±ø$/;"	m	struct:Quadlist	typeref:typename:QNodePosi<T>
+travIn	../dsacpp-src/src/binTree/BinNode_travInorder.h	/^void BinNode<T>::travIn ( VST& visit ) { \/\/¶ş²æÊ÷ÖĞĞò±éÀúËã·¨Í³Ò»Èë¿Ú$/;"	f	class:BinNode	typeref:typename:void
+travIn	../dsacpp-src/src/binTree/BinTree.h	/^   void travIn( VST& visit ) { if ( _root ) _root->travIn( visit ); } \/\/ÖĞĞò±éÀú$/;"	f	class:BinTree	typeref:typename:void
+travIn_I1	../dsacpp-src/src/binTree/BinNode_TravInorder_I1.h	/^void travIn_I1( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÖĞĞò±éÀúËã·¨£¨µü´ú°æ#1£©$/;"	f	typeref:typename:void
+travIn_I2	../dsacpp-src/src/binTree/BinNode_TravInorder_I2.h	/^void travIn_I2( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÖĞĞò±éÀúËã·¨£¨µü´ú°æ#2£©$/;"	f	typeref:typename:void
+travIn_I3	../dsacpp-src/src/binTree/BinNode_TravInorder_I3.h	/^void travIn_I3( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÖĞĞò±éÀúËã·¨£¨µü´ú°æ#3£¬ÎŞĞè¸¨ÖúÕ»£©$/;"	f	typeref:typename:void
+travIn_I4	../dsacpp-src/src/binTree/BinNode_TravInorder_I4.h	/^void travIn_I4( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÖĞĞò±éÀú£¨µü´ú°æ#4£¬ÎŞĞèÕ»»ò±êÖ¾Î»£©$/;"	f	typeref:typename:void
+travIn_R	../dsacpp-src/src/binTree/BinNode_travInorder_R.h	/^void travIn_R ( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÖĞĞò±éÀúËã·¨£¨µİ¹é°æ£©$/;"	f	typeref:typename:void
+travLevel	../dsacpp-src/src/binTree/BinNode_travLevel.h	/^void BinNode <T>::travLevel( VST& visit ) { \/\/¶ş²æÊ÷²ã´Î±éÀúËã·¨$/;"	f	class:BinNode	typeref:typename:void
+travLevel	../dsacpp-src/src/binTree/BinTree.h	/^   void travLevel( VST& visit ) { if ( _root ) _root->travLevel( visit ); } \/\/²ã´Î±éÀú$/;"	f	class:BinTree	typeref:typename:void
+travLv	../binTree/binNode_travLv.h	/^  void BinNode<T>::travLv ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travLv	../binTree/binTree.h	/^  template <typename VST> void travLv ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travMi	../binTree/binNode_trav.h	/^  void BinNode<T>::travMi ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travMi	../binTree/binTree.h	/^  template <typename VST> void travMi ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travMi_I1	../binTree/binNode_travMi.h	/^void travMi_I1 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I2	../binTree/binNode_travMi.h	/^void travMi_I2 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I3	../binTree/binNode_travMi.h	/^void travMi_I3 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I4	../binTree/binNode_travMi.h	/^void travMi_I4 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_R	../binTree/binNode_travMi.h	/^void travMi_R ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPo	../binTree/binNode_trav.h	/^  void BinNode<T>::travPo ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travPo	../binTree/binTree.h	/^  template <typename VST> void travPo ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travPo_I	../binTree/binNode_travPo.h	/^void travPo_I ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPo_R	../binTree/binNode_travPo.h	/^void travPo_R ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPost	../dsacpp-src/src/binTree/BinNode_travPostorder.h	/^void BinNode <T>::travPost( VST& visit ) { \/\/¶ş²æÊ÷ºóĞò±éÀúËã·¨Í³Ò»Èë¿Ú$/;"	f	class:BinNode	typeref:typename:void
+travPost	../dsacpp-src/src/binTree/BinTree.h	/^   void travPost( VST& visit ) { if ( _root ) _root->travPost( visit ); } \/\/ºóĞò±éÀú$/;"	f	class:BinTree	typeref:typename:void
+travPost_I	../dsacpp-src/src/binTree/BinNode_travPostorder_I.h	/^void travPost_I( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷µÄºóĞò±éÀú£¨µü´ú°æ£©$/;"	f	typeref:typename:void
+travPost_R	../dsacpp-src/src/binTree/BinNode_travPostorder_R.h	/^void travPost_R( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ºóĞò±éÀúËã·¨£¨µİ¹é°æ£©$/;"	f	typeref:typename:void
+travPre	../binTree/binNode_trav.h	/^  void BinNode<T>::travPre ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travPre	../binTree/binTree.h	/^  template <typename VST> void travPre ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travPre	../dsacpp-src/src/binTree/BinNode_travPreorder.h	/^void BinNode <T>::travPre( VST& visit ) { \/\/¶ş²æÊ÷ÏÈĞò±éÀúËã·¨Í³Ò»Èë¿Ú$/;"	f	class:BinNode	typeref:typename:void
+travPre	../dsacpp-src/src/binTree/BinTree.h	/^   void travPre( VST& visit ) { if ( _root ) _root->travPre( visit ); } \/\/ÏÈĞò±éÀú$/;"	f	class:BinTree	typeref:typename:void
+travPre_I1	../binTree/binNode_travPre.h	/^void travPre_I1( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_I1	../dsacpp-src/src/binTree/BinNode_TravPreorder_I1.h	/^void travPre_I1( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÏÈĞò±éÀúËã·¨£¨µü´ú°æ#1£©$/;"	f	typeref:typename:void
+travPre_I2	../binTree/binNode_travPre.h	/^void travPre_I2( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_I2	../dsacpp-src/src/binTree/BinNode_TravPreorder_I2.h	/^void travPre_I2( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÏÈĞò±éÀúËã·¨£¨µü´ú°æ#2£©$/;"	f	typeref:typename:void
+travPre_R	../binTree/binNode_travPre.h	/^void travPre_R( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_R	../dsacpp-src/src/binTree/BinNode_travPreorder_R.h	/^void travPre_R( BinNodePosi<T> x, VST& visit ) { \/\/¶ş²æÊ÷ÏÈĞò±éÀúËã·¨£¨µİ¹é°æ£©$/;"	f	typeref:typename:void
+traverse	../dsacpp-src/src/list/List_traverse.h	/^template <typename T> void List<T>::traverse( void ( *visit )( T& ) ) \/\/½èÖúº¯ÊıÖ¸Õë»úÖÆ±éÀú$/;"	f	class:List	typeref:typename:void
+traverse	../dsacpp-src/src/list/List_traverse.h	/^void List<T>::traverse( VST& visit ) \/\/½èÖúº¯Êı¶ÔÏó»úÖÆ±éÀú$/;"	f	class:List	typeref:typename:void
+traverse	../dsacpp-src/src/skiplist/QuadList_traverse.h	/^void Quadlist<T>::traverse( VST& visit ) { \/\/ÀûÓÃº¯Êı¶ÔÏó»úÖÆ£¬¿ÉÈ«¾ÖĞÔĞŞ¸Ä$/;"	f	class:Quadlist	typeref:typename:void
+traverse	../dsacpp-src/src/skiplist/QuadList_traverse.h	/^void Quadlist<T>::traverse( void ( *visit )( T& ) ) { \/\/ÀûÓÃº¯ÊıÖ¸Õë»úÖÆ£¬Ö»¶Á»ò¾Ö²¿ĞÔĞŞ¸Ä$/;"	f	class:Quadlist	typeref:typename:void
+traverse	../dsacpp-src/src/vector/vector_traverse.h	/^template <typename T> void Vector<T>::traverse( void ( *visit )( T& ) ) \/\/½èÖúº¯ÊıÖ¸Õë»úÖÆ$/;"	f	class:Vector	typeref:typename:void
+traverse	../dsacpp-src/src/vector/vector_traverse.h	/^void Vector<T>::traverse( VST& visit ) \/\/½èÖúº¯Êı¶ÔÏó»úÖÆ$/;"	f	class:Vector	typeref:typename:void
+traverse	../list/list_traverse.h	/^void List<T>::traverse( VST& visit )$/;"	f	class:List	typeref:typename:void
+traverse	../list/list_traverse.h	/^void List<T>::traverse( void(*visit)(T&) )$/;"	f	class:List	typeref:typename:void
+trim	../dsacpp-src/src/nest_recursive/nest.cpp	/^void trim ( const char exp[], Rank& lo, Rank& hi ) { \/\/É¾³ıexp[lo, hi]²»º¬À¨ºÅµÄ×î³¤Ç°×º¡¢ºó×º$/;"	f	typeref:typename:void
+trivialMedian	../dsacpp-src/src/median1/trivialMedian.h	/^T trivialMedian( Vector<T>& S1, Rank lo1, Rank n1, Vector<T>& S2, Rank lo2, Rank n2 ) {$/;"	f	typeref:typename:T
+type	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   EType type; \/\/Êı¾İ¡¢È¨ÖØ¡¢ÀàĞÍ$/;"	m	struct:Edge	typeref:typename:EType
+type	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual EType& type( Rank v, Rank u ) { return E[v][u]->type; } \/\/±ß(v, u)µÄÀàĞÍ$/;"	f	class:GraphMatrix	typeref:typename:EType &
+u	../dsacpp-src/src/_share/checkOrder_Elem.h	/^   T pred; int& u;$/;"	m	struct:CheckOrder	typeref:typename:int &
+uf	../dsacpp-src/src/_py/UnionFind_test.py	/^uf = UnionFind( test_size )$/;"	v
+uncle	../binTree/binNode_imple.h	/^#define uncle(/;"	d
+uncle	../dsacpp-src/src/binTree/BinNode_macro_BASIC.h	/^#define uncle(/;"	d
+union	../dsacpp-src/src/_py/UnionFind_QuickFind.py	/^   def union(self, i, j):$/;"	m	class:UnionFind
+uniquify	../dsacpp-src/src/list/List_uniquify.h	/^template <typename T> Rank List<T>::uniquify() { \/\/³ÉÅúÌŞ³ıÖØ¸´ÔªËØ£¬Ğ§ÂÊ¸ü¸ß$/;"	f	class:List	typeref:typename:Rank
+uniquify	../dsacpp-src/src/vector/Vector_uniquify.h	/^template <typename T> Rank Vector<T>::uniquify() { \/\/ÓĞĞòÏòÁ¿ÖØ¸´ÔªËØÌŞ³ıËã·¨£¨¸ßĞ§°æ£©$/;"	f	class:Vector	typeref:typename:Rank
+uniquify	../dsacpp-src/src/vector/Vector_uniquify_slow.h	/^template <typename T> Rank Vector<T>::uniquify() { \/\/ÓĞĞòÏòÁ¿ÖØ¸´ÔªËØÌŞ³ıËã·¨£¨µÍĞ§°æ£©$/;"	f	class:Vector	typeref:typename:Rank
+uniquify	../list/list_uniquify.h	/^Rank List<T>::uniquify()$/;"	f	class:List	typeref:typename:Rank
+unsort	../dsacpp-src/src/vector/vector.h	/^   void unsort() { unsort ( 0, _size ); } \/\/ÕûÌåÖÃÂÒ$/;"	f	class:Vector	typeref:typename:void
+unsort	../dsacpp-src/src/vector/vector_unsort.h	/^template <typename T> void Vector<T>::unsort( Rank lo, Rank hi ) { \/\/Ëæ»úÖÃÂÒÇø¼ä[lo, hi)$/;"	f	class:Vector	typeref:typename:void
+updateHash	../dsacpp-src/src/string_pm_kr/pm_kr_updateHash.cpp	/^void updateHash ( HashCode& hashT, char* T, size_t m, size_t k, HashCode Dm ) {$/;"	f	typeref:typename:void
+updateHeight	../binTree/binTree_imple.h	/^Rank BinTree<T>::updateHeight( BinNodePosi<T> p )$/;"	f	class:BinTree	typeref:typename:Rank
+updateHeight	../dsacpp-src/src/binTree/BinTree_updateHeight.h	/^template <typename T> Rank BinTree<T>::updateHeight( BinNodePosi<T> x ) \/\/¸üĞÂ½Úµãx¸ß¶È$/;"	f	class:BinTree	typeref:typename:Rank
+updateHeight	../dsacpp-src/src/redBlack/RedBlack_updateHeight.h	/^template <typename T> Rank RedBlack<T>::updateHeight( BinNodePosi<T> x ) { \/\/¸üĞÂ½Úµã¸ß¶È$/;"	f	class:RedBlack	typeref:typename:Rank
+updateHeightAbove	../binTree/binTree_imple.h	/^void BinTree<T>::updateHeightAbove ( BinNodePosi<T> p )$/;"	f	class:BinTree	typeref:typename:void
+updateHeightAbove	../dsacpp-src/src/binTree/BinTree_updateHeight.h	/^template <typename T> void BinTree<T>::updateHeightAbove( BinNodePosi<T> x ) \/\/¸üĞÂ¸ß¶È$/;"	f	class:BinTree	typeref:typename:void
+valid	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   inline bool valid( Rank r ) { return ( 0 <= r ) && ( r < top ); }$/;"	f	class:Bitmap	typeref:typename:bool
+valid	../dsacpp-src/src/list/list.h	/^   bool valid( ListNodePosi<T> p ) \/\/ÅĞ¶ÏÎ»ÖÃpÊÇ·ñ¶ÔÍâºÏ·¨$/;"	f	class:List	typeref:typename:bool
+value	../dsacpp-src/src/Entry/Entry.h	/^   K key; V value; \/\/¹Ø¼üÂë¡¢ÊıÖµ$/;"	m	struct:Entry	typeref:typename:V
+verifySMMH	../dsacpp-src/src/DEPQ/DEPQ_Test.cpp	/^void verifySMMH( SMMH<int> H ) {$/;"	f	typeref:typename:void
+vertex	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual Tv& vertex( Rank v ) { return V[v].data; } \/\/Êı¾İ$/;"	f	class:GraphMatrix	typeref:typename:Tv &
+visitAlongLeftBranch	../binTree/binNode_travPre.h	/^static void visitAlongLeftBranch( BinNodePosi<T> n, VST& visit, Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+visitAlongVine	../dsacpp-src/src/binTree/BinNode_TravPreorder_I2.h	/^static void visitAlongVine( BinNodePosi<T> x, VST& visit, Stack<BinNodePosi<T>>& S ) {$/;"	f	typeref:typename:void
+weight	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   Te data; int weight;$/;"	m	struct:Edge	typeref:typename:int
+weight	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   virtual int& weight( Rank v, Rank u ) { return E[v][u]->weight; } \/\/±ß(v, u)µÄÈ¨ÖØ$/;"	f	class:GraphMatrix	typeref:typename:int &
+weight	../dsacpp-src/src/huffman/huffChar.h	/^   char ch; unsigned int weight; \/\/×Ö·û¡¢ÆµÂÊ$/;"	m	struct:HuffChar	typeref:typename:unsigned int
+window	../dsacpp-src/src/simu/Customer.h	/^struct Customer { int window; unsigned int time; }; \/\/¹Ë¿ÍÀà£ºËùÊô´°¿Ú£¨¶ÓÁĞ£©¡¢·şÎñÊ±³¤$/;"	m	struct:Customer	typeref:typename:int
+window	../queue/customer.h	/^  int window;$/;"	m	struct:Customer	typeref:typename:int
+x	../dsacpp-src/src/laby/Cell.h	/^   int x, y; Status status; \/\/x×ø±ê¡¢y×ø±ê¡¢ÀàĞÍ$/;"	m	struct:Cell	typeref:typename:int
+x	../dsacpp-src/src/queen_stack/queen.h	/^   Rank x, y; \/\/»ÊºóÔÚÆåÅÌÉÏµÄÎ»ÖÃ×ø±ê$/;"	m	struct:Queen	typeref:typename:Rank
+x	../stack/laby/cell.h	/^  int x, y;$/;"	m	struct:Cell	typeref:typename:int
+x	../stack/queen/queen.h	/^  Rank x, y; $/;"	m	struct:Queen	typeref:typename:Rank
+y	../dsacpp-src/src/laby/Cell.h	/^   int x, y; Status status; \/\/x×ø±ê¡¢y×ø±ê¡¢ÀàĞÍ$/;"	m	struct:Cell	typeref:typename:int
+y	../dsacpp-src/src/queen_stack/queen.h	/^   Rank x, y; \/\/»ÊºóÔÚÆåÅÌÉÏµÄÎ»ÖÃ×ø±ê$/;"	m	struct:Queen	typeref:typename:Rank
+y	../stack/laby/cell.h	/^  int x, y;$/;"	m	struct:Cell	typeref:typename:int
+y	../stack/queen/queen.h	/^  Rank x, y; $/;"	m	struct:Queen	typeref:typename:Rank
+zag	../dsacpp-src/src/binTree/BinNode_zag.h	/^template <typename T> BinNodePosi<T> BinNode<T>::zag() { \/\/ÄæÊ±ÕëĞı×ª$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+zig	../dsacpp-src/src/binTree/BinNode_zig.h	/^template <typename T> BinNodePosi<T> BinNode<T>::zig() { \/\/Ë³Ê±ÕëĞı×ª$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+~BTree	../dsacpp-src/src/BTree/BTree.h	/^   ~BTree() { if ( _root ) release( _root ); } \/\/Îö¹¹º¯Êı£ºÊÍ·ÅËùÓĞ½Úµã$/;"	f	class:BTree
+~BinTree	../binTree/binTree.h	/^  ~BinTree() { if ( _size > 0 ) remove ( _root ); }$/;"	f	class:BinTree
+~BinTree	../dsacpp-src/src/binTree/BinTree.h	/^   ~BinTree() { if ( 0 < _size ) remove( _root ); } \/\/Îö¹¹º¯Êı$/;"	f	class:BinTree
+~Bitmap	../dsacpp-src/src/BitMap/Bitmap.h	/^   ~Bitmap() { delete[] M; M = NULL; _sz = 0; } \/\/ææ„æ—¶é‡Šæ”¾ä½å›¾ç©ºé—´$/;"	f	class:Bitmap
+~Bitmap	../dsacpp-src/src/BitMap/Bitmap_O1_init.h	/^   ~Bitmap() { delete[] F; delete[] T; } \/\/ææ„æ—¶é‡Šæ”¾ç©ºé—´$/;"	f	class:Bitmap
+~Bitmap	../dsacpp-src/src/Bitmap_set_only/Bitmap_O1_init_set_only.h	/^   ~Bitmap() { delete[] F; delete[] T; } \/\/Îö¹¹Ê±ÊÍ·Å¿Õ¼ä$/;"	f	class:Bitmap
+~CursorList	../dsacpp-src/src/cursor_list/cursor_list.h	/^   ~CursorList() { delete [] _link; delete [] _elem; } \/\/ÊÍ·ÅÄÚ²¿¿Õ¼ä$/;"	f	class:CursorList
+~GraphMatrix	../dsacpp-src/src/graphmatrix/GraphMatrix.h	/^   ~GraphMatrix() { \/\/Îö¹¹$/;"	f	class:GraphMatrix
+~Hashtable	../dsacpp-src/src/hashtable/HashTable_destructor.h	/^template <typename K, typename V> Hashtable<K, V>::~Hashtable() { \/\/Îö¹¹Ç°ÊÍ·ÅÍ°Êı×é¼°·Ç¿Õ´ÊÌõ$/;"	f	class:Hashtable
+~List	../dsacpp-src/src/list/list_destructor.h	/^template <typename T> List<T>::~List() \/\/ÁĞ±íÎö¹¹Æ÷$/;"	f	class:List
+~List	../list/list_dest.h	/^List<T>::~List()$/;"	f	class:List
+~Quadlist	../dsacpp-src/src/skiplist/QuadList.h	/^   ~Quadlist() { clear(); delete header; delete trailer; } \/\/Îö¹¹$/;"	f	struct:Quadlist
+~Vector	../dsacpp-src/src/vector/vector.h	/^   ~Vector() { delete [] _elem; } \/\/ÊÍ·ÅÄÚ²¿¿Õ¼ä$/;"	f	class:Vector

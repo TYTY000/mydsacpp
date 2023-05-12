@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tyty/Desktop/dsacpp/list/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+CC	./Makefile	/^CC = g++$/;"	m
+DEPS	./Makefile	/^DEPS = listNode.h list.h$/;"	m
+Half	./list_testhelper.h	/^struct Half$/;"	s
+Increase	./list_testhelper.h	/^  Increase(unsigned int n) : num(n) {} $/;"	f	struct:Increase
+Increase	./list_testhelper.h	/^struct Increase$/;"	s
+List	./list.h	/^    List(){ init(); }$/;"	f	class:List
+List	./list.h	/^class List $/;"	c
+List	./list_cons.h	/^List<T>::List( const List<T>& L )$/;"	f	class:List
+List	./list_cons.h	/^List<T>::List( const List<T>& L, Rank r, Rank n)$/;"	f	class:List
+List	./list_cons.h	/^List<T>::List( const ListNodePosi<T> p, Rank n )$/;"	f	class:List
+ListNode	./listNode.h	/^  ListNode( T e ) : data(e), prev(nullptr), next(nullptr) {} $/;"	f	struct:ListNode
+ListNode	./listNode.h	/^  ListNode( T e, ListNodePosi<T> p, ListNodePosi<T> n ):$/;"	f	struct:ListNode
+ListNode	./listNode.h	/^  ListNode() : data(), prev(nullptr), next(nullptr){}$/;"	f	struct:ListNode
+ListNode	./listNode.h	/^struct ListNode$/;"	s
+ListNodePosi	./listNode.h	/^template <typename T> using ListNodePosi = ListNode<T>*;$/;"	t	typeref:typename:ListNode<T> *
+Rank	./listNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+TARGET	./Makefile	/^TARGET = list_test.cpp$/;"	m
+TARGET_EXEC	./Makefile	/^TARGET_EXEC = list_test$/;"	m
+__listNode__	./listNode.h	/^#define __listNode__$/;"	d
+__list__	./list.h	/^#define __list__$/;"	d
+__list_bracket__	./list_bracket.h	/^#define __list_bracket__$/;"	d
+__list_clear__	./list_clear.h	/^#define __list_clear__$/;"	d
+__list_cons__	./list_cons.h	/^#define __list_cons__$/;"	d
+__list_copynode__	./list_copynode.h	/^#define __list_copynode__$/;"	d
+__list_deduplicate__	./list_deduplicate.h	/^#define __list_deduplicate__$/;"	d
+__list_dest__	./list_dest.h	/^#define __list_dest__$/;"	d
+__list_find__	./list_find.h	/^#define __list_find__$/;"	d
+__list_imple__	./list_imple.h	/^#define __list_imple__$/;"	d
+__list_init__	./list_init.h	/^#define __list_init__$/;"	d
+__list_insert__	./list_insert.h	/^#define __list_insert__$/;"	d
+__list_insertion__	./list_insertion.h	/^#define __list_insertion__$/;"	d
+__list_max__	./list_max.h	/^#define __list_max__$/;"	d
+__list_merge__	./list_merge.h	/^#define __list_merge__$/;"	d
+__list_remove__	./list_remove.h	/^#define __list_remove__$/;"	d
+__list_reverse__	./list_reverse.h	/^#define __list_reverse__$/;"	d
+__list_search__	./list_search.h	/^#define __list_search__$/;"	d
+__list_selection__	./list_selection.h	/^#define __list_selection__$/;"	d
+__list_sort__	./list_sort.h	/^#define __list_sort__$/;"	d
+__list_traverse__	./list_traverse.h	/^#define __list_traverse__$/;"	d
+__list_uniquify__	./list_uniquify.h	/^#define __list_uniquify__$/;"	d
+__node__imple__	./listNode_imple.h	/^#define __node__imple__$/;"	d
+__node_next__	./listNode_insertAsNext.h	/^#define __node_next__$/;"	d
+__node_prev__	./listNode_insertAsPrev.h	/^#define __node_prev__$/;"	d
+__test_helper__	./list_testhelper.h	/^#define __test_helper__$/;"	d
+_size	./list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:int
+all	./Makefile	/^all: $(PROGRAMS)$/;"	t
+all	./make/Makefile	/^all: f1.o f2.o$/;"	t
+clean	./Makefile	/^clean:$/;"	t
+clear	./list_clear.h	/^int List<T>::clear()$/;"	f	class:List	typeref:typename:int
+copyNodes	./list_copynode.h	/^void List<T>::copyNodes( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+data	./listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:T
+deduplicate	./list_deduplicate.h	/^Rank List<T>::deduplicate()$/;"	f	class:List	typeref:typename:Rank
+empty	./list.h	/^    bool empty() const { return _size <= 0;}$/;"	f	class:List	typeref:typename:bool
+f1.o	./make/Makefile	/^f1.o f2.o:$/;"	t
+f2.o	./make/Makefile	/^f1.o f2.o:$/;"	t
+find	./list.h	/^    ListNodePosi<T> find( const T& e ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+find	./list_find.h	/^ListNodePosi<T> List<T>::find( const T& e, Rank n, ListNodePosi<T> p) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+first	./list.h	/^    ListNodePosi<T> first() const { return head->next; }$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+half	./list_testhelper.h	/^void half(List<T>& L)$/;"	f	typeref:typename:void
+head	./list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+increase	./list_testhelper.h	/^void increase(List<T>& L)$/;"	f	typeref:typename:void
+init	./list_init.h	/^void List<T>::init()$/;"	f	class:List	typeref:typename:void
+insert	./list_insert.h	/^ListNodePosi<T> List<T>::insert( ListNodePosi<T> p, const T& e )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insert	./list_insert.h	/^ListNodePosi<T> List<T>::insert( const T& e, ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsFirst	./list_insert.h	/^ListNodePosi<T> List<T>::insertAsFirst(const T& e)$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsLast	./list_insert.h	/^ListNodePosi<T> List<T>::insertAsLast(const T& e)$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsNext	./listNode_insertAsNext.h	/^ListNodePosi<T> ListNode<T>::insertAsNext( const T& e )$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertAsPrev	./listNode_insertAsPrev.h	/^ListNodePosi<T> ListNode<T>::insertAsPrev( const T& e )$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertionSort	./list_insertion.h	/^void List<T>::insertionSort( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+isValid	./list.h	/^    bool isValid(ListNodePosi<T> p) { return p && (p != head) && (p != tail); }$/;"	f	class:List	typeref:typename:bool
+last	./list.h	/^    ListNodePosi<T> last() const { return tail->prev; }$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+lt	./list_max.h	/^ template <typename T> static bool lt ( T& a, T& b ) { return a < b; }$/;"	f	typeref:typename:bool
+lt	./list_max.h	/^ template <typename T> static bool lt ( T* a, T* b ){ return lt( *a, *b );}$/;"	f	typeref:typename:bool
+main	./list_test.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+merge	./list.h	/^    void merge( List<T>& L) $/;"	f	class:List	typeref:typename:void
+merge	./list_merge.h	/^void List<T>::merge( ListNodePosi<T> p, Rank n, List<T>& L, ListNodePosi<T> q, Rank m)$/;"	f	class:List	typeref:typename:void
+mergeSort	./list_merge.h	/^void List<T>::mergeSort( ListNodePosi<T>& p, Rank n )$/;"	f	class:List	typeref:typename:void
+next	./listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+num	./list_testhelper.h	/^  unsigned int num;$/;"	m	struct:Increase	typeref:typename:unsigned int
+operator ()	./list_testhelper.h	/^  virtual void operator()(T& e) { e += num;} $/;"	f	struct:Increase	typeref:typename:void
+operator ()	./list_testhelper.h	/^  virtual void operator()(T& e) { e \/= 2;} $/;"	f	struct:Half	typeref:typename:void
+operator <<	./list.h	/^std::ostream& operator<<(std::ostream& ostr, const List<T>& L)$/;"	f	typeref:typename:std::ostream &
+operator <<	./list_testhelper.h	/^std::ostream& operator <<(std::ostream& os, std::nullptr_t ptr)$/;"	f	typeref:typename:std::ostream &
+operator []	./list_bracket.h	/^ListNodePosi<T> List<T>::operator[]( Rank r ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+prev	./listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+print	./list_testhelper.h	/^#define print(/;"	d
+randomList	./list_testhelper.h	/^void randomList ( List<T>& list, Rank n )$/;"	f	typeref:typename:void
+remove	./list_remove.h	/^T List<T>::remove( ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:T
+reverse	./list_reverse.h	/^void List<T>::reverse()$/;"	f	class:List	typeref:typename:void
+search	./list.h	/^    ListNodePosi<T> search( const T& e ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+search	./list_search.h	/^ListNodePosi<T> List<T>::search( const T& e, Rank n, ListNodePosi<T> p) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+selectionSort	./list_selection.h	/^void List<T>::selectionSort( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+size	./list.h	/^    Rank size() const { return _size; }$/;"	f	class:List	typeref:typename:Rank
+sort	./list.h	/^    void sort(){ return sort( first(), _size ); }$/;"	f	class:List	typeref:typename:void
+sort	./list_sort.h	/^void List<T>::sort(ListNodePosi<T> p, Rank n)$/;"	f	class:List	typeref:typename:void
+tail	./list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+takeMax	./list.h	/^    ListNodePosi<T> takeMax()$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+takeMax	./list_max.h	/^ListNodePosi<T> List<T>::takeMax( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+testID	./list_test.cpp	/^Rank testID = 0;$/;"	v	typeref:typename:Rank
+testList	./list_testhelper.h	/^void testList( int testSize )$/;"	f	typeref:typename:void
+traverse	./list_traverse.h	/^void List<T>::traverse( VST& visit )$/;"	f	class:List	typeref:typename:void
+traverse	./list_traverse.h	/^void List<T>::traverse( void(*visit)(T&) )$/;"	f	class:List	typeref:typename:void
+uniquify	./list_uniquify.h	/^Rank List<T>::uniquify()$/;"	f	class:List	typeref:typename:Rank
+~List	./list_dest.h	/^List<T>::~List()$/;"	f	class:List

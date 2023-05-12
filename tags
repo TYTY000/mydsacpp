@@ -1,0 +1,431 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tyty/Desktop/dsacpp/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AVAILABLE	./stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon404317140203
+AVL	./AVL/AVL.h	/^class AVL : public BST<T>{$/;"	c
+BACKTRACKED	./stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon404317140203
+BALANCED	./AVL/AVL_imple.h	/^#define BALANCED(/;"	d
+BALDIFF	./AVL/AVL_imple.h	/^#define BALDIFF(/;"	d
+BST	./BST/BST.h	/^class BST : public BinTree<T> {$/;"	c
+BinNode	./binTree/binNode.h	/^  BinNode( T e, BinNodePosi<T> p = nullptr, BinNodePosi<T> l = nullptr,$/;"	f	struct:BinNode
+BinNode	./binTree/binNode.h	/^  BinNode() :$/;"	f	struct:BinNode
+BinNode	./binTree/binNode.h	/^template <typename T> struct BinNode {$/;"	s
+BinNodePosi	./binTree/binNode.h	/^template <typename T> using BinNodePosi = BinNode<T>*;$/;"	t	typeref:typename:BinNode<T> *
+BinTree	./binTree/binTree.h	/^  BinTree() :_size (0), _root( nullptr ) { }$/;"	f	class:BinTree
+BinTree	./binTree/binTree.h	/^class BinTree {$/;"	c
+CC	./list/Makefile	/^CC = g++$/;"	m
+CC	./stack/Makefile	/^CC = g++$/;"	m
+Cell	./stack/laby/cell.h	/^struct Cell$/;"	s
+Continuous	./stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anonce3b3ffd0103
+Customer	./queue/customer.h	/^struct Customer $/;"	s
+DEFAULT_CAPA	./vector/vector.h	/^#define DEFAULT_CAPA /;"	d
+DEPS	./list/Makefile	/^DEPS = listNode.h list.h$/;"	m
+DEPS	./stack/Makefile	/^DEPS = ..\/list\/listNode.h ..\/list\/list.h stack.h$/;"	m
+Direc	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	t	typeref:enum:__anon404317140103
+Double	./binTree/test.cpp	/^template <typename T> struct Double{$/;"	s	file:
+EAST	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon404317140103
+EType	./graph/graph.h	/^using EType = enum { UNDETERMINED, TREE, CROSS, FORWARD, BACKWARD };$/;"	t
+Fib	./fib/fib.h	/^  Fib ( Rank n ){$/;"	f	class:Fib
+Fib	./fib/fib.h	/^class Fib {$/;"	c
+Graph	./graph/graph.h	/^class Graph {$/;"	c
+Hailstone	./binTree/test.cpp	/^template <typename T> struct Hailstone{$/;"	s	file:
+Half	./list/list_testhelper.h	/^struct Half$/;"	s
+HasBChild	./binTree/binNode_imple.h	/^#define HasBChild(/;"	d
+HasChild	./binTree/binNode_imple.h	/^#define HasChild(/;"	d
+HasLChild	./binTree/binNode_imple.h	/^#define HasLChild(/;"	d
+HasRChild	./binTree/binNode_imple.h	/^#define HasRChild(/;"	d
+ISBALANCE	./AVL/AVL_imple.h	/^#define ISBALANCE(/;"	d
+Increase	./binTree/test.cpp	/^template <typename T> struct Increase{$/;"	s	file:
+Increase	./list/list_testhelper.h	/^  Increase(unsigned int n) : num(n) {} $/;"	f	struct:Increase
+Increase	./list/list_testhelper.h	/^struct Increase$/;"	s
+IsLChild	./binTree/binNode_imple.h	/^#define IsLChild(/;"	d
+IsLeaf	./binTree/binNode_imple.h	/^#define IsLeaf(/;"	d
+IsParent	./binTree/binNode_imple.h	/^#define IsParent(/;"	d
+IsRChild	./binTree/binNode_imple.h	/^#define IsRChild(/;"	d
+IsRoot	./binTree/binNode_imple.h	/^#define IsRoot(/;"	d
+LABY_MAX	./stack/laby/cell.h	/^#define LABY_MAX /;"	d
+List	./list/list.h	/^    List(){ init(); }$/;"	f	class:List
+List	./list/list.h	/^class List $/;"	c
+List	./list/list_cons.h	/^List<T>::List( const List<T>& L )$/;"	f	class:List
+List	./list/list_cons.h	/^List<T>::List( const List<T>& L, Rank r, Rank n)$/;"	f	class:List
+List	./list/list_cons.h	/^List<T>::List( const ListNodePosi<T> p, Rank n )$/;"	f	class:List
+ListNode	./list/listNode.h	/^  ListNode( T e ) : data(e), prev(nullptr), next(nullptr) {} $/;"	f	struct:ListNode
+ListNode	./list/listNode.h	/^  ListNode( T e, ListNodePosi<T> p, ListNodePosi<T> n ):$/;"	f	struct:ListNode
+ListNode	./list/listNode.h	/^  ListNode() : data(), prev(nullptr), next(nullptr){}$/;"	f	struct:ListNode
+ListNode	./list/listNode.h	/^struct ListNode$/;"	s
+ListNodePosi	./list/listNode.h	/^template <typename T> using ListNodePosi = ListNode<T>*;$/;"	t	typeref:typename:ListNode<T> *
+N	./stack/queen/displayProgess.cpp	/^Rank N = 0;$/;"	v	typeref:typename:Rank
+NORTH	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon404317140103
+PQ	./PQ/PQ.h	/^struct PQ$/;"	s
+PQList	./PQ/PQList.h	/^    PQList( T* E, int n ) { while ( n-- > 0 ) List<T>::insertAsLast( E[n] ); }$/;"	f	class:PQList
+PQList	./PQ/PQList.h	/^    PQList() {}$/;"	f	class:PQList
+PQList	./PQ/PQList.h	/^class PQList : public PQ<T>, public List<T>{$/;"	c
+Print	./binTree/binTree.h	/^template <typename T> struct Print{$/;"	s
+QUEEN_MAX	./stack/queen/run.cpp	/^#define QUEEN_MAX /;"	d	file:
+Queen	./stack/queen/queen.h	/^  Queen ( int xx = 0, int yy = 0 ) : x ( xx ), y ( yy ) {};$/;"	f	struct:Queen
+Queen	./stack/queen/queen.h	/^struct Queen { $/;"	s
+Queue	./queue/queue.h	/^class Queue: public List<T> {$/;"	c
+RBColor	./binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	t	typeref:enum:__anond7e112ef0103
+RB_BLACK	./binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	e	enum:__anond7e112ef0103
+RB_RED	./binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	e	enum:__anond7e112ef0103
+ROUTE	./stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon404317140203
+Rank	./binTree/binNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./fib/fib.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./graph/graph.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./list/listNode.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./vector/vector.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./vector/vector_basic.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./vector/vector_inquiry.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+Rank	./vector/vector_manip.h	/^using Rank = unsigned int;$/;"	t	typeref:typename:unsigned int
+RunMode	./stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	t	typeref:enum:__anonce3b3ffd0103
+SOUTH	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon404317140103
+Solutions	./stack/queen/run.cpp	/^int Solutions = 0;$/;"	v	typeref:typename:int
+Stack	./stack/stack.h	/^class Stack: public List<T> {$/;"	c
+Status	./stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	t	typeref:enum:__anon404317140203
+Step	./stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anonce3b3ffd0103
+Sum	./queue/bestWindow.h	/^  Sum(unsigned int n) : num(n) {} $/;"	f	struct:Sum
+Sum	./queue/bestWindow.h	/^struct Sum$/;"	s
+TARGET	./list/Makefile	/^TARGET = list_test.cpp$/;"	m
+TARGET	./stack/Makefile	/^TARGET = stack_test.cpp$/;"	m
+TARGET_EXEC	./list/Makefile	/^TARGET_EXEC = list_test$/;"	m
+TARGET_EXEC	./stack/Makefile	/^TARGET_EXEC = stack_test$/;"	m
+UNKNOWN	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon404317140103
+VStatus	./graph/graph.h	/^using VStatus = enum { UNDISCOVERED, DISCOVERED, VISITED };$/;"	t
+WALL	./stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	e	enum:__anon404317140203
+WEST	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon404317140103
+XX	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	e	enum:__anon404317140103
+__AVL_IMPLE__	./AVL/AVL_imple.h	/^#define __AVL_IMPLE__$/;"	d
+__AVL__	./AVL/AVL.h	/^#define __AVL__$/;"	d
+__BINNODE_IMPLE__	./binTree/binNode_imple.h	/^#define __BINNODE_IMPLE__$/;"	d
+__BINNODE_LV__	./binTree/binNode_travLv.h	/^#define __BINNODE_LV__$/;"	d
+__BINNODE_POST__	./binTree/binNode_travPo.h	/^#define __BINNODE_POST__$/;"	d
+__BINNODE_SUCC__	./binTree/binNode_succ.h	/^#define __BINNODE_SUCC__$/;"	d
+__BINNODE_TRAVMI__	./binTree/binNode_travMi.h	/^#define __BINNODE_TRAVMI__$/;"	d
+__BINNODE_TRAVPRE__	./binTree/binNode_travPre.h	/^#define __BINNODE_TRAVPRE__$/;"	d
+__BINNODE_TRAV__	./binTree/binNode_trav.h	/^#define __BINNODE_TRAV__$/;"	d
+__BINNODE__	./binTree/binNode.h	/^#define __BINNODE__$/;"	d
+__BINTREE_IMPLE__	./binTree/binTree_imple.h	/^#define __BINTREE_IMPLE__$/;"	d
+__BINTREE__	./binTree/binTree.h	/^#define __BINTREE__$/;"	d
+__BST_BASIC__	./BST/BST_basic.h	/^#define __BST_BASIC__$/;"	d
+__BST_IMPLE__	./BST/BST_imple.h	/^#define __BST_IMPLE__$/;"	d
+__BST__	./BST/BST.h	/^#define __BST__$/;"	d
+__CELL__	./stack/laby/cell.h	/^#define __CELL__$/;"	d
+__CUSTOMER__	./queue/customer.h	/^#define __CUSTOMER__$/;"	d
+__DEQUE__	./deque/deque.h	/^#define __DEQUE__$/;"	d
+__DISP_LABY__	./stack/laby/displayLaby.h	/^#define __DISP_LABY__$/;"	d
+__DISP__	./queue/displayProgress.h	/^#define __DISP__$/;"	d
+__FIBONACCI__	./fib/fib.h	/^#define __FIBONACCI__$/;"	d
+__GRAPH_BFS__	./graph/graph_bfs.h	/^#define __GRAPH_BFS__$/;"	d
+__GRAPH_IMPLE__	./graph/graph_imple.h	/^#define __GRAPH_IMPLE__$/;"	d
+__GRAPH_MATRIX__	./graph/graph_matrix.h	/^#define __GRAPH_MATRIX__$/;"	d
+__GRAPH__	./graph/graph.h	/^#define __GRAPH__$/;"	d
+__LABY__	./stack/laby/laby.h	/^#define __LABY__$/;"	d
+__PQLIST__	./PQ/PQList.h	/^#define __PQLIST__$/;"	d
+__PQ__	./PQ/PQ.h	/^#define __PQ__$/;"	d
+__QUEEN_STACK__	./stack/queen/queen_stack.h	/^#define __QUEEN_STACK__$/;"	d
+__QUEEN__	./stack/queen/queen.h	/^#define __QUEEN__$/;"	d
+__QUEUE__	./queue/queue.h	/^#define __QUEUE__$/;"	d
+__RAND_LABY__	./stack/laby/randLaby.h	/^#define __RAND_LABY__$/;"	d
+__RAND_LABY__	./stack/randlaby.h	/^#define __RAND_LABY__$/;"	d
+__READ_LABY__	./stack/laby/readLaby.h	/^#define __READ_LABY__$/;"	d
+__SIMU__	./queue/simu.h	/^#define __SIMU__$/;"	d
+__VECTOR_BASIC__	./vector/vector_basic.h	/^#define __VECTOR_BASIC__$/;"	d
+__VECTOR_IMPLE__	./vector/vector_imple.h	/^#define __VECTOR_IMPLE__$/;"	d
+__VECTOR_INQUIRY__	./vector/vector_inquiry.h	/^#define __VECTOR_INQUIRY__$/;"	d
+__VECTOR_MANIP__	./vector/vector_manip.h	/^#define __VECTOR_MANIP__$/;"	d
+__VECTOR__	./vector/vector.h	/^#define __VECTOR__$/;"	d
+__WINDOW__	./queue/bestWindow.h	/^#define __WINDOW__$/;"	d
+__anon404317140103	./stack/laby/cell.h	/^typedef enum { UNKNOWN, XX, EAST, SOUTH, WEST, NORTH } Direc;$/;"	g
+__anon404317140203	./stack/laby/cell.h	/^typedef enum { AVAILABLE, ROUTE, BACKTRACKED, WALL } Status;$/;"	g
+__anonce3b3ffd0103	./stack/queen/queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	g
+__anond7e112ef0103	./binTree/binNode.h	/^typedef enum { RB_RED, RB_BLACK } RBColor;$/;"	g
+__listNode__	./list/listNode.h	/^#define __listNode__$/;"	d
+__list__	./list/list.h	/^#define __list__$/;"	d
+__list_bracket__	./list/list_bracket.h	/^#define __list_bracket__$/;"	d
+__list_clear__	./list/list_clear.h	/^#define __list_clear__$/;"	d
+__list_cons__	./list/list_cons.h	/^#define __list_cons__$/;"	d
+__list_copynode__	./list/list_copynode.h	/^#define __list_copynode__$/;"	d
+__list_deduplicate__	./list/list_deduplicate.h	/^#define __list_deduplicate__$/;"	d
+__list_dest__	./list/list_dest.h	/^#define __list_dest__$/;"	d
+__list_find__	./list/list_find.h	/^#define __list_find__$/;"	d
+__list_imple__	./list/list_imple.h	/^#define __list_imple__$/;"	d
+__list_init__	./list/list_init.h	/^#define __list_init__$/;"	d
+__list_insert__	./list/list_insert.h	/^#define __list_insert__$/;"	d
+__list_insertion__	./list/list_insertion.h	/^#define __list_insertion__$/;"	d
+__list_max__	./list/list_max.h	/^#define __list_max__$/;"	d
+__list_merge__	./list/list_merge.h	/^#define __list_merge__$/;"	d
+__list_remove__	./list/list_remove.h	/^#define __list_remove__$/;"	d
+__list_reverse__	./list/list_reverse.h	/^#define __list_reverse__$/;"	d
+__list_search__	./list/list_search.h	/^#define __list_search__$/;"	d
+__list_selection__	./list/list_selection.h	/^#define __list_selection__$/;"	d
+__list_sort__	./list/list_sort.h	/^#define __list_sort__$/;"	d
+__list_traverse__	./list/list_traverse.h	/^#define __list_traverse__$/;"	d
+__list_uniquify__	./list/list_uniquify.h	/^#define __list_uniquify__$/;"	d
+__node__imple__	./list/listNode_imple.h	/^#define __node__imple__$/;"	d
+__node_next__	./list/listNode_insertAsNext.h	/^#define __node_next__$/;"	d
+__node_prev__	./list/listNode_insertAsPrev.h	/^#define __node_prev__$/;"	d
+__stack_list__	./stack/stack.h	/^#define __stack_list__$/;"	d
+__test_helper__	./list/list_testhelper.h	/^#define __test_helper__$/;"	d
+_capacity	./vector/vector.h	/^    Rank _size; Rank _capacity; T* _elem;$/;"	m	class:vector	typeref:typename:Rank
+_elem	./vector/vector.h	/^    Rank _size; Rank _capacity; T* _elem;$/;"	m	class:vector	typeref:typename:T *
+_root	./binTree/binTree.h	/^    Rank _size;  BinNodePosi<T> _root;$/;"	m	class:BinTree	typeref:typename:BinNodePosi<T>
+_s	./BST/BST.h	/^BinNodePosi<T> _s;$/;"	m	class:BST	typeref:typename:BinNodePosi<T>
+_size	./binTree/binTree.h	/^    Rank _size;  BinNodePosi<T> _root;$/;"	m	class:BinTree	typeref:typename:Rank
+_size	./list/list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:int
+_size	./vector/vector.h	/^    Rank _size; Rank _capacity; T* _elem;$/;"	m	class:vector	typeref:typename:Rank
+a	./fib/fib.h	/^  Rank a, b;  $/;"	m	class:Fib	typeref:typename:Rank
+all	./list/Makefile	/^all: $(PROGRAMS)$/;"	t
+all	./list/make/Makefile	/^all: f1.o f2.o$/;"	t
+all	./stack/Makefile	/^all: $(PROGRAMS)$/;"	t
+attachAsLC	./binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::attachAsLC( BinNodePosi<T> n, BinTree<T>* S )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+attachAsRC	./binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::attachAsRC( BinNodePosi<T> n, BinTree<T>* S )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+b	./fib/fib.h	/^  Rank a, b;  $/;"	m	class:Fib	typeref:typename:Rank
+bestWindow	./queue/bestWindow.h	/^int bestWindow ( Queue< Customer > windows[], Rank nWin )$/;"	f	typeref:typename:int
+c	./binTree/test.cpp	/^  int c = 0;$/;"	v	typeref:typename:int
+clean	./list/Makefile	/^clean:$/;"	t
+clean	./stack/Makefile	/^clean:$/;"	t
+clear	./list/list_clear.h	/^int List<T>::clear()$/;"	f	class:List	typeref:typename:int
+color	./binTree/binNode.h	/^  RBColor color;$/;"	m	struct:BinNode	typeref:typename:RBColor
+convert	./stack/convertor.cpp	/^void convert ( Stack<char>& S, int64_t n, int base)$/;"	f	typeref:typename:void
+copyFrom	./vector/vector_basic.h	/^void vector<T>::copyFrom ( const T* A, Rank lo, Rank hi )$/;"	f	class:vector	typeref:typename:void
+copyNodes	./list/list_copynode.h	/^void List<T>::copyNodes( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+data	./binTree/binNode.h	/^  T data;$/;"	m	struct:BinNode	typeref:typename:T
+data	./list/listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:T
+deduplicate	./list/list_deduplicate.h	/^Rank List<T>::deduplicate()$/;"	f	class:List	typeref:typename:Rank
+delMax	./PQ/PQList.h	/^    T delMax() { return List<T>::remove( List<T>::takeMax() ); }$/;"	f	class:PQList	typeref:typename:T
+delay	./queue/main.cpp	/^int delay;$/;"	v	typeref:typename:int
+deque	./deque/deque.h	/^class deque: public List<T> {$/;"	c
+dequeue	./queue/queue.h	/^    T dequeue () { return List<T>::remove ( List<T>::first () ); }$/;"	f	class:Queue	typeref:typename:T
+dice	./binTree/test.cpp	/^#define dice(/;"	d	file:
+dice	./stack/stack_test.cpp	/^static size_t dice( size_t range ) { return rand() % range + 1; }$/;"	f	typeref:typename:size_t	file:
+digit	./stack/convertor.cpp	/^  static char digit[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',$/;"	v	typeref:typename:char[]	file:
+displayLaby	./stack/laby/displayLaby.h	/^void displayLaby() { \/\/©¼©¸©´©°©¦©¤$/;"	f	typeref:typename:void
+displayProgress	./queue/displayProgress.h	/^void displayProgress ( Queue<Customer> windows[], Rank nWin, Rank now )$/;"	f	typeref:typename:void
+displayProgress	./stack/queen/displayProgess.cpp	/^void displayProgress ( Stack<Queen>& S, Rank nQueen )$/;"	f	typeref:typename:void
+displayRow	./stack/queen/displayProgess.cpp	/^void displayRow ( Queen& q )$/;"	f	typeref:typename:void
+empty	./binTree/binTree.h	/^  bool empty() const { return !_root; }$/;"	f	class:BinTree	typeref:typename:bool
+empty	./list/list.h	/^    bool empty() const { return _size <= 0;}$/;"	f	class:List	typeref:typename:bool
+empty	./vector/vector.h	/^    bool empty() const { return !_size; }$/;"	f	class:vector	typeref:typename:bool
+enqueue	./queue/queue.h	/^    void enqueue ( const T& e ) { List<T>::insertAsLast( e ); }$/;"	f	class:Queue	typeref:typename:void
+eq	./vector/vector.h	/^template <typename T> static bool eq( T& a, T& b ) { return a == b; }$/;"	f	typeref:typename:bool
+eq	./vector/vector.h	/^template <typename T> static bool eq( T* a, T* b ) { return eq (*a, *b); }$/;"	f	typeref:typename:bool
+expand	./vector/vector_basic.h	/^void vector<T>::expand()$/;"	f	class:vector	typeref:typename:void
+f1.o	./list/make/Makefile	/^f1.o f2.o:$/;"	t
+f2.o	./list/make/Makefile	/^f1.o f2.o:$/;"	t
+fibSearch	./vector/vector_inquiry.h	/^static Rank fibSearch( T* A, const T& e, Rank lo, Rank hi )$/;"	f	typeref:typename:Rank
+find	./list/list.h	/^    ListNodePosi<T> find( const T& e ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+find	./list/list_find.h	/^ListNodePosi<T> List<T>::find( const T& e, Rank n, ListNodePosi<T> p) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+find	./vector/vector.h	/^     Rank find ( const T& e ) const { return find ( e, 0, _size ); }$/;"	f	class:vector	typeref:typename:Rank
+find	./vector/vector_inquiry.h	/^Rank vector<T>::find( const T& e, Rank lo, Rank hi ) const $/;"	f	class:vector	typeref:typename:Rank
+first	./list/list.h	/^    ListNodePosi<T> first() const { return head->next; }$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+front	./deque/deque.h	/^    T& front() { return List<T>::first(); }$/;"	f	class:deque	typeref:typename:T &
+get	./fib/fib.h	/^  Rank get() { return a; }$/;"	f	class:Fib	typeref:typename:Rank
+getMax	./PQ/PQList.h	/^    T getMax() { return List<T>::takeMax()->data; }$/;"	f	class:PQList	typeref:typename:T
+go	./stack/laby/cell.h	/^inline Cell* go ( Cell* cell )$/;"	f	typeref:typename:Cell *
+goAlongLeftBreach	./binTree/binNode_travMi.h	/^static void goAlongLeftBreach( BinNodePosi<T> n, Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+goalCell	./stack/laby/main.cpp	/^Cell* goalCell;$/;"	v	typeref:typename:Cell *
+gotoHLVFL	./binTree/binNode_travPo.h	/^void gotoHLVFL ( Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+half	./list/list_testhelper.h	/^void half(List<T>& L)$/;"	f	typeref:typename:void
+head	./list/list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+height	./binTree/binNode.h	/^  Rank height;$/;"	m	struct:BinNode	typeref:typename:Rank
+incoming	./stack/laby/cell.h	/^  Direc incoming, outgoing;$/;"	m	struct:Cell	typeref:typename:Direc
+increase	./list/list_testhelper.h	/^void increase(List<T>& L)$/;"	f	typeref:typename:void
+init	./list/list_init.h	/^void List<T>::init()$/;"	f	class:List	typeref:typename:void
+insert	./AVL/AVL_imple.h	/^BinNodePosi<T> AVL<T>::insert ( const T& e )$/;"	f	class:AVL	typeref:typename:BinNodePosi<T>
+insert	./BST/BST_basic.h	/^BinNodePosi<T> BST<T>::insert ( const T& e )$/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+insert	./PQ/PQList.h	/^    void insert( T e ) { List<T>::insertAsLast( e ); }$/;"	f	class:PQList	typeref:typename:void
+insert	./binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert ( BinNodePosi<T> n, const T& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	./binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert ( const T& e , BinNodePosi<T> n)$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	./binTree/binTree_imple.h	/^BinNodePosi<T> BinTree<T>::insert( const T& e )$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+insert	./list/list_insert.h	/^ListNodePosi<T> List<T>::insert( ListNodePosi<T> p, const T& e )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insert	./list/list_insert.h	/^ListNodePosi<T> List<T>::insert( const T& e, ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insert	./vector/vector.h	/^    Rank insert ( const T& e ) { return insert ( _size, e ); }$/;"	f	class:vector	typeref:typename:Rank
+insert	./vector/vector_manip.h	/^Rank vector<T>::insert( Rank r, const T& e )$/;"	f	class:vector	typeref:typename:Rank
+insertAsFirst	./list/list_insert.h	/^ListNodePosi<T> List<T>::insertAsFirst(const T& e)$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsLC	./binTree/binNode_imple.h	/^  BinNodePosi<T> BinNode<T>::insertAsLC ( const T& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertAsLast	./list/list_insert.h	/^ListNodePosi<T> List<T>::insertAsLast(const T& e)$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+insertAsNext	./list/listNode_insertAsNext.h	/^ListNodePosi<T> ListNode<T>::insertAsNext( const T& e )$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertAsPrev	./list/listNode_insertAsPrev.h	/^ListNodePosi<T> ListNode<T>::insertAsPrev( const T& e )$/;"	f	class:ListNode	typeref:typename:ListNodePosi<T>
+insertAsRC	./binTree/binNode_imple.h	/^  BinNodePosi<T> BinNode<T>::insertAsRC ( const T& e )$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+insertFront	./deque/deque.h	/^    void insertFront ( const T& e ) { return List<T>::insertAsFirst(e); }$/;"	f	class:deque	typeref:typename:void
+insertRear	./deque/deque.h	/^    void insertRear ( const T& e ) { return List<T>::insertAsLast(e); }$/;"	f	class:deque	typeref:typename:void
+insertionSort	./list/list_insertion.h	/^void List<T>::insertionSort( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+isValid	./list/list.h	/^    bool isValid(ListNodePosi<T> p) { return p && (p != head) && (p != tail); }$/;"	f	class:List	typeref:typename:bool
+laby	./stack/laby/cell.h	/^Cell laby[LABY_MAX][LABY_MAX];$/;"	v	typeref:typename:Cell[][]
+labySize	./stack/laby/main.cpp	/^int labySize;$/;"	v	typeref:typename:int
+labyrinth	./stack/laby/laby.h	/^bool labyrinth ( Cell laby[LABY_MAX][LABY_MAX], Cell* c, Cell* dest ) $/;"	f	typeref:typename:bool
+last	./list/list.h	/^    ListNodePosi<T> last() const { return tail->prev; }$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+lc	./binTree/binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+lt	./list/list_max.h	/^ template <typename T> static bool lt ( T& a, T& b ) { return a < b; }$/;"	f	typeref:typename:bool
+lt	./list/list_max.h	/^ template <typename T> static bool lt ( T* a, T* b ){ return lt( *a, *b );}$/;"	f	typeref:typename:bool
+lt	./vector/vector.h	/^template <typename T> static bool lt( T& a, T& b ) { return a < b; }$/;"	f	typeref:typename:bool
+lt	./vector/vector.h	/^template <typename T> static bool lt( T* a, T* b ) { return lt (*a, *b); }$/;"	f	typeref:typename:bool
+main	./binTree/test.cpp	/^int main ( int argc, char* argv[] ) { \/\/²âÊÔ¶þ²æÊ÷$/;"	f	typeref:typename:int
+main	./fib/test.cpp	/^int main (int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main	./list/list_test.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	./queue/main.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	./stack/convertor.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	./stack/laby/main.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	./stack/paren.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	./stack/queen/run.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+main	./stack/stack_test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+maxItem	./vector/vector_basic.h	/^Rank vector<T>::maxItem( Rank lo, Rank hi)$/;"	f	class:vector	typeref:typename:Rank
+merge	./list/list.h	/^    void merge( List<T>& L) $/;"	f	class:List	typeref:typename:void
+merge	./list/list_merge.h	/^void List<T>::merge( ListNodePosi<T> p, Rank n, List<T>& L, ListNodePosi<T> q, Rank m)$/;"	f	class:List	typeref:typename:void
+mergeSort	./list/list_merge.h	/^void List<T>::mergeSort( ListNodePosi<T>& p, Rank n )$/;"	f	class:List	typeref:typename:void
+n	./graph/graph.h	/^    Rank n;$/;"	m	class:Graph	typeref:typename:Rank
+nCheck	./stack/queen/run.cpp	/^int nCheck = 0;$/;"	v	typeref:typename:int
+neighbor	./stack/laby/cell.h	/^inline Cell* neighbor ( Cell* cell )$/;"	f	typeref:typename:Cell *
+next	./BST/BST_basic.h	/^static void next( BinNodePosi<T> n )$/;"	f	typeref:typename:void
+next	./fib/fib.h	/^  Rank next() { a += b; b = a - b; return a; }$/;"	f	class:Fib	typeref:typename:Rank
+next	./list/listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+nextDirec	./stack/laby/cell.h	/^inline Direc nextDirec ( Direc direc ) { return Direc ( direc + rand() % 4 ); }$/;"	f	typeref:typename:Direc
+npl	./binTree/binNode.h	/^  Rank npl;$/;"	m	struct:BinNode	typeref:typename:Rank
+num	./list/list_testhelper.h	/^  unsigned int num;$/;"	m	struct:Increase	typeref:typename:unsigned int
+num	./queue/bestWindow.h	/^  unsigned int num;$/;"	m	struct:Sum	typeref:typename:unsigned int
+operator !=	./stack/queen/queen.h	/^   bool operator!= ( const Queen& q ) const { return ! ( *this == q ); }$/;"	f	struct:Queen	typeref:typename:bool
+operator ()	./list/list_testhelper.h	/^  virtual void operator()(T& e) { e += num;} $/;"	f	struct:Increase	typeref:typename:void
+operator ()	./list/list_testhelper.h	/^  virtual void operator()(T& e) { e \/= 2;} $/;"	f	struct:Half	typeref:typename:void
+operator ()	./queue/bestWindow.h	/^  virtual void operator()(Customer& e) { num += e.time; } $/;"	f	struct:Sum	typeref:typename:void
+operator () 	./binTree/binTree.h	/^  virtual void operator () ( T& e )$/;"	f	struct:Print	typeref:typename:void
+operator () 	./binTree/test.cpp	/^  virtual void operator () ( T& e ) { e *= 2; }$/;"	f	struct:Double	typeref:typename:void	file:
+operator () 	./binTree/test.cpp	/^  virtual void operator () ( T& e ) { e++; }$/;"	f	struct:Increase	typeref:typename:void	file:
+operator () 	./binTree/test.cpp	/^  virtual void operator () ( T& e )$/;"	f	struct:Hailstone	typeref:typename:void	file:
+operator <	./binTree/binNode.h	/^  bool operator< ( const BinNode& n ) { return data < n.data; }$/;"	f	struct:BinNode	typeref:typename:bool
+operator <	./binTree/binTree.h	/^  bool operator< ( const BinTree<T>& t ) $/;"	f	class:BinTree	typeref:typename:bool
+operator <<	./binTree/binTree.h	/^std::ostream& operator<< ( std::ostream& os, BinTree<T>& bt )$/;"	f	typeref:typename:std::ostream &
+operator <<	./list/list.h	/^std::ostream& operator<<(std::ostream& ostr, const List<T>& L)$/;"	f	typeref:typename:std::ostream &
+operator <<	./list/list_testhelper.h	/^std::ostream& operator <<(std::ostream& os, std::nullptr_t ptr)$/;"	f	typeref:typename:std::ostream &
+operator <<	./stack/stack.h	/^std::ostream& operator<<(std::ostream& ostr, const Stack<T>& L)$/;"	f	typeref:typename:std::ostream &
+operator =	./vector/vector_basic.h	/^vector<T>& vector<T>::operator= ( const vector<T>& v )$/;"	f	class:vector	typeref:typename:vector<T> &
+operator ==	./binTree/binNode.h	/^  bool operator== ( const BinNode& n ) { return data == n.data; }$/;"	f	struct:BinNode	typeref:typename:bool
+operator ==	./binTree/binTree.h	/^  bool operator== ( const BinTree<T>& t ) $/;"	f	class:BinTree	typeref:typename:bool
+operator ==	./stack/queen/queen.h	/^  bool operator== ( const Queen& q ) const { $/;"	f	struct:Queen	typeref:typename:bool
+operator []	./list/list_bracket.h	/^ListNodePosi<T> List<T>::operator[]( Rank r ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+operator [] 	./vector/vector_basic.h	/^T& vector<T>::operator[] ( Rank r )$/;"	f	class:vector	typeref:typename:T &
+operator [] 	./vector/vector_basic.h	/^const T& vector<T>::operator[] ( Rank r ) const$/;"	f	class:vector	typeref:typename:const T &
+outgoing	./stack/laby/cell.h	/^  Direc incoming, outgoing;$/;"	m	struct:Cell	typeref:typename:Direc
+paren	./stack/paren.cpp	/^bool paren ( string expr )$/;"	f	typeref:typename:bool
+parent	./binTree/binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+peek	./queue/queue.h	/^    T& peek () { return List<T>::first()->data; }$/;"	f	class:Queue	typeref:typename:T &
+peek	./stack/stack.h	/^    T& peek() const { return List<T>::last()->data; }$/;"	f	class:Stack	typeref:typename:T &
+placeQueens	./stack/queen/placeQueens.cpp	/^void placeQueens ( const Rank& N )$/;"	f	typeref:typename:void
+pop	./stack/stack.h	/^    T pop() { return List<T>::remove( List<T>::last() ); }$/;"	f	class:Stack	typeref:typename:T
+posi	./binTree/test.cpp	/^int posi = 0;$/;"	v	typeref:typename:int
+pred	./binTree/binNode_succ.h	/^BinNodePosi<T> BinNode<T>:: pred()$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+prev	./fib/fib.h	/^  Rank prev() { a = a - b; b -= a; return a; }$/;"	f	class:Fib	typeref:typename:Rank
+prev	./list/listNode.h	/^  T data; ListNodePosi<T> prev; ListNodePosi<T> next;$/;"	m	struct:ListNode	typeref:typename:ListNodePosi<T>
+print	./list/list_testhelper.h	/^#define print(/;"	d
+printCustomer	./queue/displayProgress.h	/^void printCustomer ( Customer c )$/;"	f	typeref:typename:void
+printLabyCell	./stack/laby/displayLaby.h	/^void printLabyCell ( Cell* elem ) {$/;"	f	typeref:typename:void
+push	./stack/stack.h	/^    void push( const T& e ) { List<T>::insertAsLast( e ); }$/;"	f	class:Stack	typeref:typename:void
+randLaby	./stack/laby/randLaby.h	/^void randLaby() { \/\/Éú³ÉËæ»úµÄÃÔ¹¬$/;"	f	typeref:typename:void
+randLaby	./stack/randlaby.h	/^void randLaby() { \/\/Éú³ÉËæ»úµÄÃÔ¹¬$/;"	f	typeref:typename:void
+randomBinTree	./binTree/test.cpp	/^template <typename T> bool randomBinTree ( BinTree<T> & bt, BinNodePosi<T> x, int h ) {$/;"	f	typeref:typename:bool
+randomList	./list/list_testhelper.h	/^void randomList ( List<T>& list, Rank n )$/;"	f	typeref:typename:void
+randomPosiInBinTree	./binTree/test.cpp	/^template <typename T> BinNodePosi<T> randomPosiInBinTree ( BinNodePosi<T> root ) {$/;"	f	typeref:typename:BinNodePosi<T>
+rc	./binTree/binNode.h	/^  BinNodePosi<T> parent; BinNodePosi<T> lc; BinNodePosi<T> rc;$/;"	m	struct:BinNode	typeref:typename:BinNodePosi<T>
+readLaby	./stack/laby/readLaby.h	/^void readLaby ( char* labyFile ) { \/\/¶ÁÈëÃÔ¹¬$/;"	f	typeref:typename:void
+rear	./deque/deque.h	/^    T& rear() { return List<T>::last(); }$/;"	f	class:deque	typeref:typename:T &
+remove	./AVL/AVL_imple.h	/^bool AVL<T>::remove ( const T& e )$/;"	f	class:AVL	typeref:typename:bool
+remove	./BST/BST_basic.h	/^bool BST<T>::remove ( const T& e )$/;"	f	class:BST	typeref:typename:bool
+remove	./BST/BST_basic.h	/^static BinNodePosi<T> remove ( BinNodePosi<T>& n, BinNodePosi<T>& s )$/;"	f	typeref:typename:BinNodePosi<T>
+remove	./binTree/binTree_imple.h	/^Rank BinTree<T>::remove( BinNodePosi<T> n )$/;"	f	class:BinTree	typeref:typename:Rank
+remove	./list/list_remove.h	/^T List<T>::remove( ListNodePosi<T> p )$/;"	f	class:List	typeref:typename:T
+remove	./vector/vector_manip.h	/^Rank vector<T>::remove( Rank lo, Rank hi )$/;"	f	class:vector	typeref:typename:Rank
+remove	./vector/vector_manip.h	/^T vector<T>::remove( Rank r )$/;"	f	class:vector	typeref:typename:T
+removeAt	./binTree/binTree_imple.h	/^static Rank removeAt( BinNodePosi<T> n )$/;"	f	typeref:typename:Rank
+removeFront	./deque/deque.h	/^    T removeFront() { return List<T>::remove( front() ); }$/;"	f	class:deque	typeref:typename:T
+removeRear	./deque/deque.h	/^    T removeRear() { return List<T>::remove( rear() ); }$/;"	f	class:deque	typeref:typename:T
+reset	./graph/graph.h	/^    void reset()$/;"	f	class:Graph	typeref:typename:void
+reverse	./deque/deque.h	/^    void reverse()$/;"	f	class:deque	typeref:typename:void
+reverse	./list/list_reverse.h	/^void List<T>::reverse()$/;"	f	class:List	typeref:typename:void
+reverse	./stack/stack.h	/^    void reverse(){$/;"	f	class:Stack	typeref:typename:void
+root	./binTree/binTree.h	/^  BinNodePosi<T> root() const { return _root; }$/;"	f	class:BinTree	typeref:typename:BinNodePosi<T>
+rotate	./BST/BST_basic.h	/^BinNodePosi<T> BST<T>::rotate ( BinNodePosi<T> son )$/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+rotateGFS	./BST/BST_basic.h	/^BinNodePosi<T> BST<T>::rotateGFS ($/;"	f	class:BST	typeref:typename:BinNodePosi<T>
+runMode	./stack/queen/run.cpp	/^RunMode runMode;$/;"	v	typeref:typename:RunMode
+search	./BST/BST_basic.h	/^BinNodePosi<T>& BST<T>::search( const T& e )$/;"	f	class:BST	typeref:typename:BinNodePosi<T> &
+search	./list/list.h	/^    ListNodePosi<T> search( const T& e ) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+search	./list/list_search.h	/^ListNodePosi<T> List<T>::search( const T& e, Rank n, ListNodePosi<T> p) const$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+search	./vector/vector.h	/^    Rank search ( const T& e ) const $/;"	f	class:vector	typeref:typename:Rank
+search	./vector/vector_inquiry.h	/^Rank vector<T>::search( const T& e, Rank lo, Rank hi ) const $/;"	f	class:vector	typeref:typename:Rank
+secede	./binTree/binTree_imple.h	/^BinTree<T>* BinTree<T>::secede( BinNodePosi<T> n )$/;"	f	class:BinTree	typeref:typename:BinTree<T> *
+selectionSort	./list/list_selection.h	/^void List<T>::selectionSort( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:void
+shrink	./vector/vector_basic.h	/^void vector<T>::shrink()$/;"	f	class:vector	typeref:typename:void
+sibling	./binTree/binNode_imple.h	/^#define sibling(/;"	d
+simulate	./queue/simu.h	/^void simulate ( Rank nWin, Rank time )$/;"	f	typeref:typename:void
+size	./binTree/binNode_imple.h	/^  Rank BinNode<T>::size() $/;"	f	class:BinNode	typeref:typename:Rank
+size	./binTree/binTree.h	/^  Rank size() const { return _size; }$/;"	f	class:BinTree	typeref:typename:Rank
+size	./list/list.h	/^    Rank size() const { return _size; }$/;"	f	class:List	typeref:typename:Rank
+size	./vector/vector.h	/^    Rank size() const { return _size; }$/;"	f	class:vector	typeref:typename:Rank
+sort	./list/list.h	/^    void sort(){ return sort( first(), _size ); }$/;"	f	class:List	typeref:typename:void
+sort	./list/list_sort.h	/^void List<T>::sort(ListNodePosi<T> p, Rank n)$/;"	f	class:List	typeref:typename:void
+sort	./vector/vector.h	/^    void sort() { sort ( 0, _size ); }$/;"	f	class:vector	typeref:typename:void
+startCell	./stack/laby/main.cpp	/^Cell* startCell;$/;"	v	typeref:typename:Cell *
+stature	./binTree/binNode.h	/^#define stature(/;"	d
+status	./stack/laby/cell.h	/^  Status status;$/;"	m	struct:Cell	typeref:typename:Status
+succ	./binTree/binNode_succ.h	/^BinNodePosi<T> BinNode<T>:: succ()$/;"	f	class:BinNode	typeref:typename:BinNodePosi<T>
+sum	./queue/bestWindow.h	/^Rank sum( Queue< Customer > Q )$/;"	f	typeref:typename:Rank
+tail	./list/list.h	/^    int _size; ListNodePosi<T> head, tail;$/;"	m	class:List	typeref:typename:ListNodePosi<T>
+takeMax	./list/list.h	/^    ListNodePosi<T> takeMax()$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+takeMax	./list/list_max.h	/^ListNodePosi<T> List<T>::takeMax( ListNodePosi<T> p, Rank n )$/;"	f	class:List	typeref:typename:ListNodePosi<T>
+tallerChild	./AVL/AVL_imple.h	/^#define tallerChild(/;"	d
+test3	./binTree/test.cpp	/^void test3(){}$/;"	f	typeref:typename:void
+testBinTree	./binTree/test.cpp	/^template <typename T> void   testBinTree ( int h ) { \/\/²âÊÔ¶þ²æÊ÷$/;"	f	typeref:typename:void
+testID	./binTree/test.cpp	/^int testID = 0; \/\/²âÊÔ±àºÅ$/;"	v	typeref:typename:int
+testID	./list/list_test.cpp	/^Rank testID = 0;$/;"	v	typeref:typename:Rank
+testID	./stack/stack_test.cpp	/^int testID = 0;$/;"	v	typeref:typename:int
+testList	./list/list_testhelper.h	/^void testList( int testSize )$/;"	f	typeref:typename:void
+testStack	./stack/stack_test.cpp	/^void testStack ( Rank n )$/;"	f	typeref:typename:void
+time	./queue/customer.h	/^  unsigned int time;$/;"	m	struct:Customer	typeref:typename:unsigned int
+trace	./binTree/binNode_imple.h	/^#define trace(/;"	d
+travLv	./binTree/binNode_travLv.h	/^  void BinNode<T>::travLv ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travLv	./binTree/binTree.h	/^  template <typename VST> void travLv ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travMi	./binTree/binNode_trav.h	/^  void BinNode<T>::travMi ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travMi	./binTree/binTree.h	/^  template <typename VST> void travMi ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travMi_I1	./binTree/binNode_travMi.h	/^void travMi_I1 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I2	./binTree/binNode_travMi.h	/^void travMi_I2 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I3	./binTree/binNode_travMi.h	/^void travMi_I3 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_I4	./binTree/binNode_travMi.h	/^void travMi_I4 ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travMi_R	./binTree/binNode_travMi.h	/^void travMi_R ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPo	./binTree/binNode_trav.h	/^  void BinNode<T>::travPo ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travPo	./binTree/binTree.h	/^  template <typename VST> void travPo ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travPo_I	./binTree/binNode_travPo.h	/^void travPo_I ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPo_R	./binTree/binNode_travPo.h	/^void travPo_R ( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre	./binTree/binNode_trav.h	/^  void BinNode<T>::travPre ( VST& visit )$/;"	f	class:BinNode	typeref:typename:void
+travPre	./binTree/binTree.h	/^  template <typename VST> void travPre ( VST& visit )$/;"	f	class:BinTree	typeref:typename:void
+travPre_I1	./binTree/binNode_travPre.h	/^void travPre_I1( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_I2	./binTree/binNode_travPre.h	/^void travPre_I2( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+travPre_R	./binTree/binNode_travPre.h	/^void travPre_R( BinNodePosi<T> n, VST& visit )$/;"	f	typeref:typename:void
+traverse	./list/list_traverse.h	/^void List<T>::traverse( VST& visit )$/;"	f	class:List	typeref:typename:void
+traverse	./list/list_traverse.h	/^void List<T>::traverse( void(*visit)(T&) )$/;"	f	class:List	typeref:typename:void
+uncle	./binTree/binNode_imple.h	/^#define uncle(/;"	d
+uniquify	./list/list_uniquify.h	/^Rank List<T>::uniquify()$/;"	f	class:List	typeref:typename:Rank
+unsort	./vector/vector.h	/^    void unsort() { unsort ( 0, _size ); }$/;"	f	class:vector	typeref:typename:void
+unsort	./vector/vector_manip.h	/^void vector<T>::unsort ( Rank lo, Rank hi )$/;"	f	class:vector	typeref:typename:void
+updateHeight	./binTree/binTree_imple.h	/^Rank BinTree<T>::updateHeight( BinNodePosi<T> p )$/;"	f	class:BinTree	typeref:typename:Rank
+updateHeightAbove	./binTree/binTree_imple.h	/^void BinTree<T>::updateHeightAbove ( BinNodePosi<T> p )$/;"	f	class:BinTree	typeref:typename:void
+vector	./vector/vector.h	/^    vector ( Rank c = DEFAULT_CAPA, Rank s = 0, T v = 0 )$/;"	f	class:vector
+vector	./vector/vector.h	/^    vector ( const T* A, Rank lo, Rank hi ) { copyFrom ( A, lo, hi ); }$/;"	f	class:vector
+vector	./vector/vector.h	/^    vector ( const T* A, Rank n ) { copyFrom ( A, 0, n ); }$/;"	f	class:vector
+vector	./vector/vector.h	/^    vector ( const vector<T>& V ) { copyFrom ( V._elem, 0, V._size ); }$/;"	f	class:vector
+vector	./vector/vector.h	/^    vector ( const vector<T>& V, Rank lo, Rank hi ) { copyFrom ( V._elem, lo, hi ); }$/;"	f	class:vector
+vector	./vector/vector.h	/^class vector{$/;"	c
+visitAlongLeftBranch	./binTree/binNode_travPre.h	/^static void visitAlongLeftBranch( BinNodePosi<T> n, VST& visit, Stack< BinNodePosi<T> >& S )$/;"	f	typeref:typename:void
+window	./queue/customer.h	/^  int window;$/;"	m	struct:Customer	typeref:typename:int
+x	./stack/laby/cell.h	/^  int x, y;$/;"	m	struct:Cell	typeref:typename:int
+x	./stack/queen/queen.h	/^  Rank x, y; $/;"	m	struct:Queen	typeref:typename:Rank
+y	./stack/laby/cell.h	/^  int x, y;$/;"	m	struct:Cell	typeref:typename:int
+y	./stack/queen/queen.h	/^  Rank x, y; $/;"	m	struct:Queen	typeref:typename:Rank
+~BinTree	./binTree/binTree.h	/^  ~BinTree() { if ( _size > 0 ) remove ( _root ); }$/;"	f	class:BinTree
+~List	./list/list_dest.h	/^List<T>::~List()$/;"	f	class:List
+~vector	./vector/vector.h	/^    ~vector() { delete [] _elem; }$/;"	f	class:vector

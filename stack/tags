@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tyty/Desktop/dsacpp/stack/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+CC	./Makefile	/^CC = g++$/;"	m
+Continuous	./queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anond2aac50b0103
+DEPS	./Makefile	/^DEPS = ..\/list\/listNode.h ..\/list\/list.h stack.h$/;"	m
+N	./displayProgess.cpp	/^Rank N = 0;$/;"	v	typeref:typename:Rank
+Queen	./queen.h	/^  Queen ( int xx = 0, int yy = 0 ) : x ( xx ), y ( yy ) {};$/;"	f	struct:Queen
+Queen	./queen.h	/^struct Queen { $/;"	s
+RunMode	./queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	t	typeref:enum:__anond2aac50b0103
+Stack	./stack.h	/^class Stack: public List<T> {$/;"	c
+Step	./queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	e	enum:__anond2aac50b0103
+TARGET	./Makefile	/^TARGET = stack_test.cpp$/;"	m
+TARGET_EXEC	./Makefile	/^TARGET_EXEC = stack_test$/;"	m
+__QUEEN_STACK__	./queen_stack.h	/^#define __QUEEN_STACK__$/;"	d
+__QUEEN__	./queen.h	/^#define __QUEEN__$/;"	d
+__anond2aac50b0103	./queen_stack.h	/^typedef enum {Continuous, Step} RunMode;$/;"	g
+__stack_list__	./stack.h	/^#define __stack_list__$/;"	d
+all	./Makefile	/^all: $(PROGRAMS)$/;"	t
+clean	./Makefile	/^clean:$/;"	t
+convert	./convertor.cpp	/^void convert ( Stack<char>& S, int64_t n, int base)$/;"	f	typeref:typename:void
+dice	./stack_test.cpp	/^static size_t dice( size_t range ) { return rand() % range + 1; }$/;"	f	typeref:typename:size_t	file:
+digit	./convertor.cpp	/^  static char digit[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',$/;"	v	typeref:typename:char[]	file:
+displayRow	./displayProgess.cpp	/^void displayRow ( Queen& q )$/;"	f	typeref:typename:void
+main	./convertor.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	./paren.cpp	/^int main (int argc, char *argv[])$/;"	f	typeref:typename:int
+main	./stack_test.cpp	/^int main ( int argc, char* argv[] ) {$/;"	f	typeref:typename:int
+operator !=	./queen.h	/^   bool operator!= ( const Queen& q ) const { return ! ( *this == q ); }$/;"	f	struct:Queen	typeref:typename:bool
+operator <<	./stack.h	/^std::ostream& operator<<(std::ostream& ostr, const Stack<T>& L)$/;"	f	typeref:typename:std::ostream &
+operator ==	./queen.h	/^  bool operator== ( const Queen& q ) const { $/;"	f	struct:Queen	typeref:typename:bool
+paren	./paren.cpp	/^bool paren ( string expr )$/;"	f	typeref:typename:bool
+peek	./stack.h	/^    T& peek() const { return List<T>::last()->data; }$/;"	f	class:Stack	typeref:typename:T &
+placeQueens	./placeQueens.cpp	/^void placeQueens ( Rank N )$/;"	f	typeref:typename:void
+pop	./stack.h	/^    T pop() { return List<T>::remove( List<T>::last() ); }$/;"	f	class:Stack	typeref:typename:T
+push	./stack.h	/^    void push( const T& e ) { List<T>::insertAsLast( e ); }$/;"	f	class:Stack	typeref:typename:void
+testID	./stack_test.cpp	/^int testID = 0;$/;"	v	typeref:typename:int
+testStack	./stack_test.cpp	/^void testStack ( Rank n )$/;"	f	typeref:typename:void
+x	./queen.h	/^  Rank x, y; $/;"	m	struct:Queen	typeref:typename:Rank
+y	./queen.h	/^  Rank x, y; $/;"	m	struct:Queen	typeref:typename:Rank
