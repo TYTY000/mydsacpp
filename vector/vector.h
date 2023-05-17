@@ -33,7 +33,7 @@ class Vector{
     // manip
     Rank size() const { return _size; }
     bool empty() const { return !_size; }
-     Rank find ( const T& e ) const { return find ( e, 0, _size ); }
+    Rank find ( const T& e ) const { return find ( e, 0, _size ); }
     Rank find ( const T& e, Rank lo, Rank hi ) const;
     Rank search ( const T& e ) const 
     { return ( 0 >= _size ) ? -1 : search ( e, 0, _size ); }
@@ -56,10 +56,12 @@ class Vector{
     template <typename VST> void traverse ( VST& );
 }; //Vector
 
+#ifndef __LIST__
 template <typename T> static bool lt( T* a, T* b ) { return lt (*a, *b); }
 template <typename T> static bool lt( T& a, T& b ) { return a < b; }
 template <typename T> static bool eq( T* a, T* b ) { return eq (*a, *b); }
 template <typename T> static bool eq( T& a, T& b ) { return a == b; }
+#endif
 
 #include <boost/core/demangle.hpp>
 template<typename T>

@@ -49,7 +49,6 @@ T Vector<T>::remove( Rank r )
   return old;
 }
 
-
 template <typename T>
 Rank Vector<T>::deduplicate()
 {

@@ -1,5 +1,5 @@
-#ifndef __list__
-#define __list__
+#ifndef __LIST__
+#define __LIST__
 #include "listNode.h"
 #include <iostream>
 
@@ -26,7 +26,7 @@ class List
     ~List();
     // facility
     Rank size() const { return _size; }
-    bool empty() const { return _size <= 0;}
+    bool empty() const { return _size <= 0; }
     ListNodePosi<T> operator[]( Rank r ) const;
     ListNodePosi<T> first() const { return head->next; }
     ListNodePosi<T> last() const { return tail->prev; }

@@ -1,13 +1,15 @@
 #ifndef __GRAPH__
 #define __GRAPH__
 
+#include <climits>
 #include "../stack/stack.h"
+#include "../vector/vector.h"
 
 using Rank = unsigned int;
-using VStatus = enum { UNDISCOVERED, DISCOVERED, VISITED };
-using EType = enum { UNDETERMINED, TREE, CROSS, FORWARD, BACKWARD };
+typedef enum { UNDISCOVERED, DISCOVERED, VISITED } VStatus;
+typedef enum { UNDETERMINED, TREE, CROSS, FORWARD, BACKWARD } EType;
 
-template <typename Tv, typename Tv>
+template <typename Tv, typename Te>
 class Graph {
   private:
     void reset()
@@ -15,7 +17,7 @@ class Graph {
       for (Rank v = 0; v < n; v++) {
         status( v ) = UNDISCOVERED;
         parent( v ) = -1;
-        dtime ( v ) = ftime ( v ) = -1;
+        dTime ( v ) = fTime ( v ) = -1;
         priority( v ) = INT_MAX;
         for (Rank u = 0; u < n ; u++) {
           if ( exists( v, u ) ) {
@@ -25,11 +27,11 @@ class Graph {
       }
     }
 
-   void BFS( Rank, Rank& ); //£¨Á¬Í¨Óò£©¹ã¶ÈÓÅÏÈËÑË÷Ëã
-   void DFS( Rank, Rank& ); //£¨Á¬Í¨Óò£©Éî¶ÈÓÅÏÈËÑË÷Ëã
-   void BCC( Rank, Rank&, Stack<Rank>& ); //£¨Á¬Í¨Óò£©»ùÓÚDFSµÄË«Á¬Í¨·ÖÁ¿·Ö½âËã
-   bool TSort( Rank, Rank&, Stack<Tv>* ); //£¨Á¬Í¨Óò£©»ùÓÚDFSµÄÍØÆËÅÅÐòËã
-   template <typename PU> void PFS( Rank, PU ); //£¨Á¬Í¨Óò£©ÓÅÏÈ¼¶ËÑË÷¿ò¼Ü
+  void BFS( Rank, Rank& );
+  void DFS( Rank, Rank& );
+  void BCC( Rank, Rank&, Stack<Rank>& );
+  bool TSort( Rank, Rank&, Stack<Tv>* );
+  template <typename PU> void PFS( Rank, PU );
 
   public:
    //     vertex
@@ -40,14 +42,15 @@ class Graph {
     virtual Rank inDegree ( Rank ) = 0;
     virtual Rank outDegree ( Rank ) = 0;
     virtual Rank firstNbr ( Rank ) = 0;
-    virtual Rank nextNbr ( Rank ) = 0;
+    virtual Rank nextNbr ( Rank, Rank ) = 0;
     virtual VStatus& status ( Rank ) = 0;
     virtual Rank& parent ( Rank ) = 0;
-    virtual Rank& dtime ( Rank ) = 0;
-    virtual Rank& ftime ( Rank ) = 0;
+    virtual Rank& dTime ( Rank ) = 0;
+    virtual Rank& fTime ( Rank ) = 0;
     virtual int& priority ( Rank ) = 0;
     //  edge 
-    virtual exists ( Rank, Rank ) = 0;
+    Rank e;
+    virtual bool exists ( Rank, Rank ) = 0;
     virtual void insert ( const Te&, int, Rank, Rank ) = 0;
     virtual Te remove ( Rank , Rank ) = 0;
     virtual EType& type ( Rank, Rank ) = 0;
@@ -63,7 +66,19 @@ class Graph {
     template <typename PU> void pfs ( Rank, PU );
 };
 
-#include "graph_imple.h"
+
+
+#include "graph_bfs.h"
+#include "graph_dfs.h"
+// #include "graph_bfs_PU.h"
+// #include "graph_dfs_PU.h"
+// #include "graph_tsort.h"
+// #include "graph_bcc.h"
+// #include "graph_prim.h"
+// #include "graph_dijkstra.h"
+// #include "graph_pfs.h"
+// #include "graph_prim_PU.h"
+// #include "graph_dijkstra_PU.h"
 
 
 #endif // !__GRAPH__

@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-12 08:56:02
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-12 11:43:10
+ * @Last Modified time: 2023-05-12 14:55:29
  */
 
 #ifndef __PQ_VECTOR_IMPLE__
@@ -22,9 +22,7 @@
         ( HASLCHILD(n, i) ? BIGGER(PQ, i, LCHILD(i)) : i ) \
         )
 
-
-
-template<typename T>
+template <typename T>
 Rank percolateDown( T* A, Rank n, Rank i )
 {
   Rank j;
@@ -35,7 +33,7 @@ Rank percolateDown( T* A, Rank n, Rank i )
   return i;
 }
 
-template<typename T>
+template <typename T>
 Rank percolateUp( T* A, Rank i )
 {
   while ( i > 0 ) {
@@ -47,7 +45,7 @@ Rank percolateUp( T* A, Rank i )
   return i;
 }
 
-template<typename T>
+template <typename T>
 void heapify( T* A, Rank n )
 {
   for ( Rank i = n / 2 - 1; i != -1; i--) {
