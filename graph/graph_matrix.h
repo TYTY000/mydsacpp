@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-15 19:20:36
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-17 08:05:20
+ * @Last Modified time: 2023-05-17 11:41:47
  */
 
 #ifndef __GRAPH_MATRIX__
@@ -72,16 +72,15 @@ public:
   virtual Tv remove(Rank i) {
     for (Rank j = 0; j < GraphMatrix<Tv, Te>::n; j++)
       if (exists(i, j)) {
-        E[i][j] = NULL;
+        delete E[i][j];
         V[j].inDegree--;
         Graph<Tv, Te>::e--;
       }
-    Tv vbak = vertex(i);
-    V.remove(i); Graph<Tv, Te>::n --;
-    Edge<Te> *e = nullptr;
+    E.remove(i); Graph<Tv, Te>::n --;
+    Tv vbak = vertex(i); V.remove(i);
     for (Rank j = 0; j < GraphMatrix<Tv, Te>::n; j++)
-      if ((e = E[j].remove(i)) != nullptr) {
-        delete e;
+      if (Edge<Te> *x = E[j].remove(i)) {
+        delete x;
         V[j].outDegree--;
         Graph<Tv, Te>::e--;
       }

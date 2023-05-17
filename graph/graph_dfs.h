@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-16 11:49:28
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-17 08:15:05
+ * @Last Modified time: 2023-05-17 12:03:31
  */
 
 #ifndef __GRAPH_DFS__
@@ -21,7 +21,7 @@ void Graph<Tv, Te>::dfs(Rank r) //  starter
 
 template <typename Tv, typename Te>
 void Graph<Tv, Te>::DFS(Rank r, Rank &clock) {
-  dTime(r) = clock++;
+  dTime(r) = ++clock;
   status(r) = DISCOVERED;
   for (Rank i = firstNbr(r); i < Graph<Tv, Te>::n; i = nextNbr(r, i))
     switch (status(i)) {
@@ -38,7 +38,7 @@ void Graph<Tv, Te>::DFS(Rank r, Rank &clock) {
       break;
     }
   status(r) = VISITED;
-  fTime(r) = clock++;
+  fTime(r) = ++clock;
 }
 
 #endif // !__GRAPH_DFS__

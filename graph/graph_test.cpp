@@ -68,7 +68,7 @@ int main ( int argc, char* argv[] ) {
    // -import < ..\..\_input\graph.prim.0009+0028.txt  ..\..\_output\Graph_Matrix\graph.prim.0009+0028.txt
    // -random 67 543 > ..\..\_output\Graph_Matrix\graph.random.0067+0543.txt
    srand((unsigned int)time(NULL)); //Ëæ»úÖÖ×Ó
-   // srand( 314159265 ); //¹Ì¶¨ÖÖ×Ó£¨¼ÙÖÖ×Ó£¬µ÷ÊÔÓÃ£©
+   // srand( 3141592653 ); //¹Ì¶¨ÖÖ×Ó£¨¼ÙÖÖ×Ó£¬µ÷ÊÔÓÃ£©
    GraphMatrix<char, int> g;
    if ( !strcmp ( "-random", argv[1] ) )
       randomGraph<char, int> ( g, atoi ( argv[2] ), atoi ( argv[3] ) ); //¶¥µãÒÔ×Ö·û±àºÅ£¬±ßÎªÕûÊýÈ¨ÖØ
@@ -76,16 +76,17 @@ int main ( int argc, char* argv[] ) {
       importGraph ( g ); //´ÓÃüÁîÐÐ£¨ÎÄ¼þÖØ¶¨Ïò£©ÖÐµ¼ÈëÍ¼
    else return -1;
    /*DSA*/printf ( "\n" ); print(g);
-   /*DSA*/printf ( "=== BFS\n" );
+   /*DSA*/printf ( "=== Full BFS\n" );
+  std::cout << "Note : dTime -> trav level, fTime -> parent vertex traversal order." << std::endl;
    g.bfs ( 0 ); /*DSA*/print(g);
    // /*DSA*/printf ( "=== BFS (PFS)\n" );
    // g.pfs ( 0, BfsPU<char, int>() ); /*DSA*/print(g);
-   /*DSA*/printf ( "=== DFS\n" );
+   /*DSA*/printf ( "=== Full DFS\n" );
    g.dfs ( 0 ); /*DSA*/print(g);
    // /*DSA*/printf ( "=== DFS (PFS)\n" );
    // g.pfs ( 0, DfsPU<char, int>() ); /*DSA*/print(g);
-   // /*DSA*/printf ( "=== TopoSort\n" );
-   // Stack<char>* ts = g.tSort ( 0 ); /*DSA*/ print ( ts ); print(g); release ( ts );
+   /*DSA*/printf ( "=== TopoSort\n" );
+   Stack<char>* ts = g.tSort ( 0 ); /*DSA*/ std::cout << *ts << std::endl; print(g); delete ts;
    // /*DSA*/printf ( "=== BCC\n" );
    // g.bcc ( 0 ); /*DSA*/print(g);
    // /*DSA*/printf ( "=== Prim\n" );
