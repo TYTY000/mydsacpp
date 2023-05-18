@@ -27,7 +27,7 @@ BinNodePosi<T> BST<T>::insert ( const T& e )
 template <typename T>
 static void next( BinNodePosi<T> n )
 {
-  return ( rand() % 2 ) ? n.next() : n.pred();
+  return ( rand() % 2 ) ? (*n).succ() : (*n).pred();
 }
 
 template <typename T>

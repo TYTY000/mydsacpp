@@ -34,7 +34,7 @@ BinNodePosi<T> BinTree<T>::insert ( BinNodePosi<T> n, const T& e )
 template <typename T>
 BinNodePosi<T> BinTree<T>::attachAsLC( BinNodePosi<T> n, BinTree<T>* S )
   {
-    if ( n->lc = S->_root ) n->lc->parent = n;
+    if (( n->lc = S->_root )) n->lc->parent = n;
     _size += S->_size; updateHeightAbove( n );
     S->_root = nullptr; S->_size = 0; 
     if ( S ) delete S; S = nullptr; return n;
@@ -43,7 +43,7 @@ BinNodePosi<T> BinTree<T>::attachAsLC( BinNodePosi<T> n, BinTree<T>* S )
 template <typename T>
 BinNodePosi<T> BinTree<T>::attachAsRC( BinNodePosi<T> n, BinTree<T>* S )
   {
-    if ( n->rc = S->_root ) n->rc->parent = n;
+    if (( n->rc = S->_root )) n->rc->parent = n;
     _size += S->_size; updateHeightAbove( n );
     S->_root = nullptr; S->_size = 0; 
     if ( S ) delete S; S = nullptr; return n;

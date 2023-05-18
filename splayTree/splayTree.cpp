@@ -2,12 +2,13 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-18 09:31:32
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-18 12:50:18
+ * @Last Modified time: 2023-05-18 13:33:26
  */
 
 #ifndef __SPLAY_IMPLE__
 #define __SPLAY_IMPLE__
 #include "./splayTree.h"
+#include <cassert>
 
 template <typename BNP> static inline void attachAsLChild(BNP p, BNP lc) {
   p->lc = lc;
@@ -26,8 +27,8 @@ template <typename T> BinNodePosi<T> SplayTree<T>::splay(BinNodePosi<T> s) {
     return nullptr;
   BinNodePosi<T> f;
   BinNodePosi<T> g;
-  BinNodePosi<T> gf = g->parent;
   while ((f = s->parent) && (g = f->parent)) {
+    BinNodePosi<T> gf = g->parent;
     if (IsLChild(s)) {
       if (IsLChild(f)) {
         attachAsLChild(f, s->rc);
@@ -77,8 +78,10 @@ template <typename T> BinNodePosi<T> SplayTree<T>::splay(BinNodePosi<T> s) {
 }
 
 template <typename T> BinNodePosi<T> &SplayTree<T>::search(const T &e) {
-  BinNodePosi<T> n = BST<T>::search(e);
-  BinTree<T>::_root = splay(n ? n : BST<T>::_s);
+  if (BST<T>::size() != 0) {
+    BinNodePosi<T> n = BST<T>::search(e);
+    BinTree<T>::_root = splay(n ? n : BST<T>::_s);
+  }
   return BinTree<T>::_root;
 }
 
@@ -148,7 +151,8 @@ template <typename T> bool SplayTree<T>::remove(const T &e) {
       R->parent = BST<T>::_root;
     }
   }
-  if (BST<T>::_size--)
+  BST<T>::_size--;
+  if (BST<T>::_root)
     BinTree<T>::updateHeight(BST<T>::_root);
   return true;
 }

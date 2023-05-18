@@ -5,12 +5,13 @@
 #define L_CHILD 1
 #define R_CHILD -1*L_CHILD
 
+#include <boost/core/demangle.hpp>
 /******************************************************************************************
  * »ù´¡BinTree
  ******************************************************************************************/
 template <typename T> //ÔªËØÀàÐÍ
 void Print::p ( BinTree<T> & bt ) { //ÒýÓÃ
-   printf ( "%s[%d]*%d:\n", typeid ( bt ).name(), (int) &bt, bt.size() ); //»ù±¾ÐÅÏ¢
+  std::cout << boost::core::demangle(typeid ( bt ).name()) << "\t@  " << &bt << "\tsize = " << bt.size() << std::endl; //»ù±¾ÐÅÏ¢
    Bitmap* branchType = new Bitmap; //¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
    printBinTree ( bt.root(), -1, ROOT, branchType ); //Ê÷×´½á¹¹
    release ( branchType ); printf ( "\n" );
@@ -21,7 +22,7 @@ void Print::p ( BinTree<T> & bt ) { //ÒýÓÃ
  ******************************************************************************************/
 template <typename T> //ÔªËØÀàÐÍ
 void Print::p ( BST<T> & bt ) { //ÒýÓÃ
-   printf ( "%s[%d]*%d:\n", typeid ( bt ).name(), (int) &bt, bt.size() ); //»ù±¾ÐÅÏ¢
+  std::cout << boost::core::demangle(typeid ( bt ).name()) << "\t@  " << &bt << "\tsize = " << bt.size() << std::endl; //»ù±¾ÐÅÏ¢
    Bitmap* branchType = new Bitmap; //¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
    printBinTree ( bt.root(), -1, ROOT, branchType ); //Ê÷×´½á¹¹
    release ( branchType ); printf ( "\n" );
@@ -33,7 +34,7 @@ void Print::p ( BST<T> & bt ) { //ÒýÓÃ
  ******************************************************************************************/
 // template <typename T> //ÔªËØÀàÐÍ
 // void print::p ( AVL<T> & avl ) { //ÒýÓÃ
-//    printf ( "%s[%d]*%d:\n", typeid ( avl ).name(), (int) &avl, avl.size() ); //»ù±¾ÐÅÏ¢
+  // std::cout << boost::core::demangle(typeid ( avl ).name()) << "\t@  " << &avl << "\tsize = " << avl.size() << std::endl; //»ù±¾ÐÅÏ¢
 //    Bitmap* branchType = new Bitmap; //¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
 //    printBinTree ( avl.root(), -1, ROOT, branchType ); //Ê÷×´½á¹¹
 //    release ( branchType ); printf ( "\n" );
@@ -45,7 +46,7 @@ void Print::p ( BST<T> & bt ) { //ÒýÓÃ
  ******************************************************************************************/
 // template <typename T> //ÔªËØÀàÐÍ
 // void print::p ( RedBlack<T> & rb ) { //ÒýÓÃ
-//    printf ( "%s[%d]*%d:\n", typeid ( rb ).name(), (int) &rb, rb.size() ); //»ù±¾ÐÅÏ¢
+   // printf ( "%s[%d]*%d:\n", boost::core::demangle(typeid ( rb).name()), (int) &rb, rb.size() << std::endl; //»ù±¾ÐÅÏ¢
 //    Bitmap* branchType = new Bitmap; //¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
 //    printBinTree ( rb.root(), -1, ROOT, branchType ); //Ê÷×´½á¹¹
 //    release ( branchType ); printf ( "\n" );
@@ -57,7 +58,7 @@ void Print::p ( BST<T> & bt ) { //ÒýÓÃ
  ******************************************************************************************/
 template <typename T> //ÔªËØÀàÐÍ
 void Print::p ( SplayTree<T> & bt ) { //ÒýÓÃ
-   printf ( "%s[%d]*%d:\n", typeid ( bt ).name(),  &bt, bt.size() ); //»ù±¾ÐÅÏ¢
+  std::cout << boost::core::demangle(typeid ( bt ).name()) << "\t@  " << &bt << "\tsize = " << bt.size() << std::endl; //»ù±¾ÐÅÏ¢
    Bitmap* branchType = new Bitmap; //¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
    printBinTree ( bt.root(), -1, ROOT, branchType ); //Ê÷×´½á¹¹
    release ( branchType ); printf ( "\n" );
