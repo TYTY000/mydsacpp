@@ -4,7 +4,7 @@
 template <typename T>
 Rank BinTree<T>::updateHeight( BinNodePosi<T> p )
 {
-  return p->height = 1 + max( stature(p->lc), stature(p->rc) );
+  return p->height = 1 + std::max( stature(p->lc), stature(p->rc) );
 }
 
 template <typename T>

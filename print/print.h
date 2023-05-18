@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-16 12:44:36
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-17 11:21:30
+ * @Last Modified time: 2023-05-18 12:44:31
  */
 
 #ifndef __PRINT__
@@ -11,11 +11,11 @@
 #include <cstdio> //²ÉÓÃC·ç¸ñ¾«Ï¸¿ØÖÆÊä³ö¸ñÊ½
 #include <iostream>
 // #include "huffman/huffChar.h" //Huffman³¬×Ö·û
-// #include "BinTree/BinTree.h" //¶þ²æÊ÷
+#include "../binTree/binTree.h"
 // #include "Huffman/HuffTree.h" //HuffmanÊ÷
-// #include "BST/BST.h" //¶þ²æËÑË÷Ê÷
-// #include "AVL/AVL.h" //AVLÊ÷
-// #include "Splay/Splay.h" //ÉìÕ¹Ê÷
+#include "../BST/BST.h" //¶þ²æËÑË÷Ê÷
+#include "../AVL/AVL.h" //AVLÊ÷
+#include "../splayTree/splayTree.cpp" //ÉìÕ¹Ê÷
 // #include "redBlack/RedBlack.h" //ºìºÚÊ÷
 // #include "BTree/BTree.h" //¶þ²æËÑË÷Ê÷
 // #include "Entry/Entry.h" //´ÊÌõ
@@ -41,13 +41,13 @@ public:
   static void p(EType);   // Í¼±ßµÄÀàÐÍ
 
   // template <typename K, typename V> static void p( Entry<K, V>& ); // Entry
-  // template <typename T> static void p( BinNode<T>& ); // BinTree½Úµã
-  // template <typename T> static void p( BinTree<T>& ); //¶þ²æÊ÷
+  template <typename T> static void p( BinNode<T>& ); // BinTree½Úµã
+  template <typename T> static void p( BinTree<T>& ); //¶þ²æÊ÷
   // template <typename T> static void p( BTree<T>& ); // B-Ê÷
-  // template <typename T> static void p( BST<T>& ); // BST
-  // template <typename T> static void p( AVL<T>& ); // AVL
+  template <typename T> static void p( BST<T>& ); // BST
+  template <typename T> static void p( AVL<T>& ); // AVL
   // template <typename T> static void p( RedBlack<T>& ); // RedBlack
-  // template <typename T> static void p( Splay<T>& ); // Splay
+  template <typename T> static void p( SplayTree<T>& ); // Splay
   // template <typename T> static void p( Quadlist<T>& ); // Quadlist
   // template <typename K, typename V> static void p( Skiplist<K, V>& ); //
   // Skiplist template <typename K, typename V> static void p( Hashtable<K, V>&
@@ -157,5 +157,5 @@ void Print::p(GraphMatrix<Tv, Te> &s) { // ÒýÓÃ
   }
   printf("\n");
 }
-
+#include "tree.h"
 #endif // !__PRINT__

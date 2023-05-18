@@ -1,4 +1,5 @@
 #include "print.h"
+#include "./release.h"
 #include <iostream>
 void Print::p( int e ) { printf( " %04d", e ); }
 void Print::p( unsigned int e ) { printf( " %04d", e ); }

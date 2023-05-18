@@ -20,7 +20,7 @@ BinNodePosi<T> BST<T>::insert ( const T& e )
   if ( n ) return n;
   n = new BinNode<T> ( e, _s );
   ++BST<T>::_size;
-  updateHeightAbove (n);
+  this->updateHeightAbove (n);
   return n;
 }
 
@@ -31,7 +31,7 @@ static void next( BinNodePosi<T> n )
 }
 
 template <typename T>
-static BinNodePosi<T> remove ( BinNodePosi<T>& n, BinNodePosi<T>& s )
+static BinNodePosi<T> removeAt ( BinNodePosi<T>& n, BinNodePosi<T>& s )
 {
   // n could be leaf, single child or double child.
   // need a var to store succ. data swap succ & n.
@@ -42,7 +42,7 @@ static BinNodePosi<T> remove ( BinNodePosi<T>& n, BinNodePosi<T>& s )
   else if ( !HasRChild ( n ) )
     succ = n = n->lc;
   else { // leaf 
-    temp = temp->next();
+    temp = temp->succ();
     std::swap ( temp->data, n->data );
     BinNodePosi<T> tempPred = temp->parent;  // now need to safe delete temp.
     if ( tempPred == n ) //tempPred also leaf
@@ -60,8 +60,8 @@ bool BST<T>::remove ( const T& e )
 {
   BinNodePosi<T>& n = search ( e );
   if ( !n ) return false; // no target
-  remove( n, _s ); --BST<T>::_size;
-  updateHeightAbove( _s );
+  removeAt( n, _s ); --BST<T>::_size;
+  this->updateHeightAbove( _s );
   return true;
 }
 

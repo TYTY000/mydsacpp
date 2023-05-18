@@ -14,7 +14,7 @@ protected:
 BinNodePosi<T> rotate ( BinNodePosi<T> );
 BinNodePosi<T> rotateGFS( BinNodePosi<T>, BinNodePosi<T>, BinNodePosi<T>,
  BinNodePosi<T>, BinNodePosi<T>, BinNodePosi<T>, BinNodePosi<T> );
-BinNodePosi<T> _s;
+BinNodePosi<T> _s; //  approx target
 };
 
 

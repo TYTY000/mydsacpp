@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tyty/Desktop/dsacpp/splayTree/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+SplayTree	./splayTree.h	/^class SplayTree : public BST<T> {$/;"	c
+__SPLAY_IMPLE__	./splayTree_imple.h	/^#define __SPLAY_IMPLE__$/;"	d
+__SPLAY_TREE__	./splayTree.h	/^#define __SPLAY_TREE__$/;"	d
+attachAsLChild	./splayTree_imple.h	/^template <typename BNP> static inline void attachAsLChild(BNP p, BNP lc) {$/;"	f	typeref:typename:void
+attachAsRChild	./splayTree_imple.h	/^template <typename BNP> static inline void attachAsRChild(BNP p, BNP rc) {$/;"	f	typeref:typename:void
+dice	./splay_test.cpp	/^#define dice(/;"	d	file:
+insert	./splayTree_imple.h	/^template <typename T> BinNodePosi<T> SplayTree<T>::insert(const T &e) {$/;"	f	class:SplayTree	typeref:typename:BinNodePosi<T>
+main	./splay_test.cpp	/^int main(int argc, char *argv[]) { \/\/ ²âÊÔÖ÷Èë¿Ú$/;"	f	typeref:typename:int
+remove	./splayTree_imple.h	/^template <typename T> bool remove(const T &e) {$/;"	f	typeref:typename:bool
+search	./splayTree_imple.h	/^template <typename T> BinNodePosi<T> &SplayTree<T>::search(const T &e) {$/;"	f	class:SplayTree	typeref:typename:BinNodePosi<T> &
+splay	./splayTree_imple.h	/^template <typename T> BinNodePosi<T> SplayTree<T>::splay(BinNodePosi<T> s) {$/;"	f	class:SplayTree	typeref:typename:BinNodePosi<T>
+testSplayPeriod	./splay_test.cpp	/^template <typename T> void testSplayPeriod(int n) { \/\/ ÖÜÆÚÐÔ·ÃÎÊ²âÊÔ$/;"	f	typeref:typename:void
+testSplayRandom	./splay_test.cpp	/^template <typename T> void testSplayRandom(Rank n) { \/\/ Ëæ»ú·ÃÎÊ²âÊÔ$/;"	f	typeref:typename:void
