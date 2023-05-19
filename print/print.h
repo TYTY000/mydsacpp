@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-16 12:44:36
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-18 12:44:31
+ * @Last Modified time: 2023-05-19 12:10:24
  */
 
 #ifndef __PRINT__
@@ -17,7 +17,7 @@
 #include "../AVL/AVL.h" //AVLÊ÷
 #include "../splayTree/splayTree.cpp" //ÉìÕ¹Ê÷
 // #include "redBlack/RedBlack.h" //ºìºÚÊ÷
-// #include "BTree/BTree.h" //¶þ²æËÑË÷Ê÷
+#include "../BTree/BTree.h" //¶þ²æËÑË÷Ê÷
 // #include "Entry/Entry.h" //´ÊÌõ
 // #include "Skiplist/Quadlist.h" //ËÄ²æ±í
 // #include "Skiplist/Skiplist.h" //Ìø×ª±í
@@ -43,7 +43,7 @@ public:
   // template <typename K, typename V> static void p( Entry<K, V>& ); // Entry
   template <typename T> static void p( BinNode<T>& ); // BinTree½Úµã
   template <typename T> static void p( BinTree<T>& ); //¶þ²æÊ÷
-  // template <typename T> static void p( BTree<T>& ); // B-Ê÷
+  template <typename T> static void p( BTree<T>& ); // B-Ê÷
   template <typename T> static void p( BST<T>& ); // BST
   template <typename T> static void p( AVL<T>& ); // AVL
   // template <typename T> static void p( RedBlack<T>& ); // RedBlack
@@ -85,77 +85,7 @@ static void print(char *x) { printf(" %s", x ? x : "<NULL>"); } // ×Ö·û´®�
 static void print(const char *x) {
   printf(" %s", x ? x : "<NULL>");
 } // ×Ö·û´®ÌØ±ð´¦Àí
-
-#include <boost/core/demangle.hpp>
-template <typename Tv, typename Te>     // ¶¥µãÀàÐÍ¡¢±ßÀàÐÍ
-void Print::p(GraphMatrix<Tv, Te> &s) { // ÒýÓÃ
-  Rank inD = 0;
-  for (Rank i = 0; i < s.n; i++)
-    inD += s.inDegree(i);
-  Rank outD = 0;
-  for (Rank i = 0; i < s.n; i++)
-    outD += s.outDegree(i);
-  std::cout << boost::core::demangle(typeid(s).name()) << "\t "
-            << "\tvertexes: " << s.n << "  edges: " << s.e
-            << std::endl; // »ù±¾ÐÅÏ¢
-  // ±êÌâÐÐ
-  print(s.n);
-  printf(" ");
-  print(inD);
-  printf("|");
-  for (Rank i = 0; i < s.n; i++) {
-    print(s.vertex(i));
-    printf("[");
-    print(s.status(i));
-    printf("] ");
-  }
-  printf("\n");
-  // ±êÌâÐÐ£¨Ðø£©
-  print(outD);
-  printf(" ");
-  print(s.e);
-  printf("|");
-  for (Rank i = 0; i < s.n; i++) {
-    print(s.inDegree(i));
-    printf(" ");
-  }
-  printf("| dTime fTime Parent Weight\n");
-  // Ë®Æ½·Ö¸ôÏß
-  printf("-----------+");
-  for (Rank i = 0; i < s.n; i++)
-    printf("------");
-  printf("+----------------------------\n");
-  // ÖðÐÐÊä³ö¸÷¶¥µã
-  for (Rank i = 0; i < s.n; i++) {
-    print(s.vertex(i));
-    printf("[");
-    print(s.status(i));
-    printf("] ");
-    print(s.outDegree(i));
-    printf("|");
-    for (Rank j = 0; j < s.n; j++)
-      if (s.exists(i, j)) {
-        print(s.edge(i, j));
-        print(s.type(i, j));
-      } else
-        printf("     .");
-    printf("| ");
-    print(s.dTime(i));
-    printf(" ");
-    print(s.fTime(i));
-    printf("     ");
-    if (-1 == s.parent(i))
-      print("^");
-    else
-      print(s.vertex(s.parent(i)));
-    printf("  ");
-    if (INT_MAX > s.priority(i))
-      print(s.priority(i));
-    else
-      print(" INF");
-    printf("\n");
-  }
-  printf("\n");
-}
+#include "graph.h"
 #include "tree.h"
+#include "btree.h"
 #endif // !__PRINT__

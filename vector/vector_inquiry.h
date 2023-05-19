@@ -19,10 +19,9 @@ static Rank fibSearch( T* A, const T& e, Rank lo, Rank hi )
     while ( hi - lo < fib.get() ) fib.prev();
     Rank mi = lo + fib.get() - 1;
     if ( e < A[mi] )      hi = mi;
-    else if ( e > A[mi] ) lo = mi + 1;
-    else return mi;
+    else lo = mi + 1;
   }
-  return -1;
+  return lo-1;
 }
 
 template <typename T>
