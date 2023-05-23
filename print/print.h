@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-16 12:44:36
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-19 12:10:24
+ * @Last Modified time: 2023-05-21 19:02:58
  */
 
 #ifndef __PRINT__
@@ -16,7 +16,7 @@
 #include "../BST/BST.h" //¶þ²æËÑË÷Ê÷
 #include "../AVL/AVL.h" //AVLÊ÷
 #include "../splayTree/splayTree.cpp" //ÉìÕ¹Ê÷
-// #include "redBlack/RedBlack.h" //ºìºÚÊ÷
+#include "../RBTree/RBTree.h"//ºìºÚÊ÷
 #include "../BTree/BTree.h" //¶þ²æËÑË÷Ê÷
 // #include "Entry/Entry.h" //´ÊÌõ
 // #include "Skiplist/Quadlist.h" //ËÄ²æ±í
@@ -46,7 +46,7 @@ public:
   template <typename T> static void p( BTree<T>& ); // B-Ê÷
   template <typename T> static void p( BST<T>& ); // BST
   template <typename T> static void p( AVL<T>& ); // AVL
-  // template <typename T> static void p( RedBlack<T>& ); // RedBlack
+  template <typename T> static void p( RBTree<T>& ); // RedBlack
   template <typename T> static void p( SplayTree<T>& ); // Splay
   // template <typename T> static void p( Quadlist<T>& ); // Quadlist
   // template <typename K, typename V> static void p( Skiplist<K, V>& ); //

@@ -58,37 +58,37 @@ extern int c;
 
 #include <boost/core/demangle.hpp>
 
-// template <typename T> struct Print{
-//   virtual void operator () ( T& e )
-//   {
-//     std::cout << "No." << c << " : " << e << "\t";
-//     ++c;
-//     if (c % 5 == 0) {std::cout << '\n';}
-//   }
-// };
+template <typename T> struct Print{
+  virtual void operator () ( T& e )
+  {
+    std::cout << "No." << c << " : " << e << "\t";
+    ++c;
+    if (c % 5 == 0) {std::cout << '\n';}
+  }
+};
 
 
-// template <typename T>
-// std::ostream& operator<< ( std::ostream& os, BinTree<T>& bt )
-// {
-//   Print<T> pr;
-//   os << boost::core::demangle( typeid(bt).name() ) << "\t";
-//   os << boost::core::demangle( typeid(T).name() ) << "\tSize:\t" << bt.size() << "\nprint by: ";
-//   switch (rand() % 4) {
-//     case 1 : 
-//       std::cout << "pre\n{" << std::endl;bt.travPre( pr );c = 0; break;
-//     case 2 :
-//       std::cout << "mid\n{" << std::endl;bt.travMi( pr ); c = 0; break;
-//     case 3 :
-//       std::cout << "post\n{" << std::endl;bt.travPo( pr ); c = 0; break;
-//     default:
-//       std::cout << "level\n{" << std::endl;
-//       bt.travLv( pr );  c = 0;
-//       break;
-//   }
-//   os << "\n}\n" << std::endl;
-//   return os;
-// }
+template <typename T>
+std::ostream& operator<< ( std::ostream& os, BinTree<T>& bt )
+{
+  Print<T> pr;
+  os << boost::core::demangle( typeid(bt).name() ) << "\t";
+  os << boost::core::demangle( typeid(T).name() ) << "\tSize:\t" << bt.size() << "\nprint by: ";
+  switch (rand() % 4) {
+    case 1 : 
+      std::cout << "pre\n{" << std::endl;bt.travPre( pr );c = 0; break;
+    case 2 :
+      std::cout << "mid\n{" << std::endl;bt.travMi( pr ); c = 0; break;
+    case 3 :
+      std::cout << "post\n{" << std::endl;bt.travPo( pr ); c = 0; break;
+    default:
+      std::cout << "level\n{" << std::endl;
+      bt.travLv( pr );  c = 0;
+      break;
+  }
+  os << "\n}\n" << std::endl;
+  return os;
+}
 
 #include "binTree_imple.h"
 #endif // !__BINTREE__

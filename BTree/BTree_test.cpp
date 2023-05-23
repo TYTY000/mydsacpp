@@ -74,8 +74,8 @@ int main(int argc, char *argv[]) {
     printf("Make sure the size (%d) is no less than 0.\a\a\n", size);
     return 1;
   }
-  // srand((unsigned int)time(NULL));
-  srand(3141592653); // ¹Ì¶¨ÖÖ×Ó
+  srand((unsigned int)time(NULL)); 
+  // srand(3141592653); // ¹Ì¶¨ÖÖ×Ó
   testBTree<int>(atoi(argv[1]),
                  atoi(argv[2])); // ÔªËØÀàÐÍ¡¢±È½ÏÆ÷¿ÉÒÔÔÚÕâÀïÈÎÒâÑ¡Ôñ
   return 0;
