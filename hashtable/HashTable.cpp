@@ -2,11 +2,12 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-24 19:27:11
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-25 18:18:39
+ * @Last Modified time: 2023-05-25 21:02:04
  */
 
 #include "HashTable.h"
 #include <algorithm>
+#include <cmath>
 #include <cstring>
 
 int cnt = 78498;
@@ -19,8 +20,7 @@ static Rank hashCode(char s[]) {
   Rank n = strlen(s);
   Rank h = 0;
   for (Rank i = 0; i < n; i++) {
-    h = (h << 5) |
-        (h >> 27);
+    h = (h << 5) | (h >> 27);
     h += s[i];
   }
   return h;
@@ -100,16 +100,20 @@ template <typename K, typename V> void HashTable<K, V>::rehash() {
 
 template <typename K, typename V> Rank HashTable<K, V>::probe4Free(const K &k) {
   Rank r = hashCode(k) % M;
+  Rank i = 0;
   while (dic[r] != nullptr) {
-    r = (r + 1) % M;
+    r = (r + 2 * i + 1) % M;
+    i++;
   }
   return r;
 } // find a bucket to fill.
 
 template <typename K, typename V> Rank HashTable<K, V>::probe4Hit(const K &k) {
   Rank r = hashCode(k) % M;
+  Rank i = 0;
   while (dic[r] != nullptr && k != dic[r]->key) {
-    r = (r + 1) % M;
+    r = (r + 2 * i + 1) % M;
+    i++;
   }
   return r;
 } // find a bucket matched.
@@ -120,7 +124,7 @@ template <typename K, typename V> bool HashTable<K, V>::put(K k, V v) {
   Rank r = probe4Free(k);
   dic[r] = new Entry<K, V>(k, v);
   ++N;
-  if (N * 3 > M)
+  if (N * 2 > M)
     rehash();
   return true;
 }
@@ -136,7 +140,10 @@ template <typename K, typename V> bool HashTable<K, V>::remove(K k) {
     return false;
   dic[r] = nullptr;
   N--;
-  if (N == 0) { M = 0;return true; }
+  if (N == 0) {
+    M = 0;
+    return true;
+  }
   if (N * 2 < M)
     rehash();
   return true;

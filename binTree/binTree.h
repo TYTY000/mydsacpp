@@ -58,7 +58,7 @@ extern int c;
 
 #include <boost/core/demangle.hpp>
 
-template <typename T> struct Print{
+template <typename T> struct Pr{
   virtual void operator () ( T& e )
   {
     std::cout << "No." << c << " : " << e << "\t";
@@ -71,7 +71,7 @@ template <typename T> struct Print{
 template <typename T>
 std::ostream& operator<< ( std::ostream& os, BinTree<T>& bt )
 {
-  Print<T> pr;
+  Pr<T> pr;
   os << boost::core::demangle( typeid(bt).name() ) << "\t";
   os << boost::core::demangle( typeid(T).name() ) << "\tSize:\t" << bt.size() << "\nprint by: ";
   switch (rand() % 4) {
