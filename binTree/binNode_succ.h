@@ -2,7 +2,7 @@
 #define __BINNODE_SUCC__
 
 template <typename T>
-BinNodePosi<T> BinNode<T>:: pred()
+BinNodePosi<T> BinNode<T>:: prev()
 {
   BinNodePosi<T> t = this;
   if ( lc ) {

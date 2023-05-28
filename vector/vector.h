@@ -13,7 +13,6 @@ class Vector{
     void expand();
     void shrink();
     void bubbleSort ( Rank lo, Rank hi );
-    Rank maxItem ( Rank lo, Rank hi );
     void selectionSort ( Rank lo, Rank hi );
     void merge ( Rank lo, Rank mi, Rank hi );
     void mergeSort ( Rank lo, Rank hi );
@@ -52,16 +51,11 @@ class Vector{
     Rank disordered();
     Rank deduplicate();
     Rank uniquify();
+    Rank maxItem ( Rank lo, Rank hi );
     void traverse ( void (* ) ( T& ) );
     template <typename VST> void traverse ( VST& );
 }; //Vector
 
-#ifndef __LIST__
-template <typename T> static bool lt( T* a, T* b ) { return lt (*a, *b); }
-template <typename T> static bool lt( T& a, T& b ) { return a < b; }
-template <typename T> static bool eq( T* a, T* b ) { return eq (*a, *b); }
-template <typename T> static bool eq( T& a, T& b ) { return a == b; }
-#endif
 
 #include <boost/core/demangle.hpp>
 template<typename T>

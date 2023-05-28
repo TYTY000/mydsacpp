@@ -1,6 +1,7 @@
 #ifndef __BST_BASIC__
 #define __BST_BASIC__
 
+#include <cstdlib>
 #include <iostream>
 template <typename T> BinNodePosi<T> &BST<T>::search(const T &e) {
   if (BST<T>::_root == nullptr || e == BST<T>::_root->data) {
@@ -26,10 +27,6 @@ template <typename T> BinNodePosi<T> BST<T>::insert(const T &e) {
   return n;
 }
 
-template <typename T> static BinNodePosi<T> next(BinNodePosi<T> n) {
-  return (rand() % 2) ? (*n).pred() : (*n).succ();
-}
-
 template <typename T>
 BinNodePosi<T> BST<T>::removeAt(BinNodePosi<T> &n, BinNodePosi<T> &s) {
   // n could be leaf, single child or double child.
@@ -41,16 +38,26 @@ BinNodePosi<T> BST<T>::removeAt(BinNodePosi<T> &n, BinNodePosi<T> &s) {
   else if (!HasRChild(n))
     succ = n = n->lc;
   else { // leaf
-    temp = next(temp);
-    std::swap(temp->data, n->data);
-    BinNodePosi<T> tempPred = temp->parent; // now need to safe delete temp.
-    if (tempPred == n)                      // tempPred also leaf
-      tempPred->rc = succ = temp->rc;
-    else
-      tempPred->lc = succ = temp->rc;
+    if (rand() % 1) {
+      temp = temp->succ();
+      std::swap(temp->data, n->data);
+      BinNodePosi<T> tempPrev = temp->parent; // now need to safe delete temp.
+      if (tempPrev == n)
+        tempPrev->rc = succ = temp->rc;
+      else
+        tempPrev->lc = succ = temp->rc;
+    } else {
+      temp = temp->prev();
+      std::swap(temp->data, n->data);
+      BinNodePosi<T> tempNext = temp->parent; // now need to safe delete temp.
+      if (tempNext == n)
+        tempNext->lc = succ = temp->lc;
+      else
+        tempNext->rc = succ = temp->lc;
+    }
   }
-  if(BST<T>::_root != temp )
-  s = temp->parent;
+  if (BST<T>::_root != temp)
+    s = temp->parent;
   if (succ)
     succ->parent = s;
   BinTree<T>::updateHeightAbove(s);
@@ -66,31 +73,50 @@ template <typename T> bool BST<T>::remove(const T &e) {
   BinTree<T>::updateHeightAbove(_s);
   return true;
 }
-
+// template <typename T> BinNodePosi<T> BST<T>::connect34 (
+//    BinNodePosi<T> a, BinNodePosi<T> b, BinNodePosi<T> c,
+//    BinNodePosi<T> T0, BinNodePosi<T> T1, BinNodePosi<T> T2, BinNodePosi<T> T3
+// ) {
+//    /*DSA*///print(a); print(b); print(c); printf("\n");
+//    a->lc = T0; if ( T0 ) T0->parent = a;
+//    a->rc = T1; if ( T1 ) T1->parent = a; this->updateHeight ( a );
+//    c->lc = T2; if ( T2 ) T2->parent = c;
+//    c->rc = T3; if ( T3 ) T3->parent = c; this->updateHeight ( c );
+//    b->lc = a; a->parent = b;
+//    b->rc = c; c->parent = b; this->updateHeight ( b );
+//    return b; //¸Ã×ÓÊ÷ÐÂµÄ¸ù½Úµã
+// }
+// template <typename T> BinNodePosi<T> BST<T>::rotateAt( BinNodePosi<T> v ) { //vÎª·Ç¿ÕËï±²½Úµã
+//    /*DSA*/if ( !v ) { printf ( "\a\nFail to rotate a null node\n" ); exit ( -1 ); }
+//    BinNodePosi<T> p = v->parent; BinNodePosi<T> g = p->parent; //ÊÓv¡¢pºÍgÏà¶ÔÎ»ÖÃ·ÖËÄÖÖÇé¿ö
+//    if ( IsLChild( p ) ) // zig
+//       if ( IsLChild( v ) ) { /* zig-zig */ /*DSA*/ // printf("\tzIg-zIg: ");
+//          p->parent = g->parent; //ÏòÉÏÁª½Ó
+//          return connect34( v, p, g, v->lc, v->rc, p->rc, g->rc );
+//       } else { /* zig-zag */ /*DSA*/ // printf("\tzIg-zAg: ");
+//          v->parent = g->parent; //ÏòÉÏÁª½Ó
+//          return connect34( p, v, g, p->lc, v->lc, v->rc, g->rc );
+//       }
+//    else // zag
+//       if ( IsRChild( v ) ) { /* zag-zag */ /*DSA*/ // printf("\tzAg-zAg: ");
+//          p->parent = g->parent; //ÏòÉÏÁª½Ó
+//          return connect34( g, p, v, g->lc, p->lc, v->lc, v->rc );
+//       } else { /* zag-zig */  /*DSA*///printf("\tzAg-zIg: ");
+//          v->parent = g->parent; //ÏòÉÏÁª½Ó
+//          return connect34( g, v, p, g->lc, v->lc, v->rc, p->rc );
+//       }
+// }
 template <typename T>
 BinNodePosi<T> BST<T>::rotateGFS(BinNodePosi<T> a, BinNodePosi<T> b,
                                  BinNodePosi<T> c, BinNodePosi<T> t1,
                                  BinNodePosi<T> t2, BinNodePosi<T> t3,
                                  BinNodePosi<T> t4) {
-  a->lc = t1;
-  if (t1)
-    t1->parent = a;
-  a->rc = t2;
-  if (t2)
-    t2->parent = a;
-  BinTree<T>::updateHeight(a);
-  c->lc = t3;
-  if (t3)
-    t3->parent = c;
-  c->rc = t4;
-  if (t4)
-    t4->parent = c;
-  BinTree<T>::updateHeight(c);
-  b->lc = a;
-  a->parent = b;
-  b->rc = c;
-  c->parent = b;
-  BinTree<T>::updateHeight(b);
+  a->lc = t1; if (t1) t1->parent = a; 
+  a->rc = t2; if (t2) t2->parent = a; BinTree<T>::updateHeight(a);
+  c->lc = t3; if (t3) t3->parent = c;
+  c->rc = t4; if (t4) t4->parent = c; BinTree<T>::updateHeight(c);
+  b->lc = a; a->parent = b;
+  b->rc = c; c->parent = b; BinTree<T>::updateHeight(b);
   return b;
 }
 //                   b

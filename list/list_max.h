@@ -1,8 +1,6 @@
 #ifndef __list_max__
 #define __list_max__
 
- template <typename T> static bool lt ( T& a, T& b ) { return a < b; }
- template <typename T> static bool lt ( T* a, T* b ){ return lt( *a, *b );}
 template <typename T>
 ListNodePosi<T> List<T>::takeMax( ListNodePosi<T> p, Rank n )
 {

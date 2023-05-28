@@ -2,10 +2,9 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-19 17:51:05
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-23 23:20:04
+ * @Last Modified time: 2023-05-27 23:01:31
  */
 
-TODO: insert not complete
 
 #ifndef __RBTREE__
 #define __RBTREE__

@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-24 19:27:11
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-25 21:02:04
+ * @Last Modified time: 2023-05-28 21:10:16
  */
 
 #include "HashTable.h"
@@ -11,7 +11,7 @@
 #include <cstring>
 
 int cnt = 78498;
-std::string file = "./prime-1000000.txt";
+std::string file = "../hashtable/prime-1000000.txt";
 
 static Rank hashCode(char c) { return (Rank)c; }
 static Rank hashCode(int k) { return (Rank)k; }

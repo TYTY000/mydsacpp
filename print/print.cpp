@@ -7,6 +7,10 @@ void Print::p( size_t e ) { p( (int)e ); } // RankÐÍ0xFFFFFFFFÔÚ´òÓ¡Ç°
 void Print::p( float e ) { printf( " %4.3f", e ); }
 void Print::p( double e ) { printf( " %4.3f", e ); }
 void Print::p( char e ) { printf( " %c", ( 31 < e ) ? e : '$' ); }
+template <typename T> static bool lt( T* a, T* b ) { return lt (*a, *b); }
+template <typename T> static bool lt( T& a, T& b ) { return a < b; }
+template <typename T> static bool eq( T* a, T* b ) { return eq (*a, *b); }
+template <typename T> static bool eq( T& a, T& b ) { return a == b; }
 // void Print::p( VStatus e ) {
 //    switch ( e ) {
 //       case UNDISCOVERED:   printf ( "U" ); break;
@@ -25,3 +29,8 @@ void Print::p( char e ) { printf( " %c", ( 31 < e ) ? e : '$' ); }
 //       default:             printf ( "X" ); break;
 //    }
 // }
+#include "./tree.h"
+// #include "./skiplist.h"
+// #include "./hashtable.h"
+// #include "./graph.h"
+// #include "btree.h"

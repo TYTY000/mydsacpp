@@ -36,15 +36,15 @@ void Print::p(BST<T> &bt) { // ÒýÓÃ
  * »ùÓÚBSTÊµÏÖµÄAVL
  * ÆäÖÐµ÷ÓÃµÄBinNodeµÄ´òÓ¡Àý³Ì£¬¿ÉÒÔÏÔÊ¾BF×´Ì¬
  ******************************************************************************************/
-template <typename T>        // ÔªËØÀàÐÍ
-void Print::p(AVL<T> &avl) { // ÒýÓÃ
-  std::cout << boost::core::demangle(typeid(avl).name()) << "\t@  " << &avl
-            << "\tsize = " << avl.size() << std::endl; // »ù±¾ÐÅÏ¢
-  Bitmap *branchType = new Bitmap; // ¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
-  printBinTree(avl.root(), -1, ROOT, branchType); // Ê÷×´½á¹¹
-  release(branchType);
-  printf("\n");
-}
+// template <typename T>        // ÔªËØÀàÐÍ
+// void Print::p(AVL<T> &avl) { // ÒýÓÃ
+//   std::cout << boost::core::demangle(typeid(avl).name()) << "\t@  " << &avl
+//             << "\tsize = " << avl.size() << std::endl; // »ù±¾ÐÅÏ¢
+//   Bitmap *branchType = new Bitmap; // ¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
+//   printBinTree(avl.root(), -1, ROOT, branchType); // Ê÷×´½á¹¹
+//   release(branchType);
+//   printf("\n");
+// }
 
 /******************************************************************************************
  * »ùÓÚBSTÊµÏÖµÄRedBlack
@@ -64,15 +64,15 @@ void Print::p(RBTree<T> &rb) { // ÒýÓÃ
  * »ùÓÚBSTÊµÏÖµÄSplay
  * ¼øÓÚSplay²»±ØÉèÖÃbfÖ®ÀàµÄ¸½¼Ó±êÊ¶£¬Æä´òÓ¡Àý³ÌÓëBSTÍêÈ«Ò»ÖÂ
  ******************************************************************************************/
-template <typename T>             // ÔªËØÀàÐÍ
-void Print::p(SplayTree<T> &bt) { // ÒýÓÃ
-  std::cout << boost::core::demangle(typeid(bt).name()) << "\t@  " << &bt
-            << "\tsize = " << bt.size() << std::endl; // »ù±¾ÐÅÏ¢
-  Bitmap *branchType = new Bitmap; // ¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
-  printBinTree(bt.root(), -1, ROOT, branchType); // Ê÷×´½á¹¹
-  release(branchType);
-  printf("\n");
-}
+// template <typename T>             // ÔªËØÀàÐÍ
+// void Print::p(SplayTree<T> &bt) { // ÒýÓÃ
+//   std::cout << boost::core::demangle(typeid(bt).name()) << "\t@  " << &bt
+//             << "\tsize = " << bt.size() << std::endl; // »ù±¾ÐÅÏ¢
+//   Bitmap *branchType = new Bitmap; // ¼ÇÂ¼µ±Ç°½Úµã×æÏÈµÄ·½Ïò
+//   printBinTree(bt.root(), -1, ROOT, branchType); // Ê÷×´½á¹¹
+//   release(branchType);
+//   printf("\n");
+// }
 
 /******************************************************************************************
  * ¶þ²æÊ÷¸÷ÖÖÅÉÉúÀàµÄÍ³Ò»´òÓ¡
@@ -115,9 +115,6 @@ static void printBinTree(BinNodePosi<T> bt, int depth, int type,
 
 /*DSA*/ #define HeightUpdated(x) /*¸ß¶È¸üÐÂ³£¹æÌõ¼þ*/          \
   /*DSA*/ ((x).height == 1 + max(stature((x).lc), stature((x).rc)))
-#define Balanced(x) (stature((x).lc) == stature((x).rc)) // ÀíÏëÆ½ºâÌõ¼þ
-#define BalFac(x) (stature((x).lc) - stature((x).rc))        // Æ½ºâÒò×Ó
-#define AvlBalanced(x) ((-2 < BalFac(x)) && (BalFac(x) < 2)) // AVLÆ½ºâÌõ¼þ
 template <typename T> void Print::p(BinNode<T> &node) {
   p(node.data); // ÊýÖµ
   /******************************************************************************************

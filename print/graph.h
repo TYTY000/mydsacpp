@@ -1,5 +1,4 @@
 
-#include <boost/core/demangle.hpp>
 template <typename Tv, typename Te>     // ¶¥µãÀàÐÍ¡¢±ßÀàÐÍ
 void Print::p(GraphMatrix<Tv, Te> &s) { // ÒýÓÃ
   Rank inD = 0;
