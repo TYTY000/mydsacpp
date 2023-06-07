@@ -2,7 +2,7 @@
  * @Author: TYTY000 <767280080@qq.com>
  * @Date: 2023-05-16 12:44:36
  * @Last Modified by: TYTY000 <767280080@qq.com>
- * @Last Modified time: 2023-05-27 23:05:46
+ * @Last Modified time: 2023-06-07 11:03:50
  */
 
 #ifndef __PRINT__
@@ -40,8 +40,8 @@ public:
   static void p(double);
   static void p(char);
   // static void p ( HuffChar& ); //Huffman£¨³¬£©×Ö·û
-  // static void p(VStatus); // Í¼¶¥µãµÄ×´Ì¬
-  // static void p(EType);   // Í¼±ßµÄÀàÐÍ
+  static void p(VStatus); // Í¼¶¥µãµÄ×´Ì¬
+  static void p(EType);   // Í¼±ßµÄÀàÐÍ
 
   template <typename K, typename V> static void p(Entry<K, V> &); // Entry
   // template <typename T> static void p(Quadlist<T> &);                //
