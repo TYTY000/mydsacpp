@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> prices{0, 1, 10, 13, 18, 20, 31, 32};
+vector<int> prices{0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
 void try_cut(int length, vector<int> &dp, vector<pair<int, int>> &cut);
 
 std::ostream &operator<<(std::ostream &os, const pair<int, int> &p) {
@@ -31,16 +31,18 @@ int main(int argc, char *argv[]) {
   }
 
   int length = atoi(argv[1]);
-  vector<int> dp(length+1);
+  vector<int> dp(length + 1);
   vector<pair<int, int>> cut;
-  cut.push_back(make_pair(0,0));
+  cut.push_back(make_pair(0, 0));
   try_cut(length, dp, cut);
+  prices.erase(prices.begin());
   dp.erase(dp.begin());
+  cout << prices << endl;
   cout << dp << endl;
   // cout << cut << endl;
   cout << "You can trace back by vector<pair<int,int>> cut." << endl;
   while (length != 0) {
-    cout << cut[length]  << '\t';
+    cout << cut[length] << '\t';
     length -= cut[length].first;
   }
   return 0;
